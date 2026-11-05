@@ -22,7 +22,7 @@ Three things must hold for the system to be trustworthy:
 
 - Corpus: MuSiQue-Ans v1.0 dev, all 21,100 unique Wikipedia paragraphs pooled into one KB,
   grouped into documents by title. One KB for every question, not 20 candidates per question.
-- Questions: seeded, hop-stratified subset of dev (see EVAL.md once written). Questions whose
+- Questions: seeded, hop-stratified subset of dev (see EVAL.md). Questions whose
   gold paragraphs come from a single title (54 in dev) are excluded: they are not multi-document.
 - Text only, English, offline corpus. No UI; a CLI and a small Python API.
 
@@ -37,11 +37,11 @@ Three things must hold for the system to be trustworthy:
 | 4 ✓ | Baselines: closed-book, BM25, dense, hybrid RRF top-k | baseline answers + metrics saved as raw outputs |
 | 5 ✓ | Entity graph: title-mention links between paragraphs (+ alias table) | graph stats; neighbour expansion recall delta |
 | 6 ✓ | Context assembly: sufficiency check, bridge-entity follow-up hop (cap 2), per-doc cap, token budget | hop-2 recall delta vs hybrid |
-| 7 | Cited synthesis: claims with span ids + verbatim quotes, abstain path | every claim's cited span exists and quote matches |
-| 8 | Verifier: NLI check per claim (MiniCheck), drop/flag unsupported | citation precision delta |
+| 7 ✓ | Cited synthesis: claims with span ids + verbatim quotes, abstain path | span ids valid 1.000, quotes verbatim 0.998 for kb (`kb score`); checks are measured, not enforced at generation time |
+| 8 ◐ | Verifier: NLI check per claim (MiniCheck-RoBERTa-Large, local) | **ran as a measurement**: citation recall/precision/unsupported for 7 systems (`kb verify`, cached in results/verify). **Not done:** dropping/flagging unsupported claims inside `kb ask`, so there is no before/after precision delta |
 | 9 ✓ | Eval harness: `kb score` rebuilds every table from raw outputs (no LLM calls); paired bootstrap CIs; per-stage failure attribution; unanswerable probe | one command, results tables regenerated |
-| 10 ✓ | Ablations: graph, hop cap 0/1/2, entity lookup (contextual prefix, reranker, verifier not run) | ablation numbers in OPTIONS.md log |
-| 11 | DESIGN.md, EVAL.md, README.md, failure analysis, walkthrough script | docs complete |
+| 10 ◐ | Ablations | **ran:** hop cap 0 vs 2 on eval (kb_hop0, n=400), hop cap 0/1/2 on the tune split only; entity lookup off (n=400); graph off (n=267); unanswerable probe. **Not run:** contextual chunk prefix, cross-encoder reranker, verifier-gated generation, hop cap 1 on the eval set, IRCoT-lite baseline |
+| 11 ✓ | DESIGN.md, EVAL.md, README.md, failure analysis, walkthrough script; `kb ask`, `kb show`, `kb eval` | docs complete; `kb eval` reproduced `results/summary.md` byte-for-byte in a fresh clone |
 
 Each step's commit message states what changed and the number it moved (or that it didn't).
 Experiments that fail stay in history and get a line in OPTIONS.md.
@@ -49,9 +49,9 @@ Experiments that fail stay in history and get a line in OPTIONS.md.
 ## Metrics (detail in OPTIONS.md)
 
 Retrieval: gold-doc recall@k, all-gold-docs-in-context rate. Answer: EM / F1 (MuSiQue scorer).
-Citation: claim-level citation precision / recall (NLI). Multi-doc: share of correct answers that
-cite >= 2 distinct gold documents. Cost: tokens and USD per question. Paired bootstrap 95% CIs.
+Citation: claim-level citation precision / recall (NLI, MiniCheck-RoBERTa-Large). Multi-doc: share of questions whose claims
+cite >= 2 distinct gold documents. Cost: tokens per question (dollars depend on the provider's price). Paired bootstrap 95% CIs.
 
 ## Open decisions
 
-- Generator LLM and provider (needs an API key you can use for this). Fixed across all systems.
+- None open. Generator decided: `deepseek/deepseek-v4.1-flash-1017` through an OpenAI-compatible endpoint, fixed across all systems (OPTIONS.md section 10).
