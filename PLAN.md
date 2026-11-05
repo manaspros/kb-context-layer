@@ -33,7 +33,7 @@ Three things must hold for the system to be trustworthy:
 | 0 | PLAN.md, OPTIONS.md, repo skeleton | committed |
 | 1 ✓ | Data: pinned download, corpus build, seeded subset with committed id list + SHA-256 | `kb data` rebuilds identical ids and hash |
 | 2 ✓ | Ingestion: paragraph -> sentence spans with stable ids `doc_id:para:sent` | every span round-trips to raw text |
-| 3 | Indexes: BM25 + small dense (bge) over paragraphs | recall@k printed for both on subset |
+| 3 ✓ | Indexes: BM25 + small dense (bge) over paragraphs | recall@k printed for both on subset |
 | 4 | Baselines: closed-book, BM25, dense, hybrid RRF top-k | baseline answers + metrics saved as raw outputs |
 | 5 | Entity graph: title-mention links between paragraphs (+ alias table) | graph stats; neighbour expansion recall delta |
 | 6 | Context assembly: sufficiency check, bridge-entity follow-up hop (cap 2), per-doc cap, token budget | hop-2 recall delta vs hybrid |

@@ -124,3 +124,8 @@ on which API key is available. Cost target: under $50 for all runs.
 ## Log of experiments
 
 (Filled in as steps land: what we tried, the number, keep or drop.)
+
+Retrieval, 400-question subset, 21,100-paragraph pool, gold-doc recall@10 / all-gold-docs@10:
+- BM25 (bm25s, title-prefixed, stopwords, no stemmer): 0.518 / 0.188. Keep as baseline.
+- Dense (bge-small-en-v1.5, query prefix): 0.574 / 0.220. Keep as baseline.
+- Hybrid RRF (k=60, depth 100): 0.596 / 0.250. Best single-shot; base retriever. 4-hop all-gold@10 is 0.020, so single-shot cannot cover later hops.

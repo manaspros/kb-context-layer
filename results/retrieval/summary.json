@@ -1,0 +1,248 @@
+{
+  "bm25": {
+    "all": {
+      "k5": {
+        "n": 400,
+        "gold_doc_recall": 0.4306,
+        "all_gold_docs": 0.125,
+        "gold_para_recall": 0.3873
+      },
+      "k10": {
+        "n": 400,
+        "gold_doc_recall": 0.5179,
+        "all_gold_docs": 0.1875,
+        "gold_para_recall": 0.4617
+      },
+      "k20": {
+        "n": 400,
+        "gold_doc_recall": 0.5748,
+        "all_gold_docs": 0.215,
+        "gold_para_recall": 0.524
+      }
+    },
+    "hop_2": {
+      "k5": {
+        "n": 150,
+        "gold_doc_recall": 0.5533,
+        "all_gold_docs": 0.24,
+        "gold_para_recall": 0.5
+      },
+      "k10": {
+        "n": 150,
+        "gold_doc_recall": 0.63,
+        "all_gold_docs": 0.34,
+        "gold_para_recall": 0.5633
+      },
+      "k20": {
+        "n": 150,
+        "gold_doc_recall": 0.67,
+        "all_gold_docs": 0.38,
+        "gold_para_recall": 0.6167
+      }
+    },
+    "hop_3": {
+      "k5": {
+        "n": 150,
+        "gold_doc_recall": 0.4144,
+        "all_gold_docs": 0.08,
+        "gold_para_recall": 0.3644
+      },
+      "k10": {
+        "n": 150,
+        "gold_doc_recall": 0.5244,
+        "all_gold_docs": 0.1467,
+        "gold_para_recall": 0.4644
+      },
+      "k20": {
+        "n": 150,
+        "gold_doc_recall": 0.58,
+        "all_gold_docs": 0.1733,
+        "gold_para_recall": 0.5289
+      }
+    },
+    "hop_4": {
+      "k5": {
+        "n": 100,
+        "gold_doc_recall": 0.2708,
+        "all_gold_docs": 0.02,
+        "gold_para_recall": 0.2525
+      },
+      "k10": {
+        "n": 100,
+        "gold_doc_recall": 0.34,
+        "all_gold_docs": 0.02,
+        "gold_para_recall": 0.305
+      },
+      "k20": {
+        "n": 100,
+        "gold_doc_recall": 0.4242,
+        "all_gold_docs": 0.03,
+        "gold_para_recall": 0.3775
+      }
+    }
+  },
+  "dense": {
+    "all": {
+      "k5": {
+        "n": 400,
+        "gold_doc_recall": 0.5012,
+        "all_gold_docs": 0.15,
+        "gold_para_recall": 0.4612
+      },
+      "k10": {
+        "n": 400,
+        "gold_doc_recall": 0.574,
+        "all_gold_docs": 0.22,
+        "gold_para_recall": 0.5373
+      },
+      "k20": {
+        "n": 400,
+        "gold_doc_recall": 0.6392,
+        "all_gold_docs": 0.3125,
+        "gold_para_recall": 0.6025
+      }
+    },
+    "hop_2": {
+      "k5": {
+        "n": 150,
+        "gold_doc_recall": 0.6333,
+        "all_gold_docs": 0.3133,
+        "gold_para_recall": 0.6
+      },
+      "k10": {
+        "n": 150,
+        "gold_doc_recall": 0.6967,
+        "all_gold_docs": 0.4067,
+        "gold_para_recall": 0.6667
+      },
+      "k20": {
+        "n": 150,
+        "gold_doc_recall": 0.7433,
+        "all_gold_docs": 0.4933,
+        "gold_para_recall": 0.7167
+      }
+    },
+    "hop_3": {
+      "k5": {
+        "n": 150,
+        "gold_doc_recall": 0.5078,
+        "all_gold_docs": 0.0867,
+        "gold_para_recall": 0.4533
+      },
+      "k10": {
+        "n": 150,
+        "gold_doc_recall": 0.5956,
+        "all_gold_docs": 0.1667,
+        "gold_para_recall": 0.5511
+      },
+      "k20": {
+        "n": 150,
+        "gold_doc_recall": 0.6744,
+        "all_gold_docs": 0.2933,
+        "gold_para_recall": 0.6267
+      }
+    },
+    "hop_4": {
+      "k5": {
+        "n": 100,
+        "gold_doc_recall": 0.2933,
+        "all_gold_docs": 0.0,
+        "gold_para_recall": 0.265
+      },
+      "k10": {
+        "n": 100,
+        "gold_doc_recall": 0.3575,
+        "all_gold_docs": 0.02,
+        "gold_para_recall": 0.3225
+      },
+      "k20": {
+        "n": 100,
+        "gold_doc_recall": 0.43,
+        "all_gold_docs": 0.07,
+        "gold_para_recall": 0.395
+      }
+    }
+  },
+  "rrf": {
+    "all": {
+      "k5": {
+        "n": 400,
+        "gold_doc_recall": 0.5215,
+        "all_gold_docs": 0.1825,
+        "gold_para_recall": 0.4723
+      },
+      "k10": {
+        "n": 400,
+        "gold_doc_recall": 0.5962,
+        "all_gold_docs": 0.25,
+        "gold_para_recall": 0.5571
+      },
+      "k20": {
+        "n": 400,
+        "gold_doc_recall": 0.6681,
+        "all_gold_docs": 0.3325,
+        "gold_para_recall": 0.6315
+      }
+    },
+    "hop_2": {
+      "k5": {
+        "n": 150,
+        "gold_doc_recall": 0.6467,
+        "all_gold_docs": 0.34,
+        "gold_para_recall": 0.5933
+      },
+      "k10": {
+        "n": 150,
+        "gold_doc_recall": 0.7033,
+        "all_gold_docs": 0.44,
+        "gold_para_recall": 0.6667
+      },
+      "k20": {
+        "n": 150,
+        "gold_doc_recall": 0.76,
+        "all_gold_docs": 0.5333,
+        "gold_para_recall": 0.73
+      }
+    },
+    "hop_3": {
+      "k5": {
+        "n": 150,
+        "gold_doc_recall": 0.52,
+        "all_gold_docs": 0.1333,
+        "gold_para_recall": 0.4578
+      },
+      "k10": {
+        "n": 150,
+        "gold_doc_recall": 0.6178,
+        "all_gold_docs": 0.2133,
+        "gold_para_recall": 0.5689
+      },
+      "k20": {
+        "n": 150,
+        "gold_doc_recall": 0.6889,
+        "all_gold_docs": 0.3,
+        "gold_para_recall": 0.6422
+      }
+    },
+    "hop_4": {
+      "k5": {
+        "n": 100,
+        "gold_doc_recall": 0.3358,
+        "all_gold_docs": 0.02,
+        "gold_para_recall": 0.3125
+      },
+      "k10": {
+        "n": 100,
+        "gold_doc_recall": 0.4033,
+        "all_gold_docs": 0.02,
+        "gold_para_recall": 0.375
+      },
+      "k20": {
+        "n": 100,
+        "gold_doc_recall": 0.4992,
+        "all_gold_docs": 0.08,
+        "gold_para_recall": 0.4675
+      }
+    }
+  }
+}
