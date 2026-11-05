@@ -19,11 +19,12 @@ def cite(kb: KB, span_id: str) -> dict:
 def view(kb: KB, rec: dict, p: dict | None = None) -> dict:
     """Display record from an answer record {context_para_ids, parsed, trace?, usage}; `p` = cached NLI scores."""
     ctx_spans = {s["span_id"] for pid in rec["context_para_ids"] for s in kb.spans_of[pid]}
+    found = next((t["final"] for t in rec.get("trace") or [] if "final" in t), {})  # paragraph id -> hop that found it
     claims = []
     for i, c in enumerate((rec["parsed"] or {}).get("claims", [])):
         ids = list(dict.fromkeys(x for x in (c.get("span_ids") or []) if isinstance(x, str) and x in ctx_spans))
         quote = c.get("quote")
-        claims.append({"text": c.get("text"), "citations": [cite(kb, x) for x in ids],
+        claims.append({"text": c.get("text"), "citations": [{**cite(kb, x), "hop": found.get(kb.span[x]["para_id"])} for x in ids],
                        "quote_verbatim": bool(isinstance(quote, str) and quote and any(quote in kb.span[x]["text"] for x in ids)),
                        "nli_p_supported": (p or {}).get((i, tuple(ids)))})
     title = lambda pid: kb.paras[pid]["title"]
@@ -56,7 +57,7 @@ def pretty(v: dict) -> str:
     for n, c in enumerate(v["claims"], 1):
         nli = f"  [NLI supported p={c['nli_p_supported']:.2f}]" if c["nli_p_supported"] is not None else ""
         out.append(f"\nClaim {n}: {c['text']}{nli}")
-        out += [f"  - {x['doc']} — paragraph {x['paragraph']}, sentence {x['sentence']}: \"{x['text']}\"  ({x['span_id']})"
+        out += [f"  - {x['doc']} — paragraph {x['paragraph']}, sentence {x['sentence']}: \"{x['text']}\"  ({x['span_id']}{', found at hop ' + str(x['hop']) if x['hop'] is not None else ''})"
                 for x in c["citations"]] or ["  - (no valid citation)"]
     out.append("\nHop trace:" if v["hops"] else "\nHop trace: none (single-shot retrieval, no extra hops)")
     for h in v["hops"]:
