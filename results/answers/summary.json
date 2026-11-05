@@ -3,29 +3,29 @@
     "closed": {
       "all": {
         "n": 400,
-        "em": 0.2475,
-        "f1": 0.3449,
-        "abstain": 0.105,
-        "parse_err": 0.0875,
+        "em": 0.25,
+        "f1": 0.3505,
+        "abstain": 0.125,
+        "parse_err": 0.0325,
         "all_gold_docs": 0.0,
         "gold_doc_recall": 0.0,
         "cited2": 0.0,
         "cited_gold_recall": 0.0,
         "calls": 1.0,
-        "tokens": 1085.71,
+        "tokens": 1168.6475,
         "answer_prompt_tokens": 262.965,
-        "answered": 0.8075,
-        "em_answered": 0.3065,
-        "f1_answered": 0.4258,
-        "tokens_total": 434284,
+        "answered": 0.8425,
+        "em_answered": 0.2967,
+        "f1_answered": 0.4148,
+        "tokens_total": 467459,
         "utilization": null,
         "stages": {
-          "retrieval_miss": 257,
+          "retrieval_miss": 254,
           "hop_miss": 0,
           "assembly_drop": 0,
           "generation_wrong": 0,
           "correct_ok": 0,
-          "correct_citation_gap": 143
+          "correct_citation_gap": 146
         },
         "claims": 0,
         "cite_ids_ok": null,
@@ -33,29 +33,29 @@
       },
       "2": {
         "n": 150,
-        "em": 0.38,
-        "f1": 0.4978,
+        "em": 0.3867,
+        "f1": 0.5044,
         "abstain": 0.1133,
-        "parse_err": 0.0333,
+        "parse_err": 0.0133,
         "all_gold_docs": 0.0,
         "gold_doc_recall": 0.0,
         "cited2": 0.0,
         "cited_gold_recall": 0.0,
         "calls": 1.0,
-        "tokens": 666.5467,
+        "tokens": 707.4133,
         "answer_prompt_tokens": 256.3867,
-        "answered": 0.8533,
-        "em_answered": 0.4453,
-        "f1_answered": 0.5802,
-        "tokens_total": 99982,
+        "answered": 0.8733,
+        "em_answered": 0.4427,
+        "f1_answered": 0.5745,
+        "tokens_total": 106112,
         "utilization": null,
         "stages": {
-          "retrieval_miss": 73,
+          "retrieval_miss": 72,
           "hop_miss": 0,
           "assembly_drop": 0,
           "generation_wrong": 0,
           "correct_ok": 0,
-          "correct_citation_gap": 77
+          "correct_citation_gap": 78
         },
         "claims": 0,
         "cite_ids_ok": null,
@@ -65,19 +65,19 @@
         "n": 150,
         "em": 0.2267,
         "f1": 0.3004,
-        "abstain": 0.1,
-        "parse_err": 0.08,
+        "abstain": 0.1267,
+        "parse_err": 0.0267,
         "all_gold_docs": 0.0,
         "gold_doc_recall": 0.0,
         "cited2": 0.0,
         "cited_gold_recall": 0.0,
         "calls": 1.0,
-        "tokens": 1069.54,
+        "tokens": 1151.96,
         "answer_prompt_tokens": 265.54,
-        "answered": 0.82,
-        "em_answered": 0.2764,
-        "f1_answered": 0.3663,
-        "tokens_total": 160431,
+        "answered": 0.8467,
+        "em_answered": 0.2677,
+        "f1_answered": 0.3548,
+        "tokens_total": 172794,
         "utilization": null,
         "stages": {
           "retrieval_miss": 105,
@@ -94,28 +94,28 @@
       "4": {
         "n": 100,
         "em": 0.08,
-        "f1": 0.1822,
-        "abstain": 0.1,
-        "parse_err": 0.18,
+        "f1": 0.1946,
+        "abstain": 0.14,
+        "parse_err": 0.07,
         "all_gold_docs": 0.0,
         "gold_doc_recall": 0.0,
         "cited2": 0.0,
         "cited_gold_recall": 0.0,
         "calls": 1.0,
-        "tokens": 1738.71,
+        "tokens": 1885.53,
         "answer_prompt_tokens": 268.97,
-        "answered": 0.72,
-        "em_answered": 0.1111,
-        "f1_answered": 0.2531,
-        "tokens_total": 173871,
+        "answered": 0.79,
+        "em_answered": 0.1013,
+        "f1_answered": 0.2463,
+        "tokens_total": 188553,
         "utilization": null,
         "stages": {
-          "retrieval_miss": 79,
+          "retrieval_miss": 77,
           "hop_miss": 0,
           "assembly_drop": 0,
           "generation_wrong": 0,
           "correct_ok": 0,
-          "correct_citation_gap": 21
+          "correct_citation_gap": 23
         },
         "claims": 0,
         "cite_ids_ok": null,
@@ -125,52 +125,52 @@
     "bm25": {
       "all": {
         "n": 400,
-        "em": 0.125,
-        "f1": 0.1822,
-        "abstain": 0.6475,
-        "parse_err": 0.055,
+        "em": 0.13,
+        "f1": 0.1913,
+        "abstain": 0.68,
+        "parse_err": 0.0,
         "all_gold_docs": 0.1875,
         "gold_doc_recall": 0.5179,
-        "cited2": 0.255,
-        "cited_gold_recall": 0.355,
+        "cited2": 0.265,
+        "cited_gold_recall": 0.3658,
         "calls": 1.0,
-        "tokens": 2896.975,
+        "tokens": 2895.625,
         "answer_prompt_tokens": 1863.885,
-        "answered": 0.2975,
-        "em_answered": 0.4202,
-        "f1_answered": 0.6081,
-        "tokens_total": 1158790,
-        "utilization": 0.0333,
+        "answered": 0.32,
+        "em_answered": 0.4062,
+        "f1_answered": 0.5938,
+        "tokens_total": 1158250,
+        "utilization": 0.0352,
         "stages": {
           "retrieval_miss": 39,
-          "hop_miss": 249,
+          "hop_miss": 245,
           "assembly_drop": 0,
           "generation_wrong": 35,
           "correct_ok": 32,
-          "correct_citation_gap": 45
+          "correct_citation_gap": 49
         },
-        "claims": 460,
-        "cite_ids_ok": 0.9978,
-        "cite_quote_ok": 0.9978
+        "claims": 491,
+        "cite_ids_ok": 0.998,
+        "cite_quote_ok": 0.998
       },
       "2": {
         "n": 150,
         "em": 0.1667,
         "f1": 0.2674,
         "abstain": 0.6267,
-        "parse_err": 0.0067,
+        "parse_err": 0.0,
         "all_gold_docs": 0.34,
         "gold_doc_recall": 0.63,
         "cited2": 0.22,
         "cited_gold_recall": 0.48,
         "calls": 1.0,
-        "tokens": 2330.5667,
+        "tokens": 2325.5867,
         "answer_prompt_tokens": 1804.64,
-        "answered": 0.3667,
-        "em_answered": 0.4545,
-        "f1_answered": 0.722,
-        "tokens_total": 349585,
-        "utilization": 0.0341,
+        "answered": 0.3733,
+        "em_answered": 0.4464,
+        "f1_answered": 0.7091,
+        "tokens_total": 348838,
+        "utilization": 0.0345,
         "stages": {
           "retrieval_miss": 10,
           "hop_miss": 78,
@@ -179,67 +179,67 @@
           "correct_ok": 28,
           "correct_citation_gap": 17
         },
-        "claims": 169,
+        "claims": 171,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       },
       "3": {
         "n": 150,
-        "em": 0.1333,
-        "f1": 0.1794,
-        "abstain": 0.6333,
-        "parse_err": 0.0533,
+        "em": 0.14,
+        "f1": 0.1947,
+        "abstain": 0.6533,
+        "parse_err": 0.0,
         "all_gold_docs": 0.1467,
         "gold_doc_recall": 0.5244,
-        "cited2": 0.3267,
-        "cited_gold_recall": 0.35,
+        "cited2": 0.34,
+        "cited_gold_recall": 0.3656,
         "calls": 1.0,
-        "tokens": 3066.8,
+        "tokens": 3051.1933,
         "answer_prompt_tokens": 1945.4867,
-        "answered": 0.3133,
-        "em_answered": 0.4255,
-        "f1_answered": 0.5726,
-        "tokens_total": 460020,
-        "utilization": 0.0387,
+        "answered": 0.3467,
+        "em_answered": 0.4038,
+        "f1_answered": 0.5617,
+        "tokens_total": 457679,
+        "utilization": 0.0405,
         "stages": {
           "retrieval_miss": 11,
-          "hop_miss": 97,
+          "hop_miss": 94,
           "assembly_drop": 0,
           "generation_wrong": 16,
           "correct_ok": 4,
-          "correct_citation_gap": 22
+          "correct_citation_gap": 25
         },
-        "claims": 204,
-        "cite_ids_ok": 0.9951,
-        "cite_quote_ok": 0.9951
+        "claims": 219,
+        "cite_ids_ok": 0.9954,
+        "cite_quote_ok": 0.9954
       },
       "4": {
         "n": 100,
-        "em": 0.05,
-        "f1": 0.0587,
-        "abstain": 0.7,
-        "parse_err": 0.13,
+        "em": 0.06,
+        "f1": 0.0721,
+        "abstain": 0.8,
+        "parse_err": 0.0,
         "all_gold_docs": 0.02,
         "gold_doc_recall": 0.34,
-        "cited2": 0.2,
-        "cited_gold_recall": 0.175,
+        "cited2": 0.22,
+        "cited_gold_recall": 0.195,
         "calls": 1.0,
-        "tokens": 3491.85,
+        "tokens": 3517.33,
         "answer_prompt_tokens": 1830.35,
-        "answered": 0.17,
-        "em_answered": 0.2941,
-        "f1_answered": 0.3382,
-        "tokens_total": 349185,
-        "utilization": 0.0242,
+        "answered": 0.2,
+        "em_answered": 0.3,
+        "f1_answered": 0.3542,
+        "tokens_total": 351733,
+        "utilization": 0.0284,
         "stages": {
           "retrieval_miss": 18,
-          "hop_miss": 74,
+          "hop_miss": 73,
           "assembly_drop": 0,
           "generation_wrong": 2,
           "correct_ok": 0,
-          "correct_citation_gap": 6
+          "correct_citation_gap": 7
         },
-        "claims": 87,
+        "claims": 101,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       }
@@ -247,52 +247,52 @@
     "dense": {
       "all": {
         "n": 400,
-        "em": 0.185,
-        "f1": 0.2562,
-        "abstain": 0.5225,
-        "parse_err": 0.095,
+        "em": 0.1875,
+        "f1": 0.2607,
+        "abstain": 0.5725,
+        "parse_err": 0.0175,
         "all_gold_docs": 0.22,
         "gold_doc_recall": 0.574,
-        "cited2": 0.3175,
-        "cited_gold_recall": 0.4213,
+        "cited2": 0.335,
+        "cited_gold_recall": 0.4396,
         "calls": 1.0,
-        "tokens": 3212.9725,
+        "tokens": 3262.765,
         "answer_prompt_tokens": 2012.9225,
-        "answered": 0.3825,
-        "em_answered": 0.4837,
-        "f1_answered": 0.6697,
-        "tokens_total": 1285189,
-        "utilization": 0.0366,
+        "answered": 0.41,
+        "em_answered": 0.4573,
+        "f1_answered": 0.6351,
+        "tokens_total": 1305106,
+        "utilization": 0.0395,
         "stages": {
           "retrieval_miss": 12,
-          "hop_miss": 253,
+          "hop_miss": 251,
           "assembly_drop": 0,
           "generation_wrong": 24,
           "correct_ok": 51,
-          "correct_citation_gap": 60
+          "correct_citation_gap": 62
         },
-        "claims": 550,
+        "claims": 596,
         "cite_ids_ok": 1.0,
-        "cite_quote_ok": 0.9964
+        "cite_quote_ok": 0.9966
       },
       "2": {
         "n": 150,
         "em": 0.2933,
         "f1": 0.3994,
         "abstain": 0.4533,
-        "parse_err": 0.0067,
+        "parse_err": 0.0,
         "all_gold_docs": 0.4067,
         "gold_doc_recall": 0.6967,
         "cited2": 0.3067,
-        "cited_gold_recall": 0.5733,
+        "cited_gold_recall": 0.5767,
         "calls": 1.0,
-        "tokens": 2520.2733,
+        "tokens": 2509.5133,
         "answer_prompt_tokens": 1922.4667,
-        "answered": 0.54,
-        "em_answered": 0.5432,
-        "f1_answered": 0.7396,
-        "tokens_total": 378041,
-        "utilization": 0.0415,
+        "answered": 0.5467,
+        "em_answered": 0.5366,
+        "f1_answered": 0.7306,
+        "tokens_total": 376427,
+        "utilization": 0.0419,
         "stages": {
           "retrieval_miss": 1,
           "hop_miss": 74,
@@ -301,7 +301,7 @@
           "correct_ok": 43,
           "correct_citation_gap": 23
         },
-        "claims": 217,
+        "claims": 220,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       },
@@ -309,20 +309,20 @@
         "n": 150,
         "em": 0.1667,
         "f1": 0.2378,
-        "abstain": 0.58,
-        "parse_err": 0.0333,
+        "abstain": 0.5867,
+        "parse_err": 0.0067,
         "all_gold_docs": 0.1667,
         "gold_doc_recall": 0.5956,
-        "cited2": 0.4133,
-        "cited_gold_recall": 0.4389,
+        "cited2": 0.4267,
+        "cited_gold_recall": 0.4522,
         "calls": 1.0,
-        "tokens": 3216.6533,
+        "tokens": 3249.48,
         "answer_prompt_tokens": 2099.1867,
-        "answered": 0.3867,
-        "em_answered": 0.431,
-        "f1_answered": 0.6151,
-        "tokens_total": 482498,
-        "utilization": 0.0416,
+        "answered": 0.4067,
+        "em_answered": 0.4098,
+        "f1_answered": 0.5848,
+        "tokens_total": 487422,
+        "utilization": 0.0435,
         "stages": {
           "retrieval_miss": 3,
           "hop_miss": 95,
@@ -331,69 +331,69 @@
           "correct_ok": 8,
           "correct_citation_gap": 31
         },
-        "claims": 247,
+        "claims": 258,
         "cite_ids_ok": 1.0,
-        "cite_quote_ok": 0.996
+        "cite_quote_ok": 0.9961
       },
       "4": {
         "n": 100,
-        "em": 0.05,
-        "f1": 0.0688,
-        "abstain": 0.54,
-        "parse_err": 0.32,
+        "em": 0.06,
+        "f1": 0.0871,
+        "abstain": 0.73,
+        "parse_err": 0.06,
         "all_gold_docs": 0.02,
         "gold_doc_recall": 0.3575,
-        "cited2": 0.19,
-        "cited_gold_recall": 0.1667,
+        "cited2": 0.24,
+        "cited_gold_recall": 0.215,
         "calls": 1.0,
-        "tokens": 4246.5,
+        "tokens": 4412.57,
         "answer_prompt_tokens": 2019.21,
-        "answered": 0.14,
-        "em_answered": 0.3571,
-        "f1_answered": 0.4917,
-        "tokens_total": 424650,
-        "utilization": 0.0218,
+        "answered": 0.21,
+        "em_answered": 0.2857,
+        "f1_answered": 0.4087,
+        "tokens_total": 441257,
+        "utilization": 0.0297,
         "stages": {
           "retrieval_miss": 8,
-          "hop_miss": 84,
+          "hop_miss": 82,
           "assembly_drop": 0,
           "generation_wrong": 2,
           "correct_ok": 0,
-          "correct_citation_gap": 6
+          "correct_citation_gap": 8
         },
-        "claims": 86,
+        "claims": 118,
         "cite_ids_ok": 1.0,
-        "cite_quote_ok": 0.9884
+        "cite_quote_ok": 0.9915
       }
     },
     "rrf": {
       "all": {
         "n": 400,
-        "em": 0.1875,
-        "f1": 0.2537,
-        "abstain": 0.5475,
-        "parse_err": 0.0775,
+        "em": 0.195,
+        "f1": 0.2631,
+        "abstain": 0.5825,
+        "parse_err": 0.005,
         "all_gold_docs": 0.25,
         "gold_doc_recall": 0.5962,
-        "cited2": 0.3475,
-        "cited_gold_recall": 0.4338,
+        "cited2": 0.37,
+        "cited_gold_recall": 0.4529,
         "calls": 1.0,
-        "tokens": 3147.7375,
+        "tokens": 3147.99,
         "answer_prompt_tokens": 1968.2725,
-        "answered": 0.375,
-        "em_answered": 0.5,
-        "f1_answered": 0.6766,
-        "tokens_total": 1259095,
-        "utilization": 0.0379,
+        "answered": 0.4125,
+        "em_answered": 0.4727,
+        "f1_answered": 0.637,
+        "tokens_total": 1259196,
+        "utilization": 0.041,
         "stages": {
           "retrieval_miss": 18,
-          "hop_miss": 238,
+          "hop_miss": 236,
           "assembly_drop": 0,
-          "generation_wrong": 34,
-          "correct_ok": 50,
-          "correct_citation_gap": 60
+          "generation_wrong": 33,
+          "correct_ok": 51,
+          "correct_citation_gap": 62
         },
-        "claims": 567,
+        "claims": 613,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       },
@@ -402,19 +402,19 @@
         "em": 0.2933,
         "f1": 0.388,
         "abstain": 0.4667,
-        "parse_err": 0.0067,
+        "parse_err": 0.0,
         "all_gold_docs": 0.44,
         "gold_doc_recall": 0.7033,
         "cited2": 0.3,
-        "cited_gold_recall": 0.5833,
+        "cited_gold_recall": 0.5867,
         "calls": 1.0,
-        "tokens": 2395.92,
+        "tokens": 2412.34,
         "answer_prompt_tokens": 1877.66,
-        "answered": 0.5267,
-        "em_answered": 0.557,
-        "f1_answered": 0.7366,
-        "tokens_total": 359388,
-        "utilization": 0.0421,
+        "answered": 0.5333,
+        "em_answered": 0.55,
+        "f1_answered": 0.7274,
+        "tokens_total": 361851,
+        "utilization": 0.0424,
         "stages": {
           "retrieval_miss": 5,
           "hop_miss": 66,
@@ -423,67 +423,67 @@
           "correct_ok": 41,
           "correct_citation_gap": 24
         },
-        "claims": 220,
+        "claims": 222,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       },
       "3": {
         "n": 150,
-        "em": 0.1733,
-        "f1": 0.2433,
-        "abstain": 0.5467,
-        "parse_err": 0.0533,
+        "em": 0.1867,
+        "f1": 0.2566,
+        "abstain": 0.5533,
+        "parse_err": 0.0,
         "all_gold_docs": 0.2133,
         "gold_doc_recall": 0.6178,
-        "cited2": 0.4333,
-        "cited_gold_recall": 0.43,
+        "cited2": 0.4533,
+        "cited_gold_recall": 0.4478,
         "calls": 1.0,
-        "tokens": 3289.1733,
+        "tokens": 3326.8467,
         "answer_prompt_tokens": 2045.9267,
-        "answered": 0.4,
-        "em_answered": 0.4333,
-        "f1_answered": 0.6082,
-        "tokens_total": 493376,
-        "utilization": 0.0412,
+        "answered": 0.4467,
+        "em_answered": 0.4179,
+        "f1_answered": 0.5745,
+        "tokens_total": 499027,
+        "utilization": 0.0436,
         "stages": {
           "retrieval_miss": 4,
-          "hop_miss": 90,
+          "hop_miss": 89,
           "assembly_drop": 0,
-          "generation_wrong": 18,
-          "correct_ok": 9,
-          "correct_citation_gap": 29
+          "generation_wrong": 17,
+          "correct_ok": 10,
+          "correct_citation_gap": 30
         },
-        "claims": 244,
+        "claims": 258,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       },
       "4": {
         "n": 100,
-        "em": 0.05,
-        "f1": 0.068,
-        "abstain": 0.67,
-        "parse_err": 0.22,
+        "em": 0.06,
+        "f1": 0.0854,
+        "abstain": 0.8,
+        "parse_err": 0.02,
         "all_gold_docs": 0.02,
         "gold_doc_recall": 0.4033,
-        "cited2": 0.29,
-        "cited_gold_recall": 0.215,
+        "cited2": 0.35,
+        "cited_gold_recall": 0.26,
         "calls": 1.0,
-        "tokens": 4063.31,
+        "tokens": 3983.18,
         "answer_prompt_tokens": 1987.71,
-        "answered": 0.11,
-        "em_answered": 0.4545,
-        "f1_answered": 0.6182,
-        "tokens_total": 406331,
-        "utilization": 0.0267,
+        "answered": 0.18,
+        "em_answered": 0.3333,
+        "f1_answered": 0.4677,
+        "tokens_total": 398318,
+        "utilization": 0.0349,
         "stages": {
           "retrieval_miss": 9,
-          "hop_miss": 82,
+          "hop_miss": 81,
           "assembly_drop": 0,
           "generation_wrong": 2,
           "correct_ok": 0,
-          "correct_citation_gap": 7
+          "correct_citation_gap": 8
         },
-        "claims": 103,
+        "claims": 133,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       }
@@ -735,121 +735,121 @@
     "kb": {
       "all": {
         "n": 400,
-        "em": 0.3375,
-        "f1": 0.4282,
-        "abstain": 0.3325,
-        "parse_err": 0.075,
-        "all_gold_docs": 0.44,
-        "gold_doc_recall": 0.7267,
-        "cited2": 0.5175,
-        "cited_gold_recall": 0.5446,
+        "em": 0.3525,
+        "f1": 0.4481,
+        "abstain": 0.35,
+        "parse_err": 0.0175,
+        "all_gold_docs": 0.445,
+        "gold_doc_recall": 0.7325,
+        "cited2": 0.54,
+        "cited_gold_recall": 0.5685,
         "calls": 2.0,
-        "tokens": 7059.505,
-        "answer_prompt_tokens": 2041.9225,
-        "answered": 0.5925,
-        "em_answered": 0.5696,
-        "f1_answered": 0.7221,
-        "tokens_total": 2823802,
-        "utilization": 0.0482,
+        "tokens": 7375.46,
+        "answer_prompt_tokens": 2020.5025,
+        "answered": 0.6325,
+        "em_answered": 0.5573,
+        "f1_answered": 0.7079,
+        "tokens_total": 2950184,
+        "utilization": 0.0511,
         "stages": {
-          "retrieval_miss": 14,
-          "hop_miss": 138,
-          "assembly_drop": 12,
+          "retrieval_miss": 13,
+          "hop_miss": 130,
+          "assembly_drop": 14,
           "generation_wrong": 53,
-          "correct_ok": 99,
-          "correct_citation_gap": 84
+          "correct_ok": 101,
+          "correct_citation_gap": 89
         },
-        "claims": 732,
+        "claims": 774,
         "cite_ids_ok": 1.0,
-        "cite_quote_ok": 0.9973
+        "cite_quote_ok": 0.9974
       },
       "2": {
         "n": 150,
         "em": 0.4867,
-        "f1": 0.6089,
-        "abstain": 0.2,
-        "parse_err": 0.0133,
-        "all_gold_docs": 0.7067,
-        "gold_doc_recall": 0.85,
+        "f1": 0.6086,
+        "abstain": 0.2067,
+        "parse_err": 0.0067,
+        "all_gold_docs": 0.7,
+        "gold_doc_recall": 0.8467,
         "cited2": 0.5,
-        "cited_gold_recall": 0.6867,
+        "cited_gold_recall": 0.6933,
         "calls": 2.0,
-        "tokens": 5606.7067,
-        "answer_prompt_tokens": 1970.3333,
+        "tokens": 5588.2,
+        "answer_prompt_tokens": 1960.9067,
         "answered": 0.7867,
         "em_answered": 0.6186,
-        "f1_answered": 0.7741,
-        "tokens_total": 841006,
-        "utilization": 0.0483,
+        "f1_answered": 0.7736,
+        "tokens_total": 838230,
+        "utilization": 0.0488,
         "stages": {
           "retrieval_miss": 1,
-          "hop_miss": 23,
-          "assembly_drop": 4,
-          "generation_wrong": 23,
+          "hop_miss": 24,
+          "assembly_drop": 5,
+          "generation_wrong": 22,
           "correct_ok": 69,
-          "correct_citation_gap": 30
+          "correct_citation_gap": 29
         },
-        "claims": 259,
+        "claims": 261,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       },
       "3": {
         "n": 150,
-        "em": 0.34,
-        "f1": 0.426,
-        "abstain": 0.3467,
-        "parse_err": 0.0533,
-        "all_gold_docs": 0.42,
-        "gold_doc_recall": 0.7422,
-        "cited2": 0.5467,
-        "cited_gold_recall": 0.5389,
+        "em": 0.3533,
+        "f1": 0.4528,
+        "abstain": 0.3333,
+        "parse_err": 0.0067,
+        "all_gold_docs": 0.4333,
+        "gold_doc_recall": 0.7511,
+        "cited2": 0.5733,
+        "cited_gold_recall": 0.5678,
         "calls": 2.0,
-        "tokens": 7219.14,
-        "answer_prompt_tokens": 2097.1,
-        "answered": 0.6,
-        "em_answered": 0.5667,
-        "f1_answered": 0.7101,
-        "tokens_total": 1082871,
-        "utilization": 0.0514,
+        "tokens": 7414.48,
+        "answer_prompt_tokens": 2089.0533,
+        "answered": 0.66,
+        "em_answered": 0.5354,
+        "f1_answered": 0.6861,
+        "tokens_total": 1112172,
+        "utilization": 0.0547,
         "stages": {
-          "retrieval_miss": 4,
-          "hop_miss": 53,
-          "assembly_drop": 2,
-          "generation_wrong": 25,
-          "correct_ok": 28,
-          "correct_citation_gap": 38
+          "retrieval_miss": 3,
+          "hop_miss": 48,
+          "assembly_drop": 3,
+          "generation_wrong": 26,
+          "correct_ok": 29,
+          "correct_citation_gap": 41
         },
-        "claims": 302,
+        "claims": 322,
         "cite_ids_ok": 1.0,
-        "cite_quote_ok": 0.9934
+        "cite_quote_ok": 0.9938
       },
       "4": {
         "n": 100,
-        "em": 0.11,
-        "f1": 0.1602,
-        "abstain": 0.51,
-        "parse_err": 0.2,
-        "all_gold_docs": 0.07,
-        "gold_doc_recall": 0.5183,
-        "cited2": 0.5,
-        "cited_gold_recall": 0.34,
+        "em": 0.15,
+        "f1": 0.2002,
+        "abstain": 0.59,
+        "parse_err": 0.05,
+        "all_gold_docs": 0.08,
+        "gold_doc_recall": 0.5333,
+        "cited2": 0.55,
+        "cited_gold_recall": 0.3825,
         "calls": 2.0,
-        "tokens": 8999.25,
-        "answer_prompt_tokens": 2066.54,
-        "answered": 0.29,
-        "em_answered": 0.3793,
-        "f1_answered": 0.5482,
-        "tokens_total": 899925,
-        "utilization": 0.0431,
+        "tokens": 9997.82,
+        "answer_prompt_tokens": 2007.07,
+        "answered": 0.36,
+        "em_answered": 0.4167,
+        "f1_answered": 0.5527,
+        "tokens_total": 999782,
+        "utilization": 0.0493,
         "stages": {
           "retrieval_miss": 9,
-          "hop_miss": 62,
+          "hop_miss": 58,
           "assembly_drop": 6,
           "generation_wrong": 5,
-          "correct_ok": 2,
-          "correct_citation_gap": 16
+          "correct_ok": 3,
+          "correct_citation_gap": 19
         },
-        "claims": 171,
+        "claims": 191,
         "cite_ids_ok": 1.0,
         "cite_quote_ok": 1.0
       }
@@ -859,26 +859,26 @@
     "kb-rrf": {
       "all": {
         "em": {
-          "delta": 0.15,
+          "delta": 0.1575,
           "ci95": [
-            0.11,
-            0.19
+            0.1175,
+            0.1975
           ],
           "n": 400
         },
         "f1": {
-          "delta": 0.1745,
+          "delta": 0.185,
           "ci95": [
-            0.1337,
-            0.2155
+            0.1445,
+            0.226
           ],
           "n": 400
         },
         "all_gold_docs": {
-          "delta": 0.19,
+          "delta": 0.195,
           "ci95": [
-            0.15,
-            0.2325
+            0.155,
+            0.2375
           ],
           "n": 400
         },
@@ -886,7 +886,7 @@
           "delta": 0.17,
           "ci95": [
             0.1225,
-            0.22
+            0.2175
           ],
           "n": 400
         }
@@ -901,18 +901,18 @@
           "n": 150
         },
         "f1": {
-          "delta": 0.221,
+          "delta": 0.2206,
           "ci95": [
-            0.1555,
-            0.2875
+            0.1549,
+            0.287
           ],
           "n": 150
         },
         "all_gold_docs": {
-          "delta": 0.2667,
+          "delta": 0.26,
           "ci95": [
-            0.1933,
-            0.34
+            0.1867,
+            0.3333
           ],
           "n": 150
         },
@@ -930,37 +930,53 @@
           "delta": 0.1667,
           "ci95": [
             0.0933,
-            0.2467
+            0.24
           ],
           "n": 150
         },
         "f1": {
-          "delta": 0.1828,
+          "delta": 0.1962,
           "ci95": [
-            0.1068,
-            0.2575
+            0.123,
+            0.2694
           ],
           "n": 150
         },
         "all_gold_docs": {
-          "delta": 0.2067,
+          "delta": 0.22,
           "ci95": [
-            0.14,
-            0.2733
+            0.1533,
+            0.2933
           ],
           "n": 150
         },
         "cited2": {
-          "delta": 0.1133,
+          "delta": 0.12,
           "ci95": [
-            0.0333,
-            0.1933
+            0.04,
+            0.2
           ],
           "n": 150
         }
       },
       "4": {
         "em": {
+          "delta": 0.09,
+          "ci95": [
+            0.04,
+            0.15
+          ],
+          "n": 100
+        },
+        "f1": {
+          "delta": 0.1148,
+          "ci95": [
+            0.0551,
+            0.1802
+          ],
+          "n": 100
+        },
+        "all_gold_docs": {
           "delta": 0.06,
           "ci95": [
             0.02,
@@ -968,27 +984,11 @@
           ],
           "n": 100
         },
-        "f1": {
-          "delta": 0.0922,
-          "ci95": [
-            0.0407,
-            0.1493
-          ],
-          "n": 100
-        },
-        "all_gold_docs": {
-          "delta": 0.05,
-          "ci95": [
-            0.01,
-            0.1
-          ],
-          "n": 100
-        },
         "cited2": {
-          "delta": 0.21,
+          "delta": 0.2,
           "ci95": [
-            0.12,
-            0.3
+            0.11,
+            0.29
           ],
           "n": 100
         }
@@ -997,18 +997,18 @@
     "kb-kb_hop0": {
       "all": {
         "em": {
-          "delta": 0.1194,
+          "delta": 0.1418,
           "ci95": [
-            0.0522,
-            0.1866
+            0.0821,
+            0.209
           ],
           "n": 134
         },
         "f1": {
-          "delta": 0.1481,
+          "delta": 0.1668,
           "ci95": [
-            0.0839,
-            0.2161
+            0.1014,
+            0.2365
           ],
           "n": 134
         },
@@ -1021,10 +1021,10 @@
           "n": 134
         },
         "cited2": {
-          "delta": 0.1343,
+          "delta": 0.1493,
           "ci95": [
-            0.0597,
-            0.209
+            0.0746,
+            0.2313
           ],
           "n": 134
         }
@@ -1039,10 +1039,10 @@
           "n": 50
         },
         "f1": {
-          "delta": 0.1181,
+          "delta": 0.1081,
           "ci95": [
-            0.0167,
-            0.2267
+            0.0029,
+            0.2195
           ],
           "n": 50
         },
@@ -1065,18 +1065,18 @@
       },
       "3": {
         "em": {
-          "delta": 0.22,
+          "delta": 0.24,
           "ci95": [
             0.12,
-            0.34
+            0.36
           ],
           "n": 50
         },
         "f1": {
-          "delta": 0.2307,
+          "delta": 0.2507,
           "ci95": [
-            0.116,
-            0.3533
+            0.132,
+            0.376
           ],
           "n": 50
         },
@@ -1099,18 +1099,18 @@
       },
       "4": {
         "em": {
-          "delta": 0.0294,
+          "delta": 0.0882,
           "ci95": [
-            -0.0588,
-            0.1471
+            0.0,
+            0.2059
           ],
           "n": 34
         },
         "f1": {
-          "delta": 0.0709,
+          "delta": 0.1298,
           "ci95": [
-            -0.0347,
-            0.1886
+            0.0355,
+            0.2448
           ],
           "n": 34
         },
@@ -1123,10 +1123,10 @@
           "n": 34
         },
         "cited2": {
-          "delta": 0.1471,
+          "delta": 0.2059,
           "ci95": [
-            0.0,
-            0.2941
+            0.0294,
+            0.3824
           ],
           "n": 34
         }
@@ -1135,18 +1135,18 @@
     "kb-kb_no_lookup": {
       "all": {
         "em": {
-          "delta": 0.0,
+          "delta": 0.0224,
           "ci95": [
-            -0.0224,
-            0.0224
+            -0.0075,
+            0.0597
           ],
           "n": 134
         },
         "f1": {
-          "delta": -0.001,
+          "delta": 0.0177,
           "ci95": [
-            -0.0244,
-            0.0224
+            -0.0159,
+            0.0537
           ],
           "n": 134
         },
@@ -1159,10 +1159,10 @@
           "n": 134
         },
         "cited2": {
-          "delta": -0.0149,
+          "delta": 0.0,
           "ci95": [
             -0.0448,
-            0.0149
+            0.0448
           ],
           "n": 134
         }
@@ -1177,10 +1177,10 @@
           "n": 50
         },
         "f1": {
-          "delta": -0.0048,
+          "delta": -0.0148,
           "ci95": [
-            -0.0343,
-            0.02
+            -0.0505,
+            0.0133
           ],
           "n": 50
         },
@@ -1203,18 +1203,18 @@
       },
       "3": {
         "em": {
-          "delta": 0.0,
+          "delta": 0.02,
           "ci95": [
             0.0,
-            0.0
+            0.06
           ],
           "n": 50
         },
         "f1": {
-          "delta": 0.0,
+          "delta": 0.02,
           "ci95": [
             0.0,
-            0.0
+            0.06
           ],
           "n": 50
         },
@@ -1237,18 +1237,18 @@
       },
       "4": {
         "em": {
-          "delta": 0.0,
+          "delta": 0.0588,
           "ci95": [
-            -0.0882,
-            0.0882
+            -0.0588,
+            0.1765
           ],
           "n": 34
         },
         "f1": {
-          "delta": 0.0031,
+          "delta": 0.0619,
           "ci95": [
-            -0.0851,
-            0.0913
+            -0.0557,
+            0.1796
           ],
           "n": 34
         },
@@ -1261,10 +1261,10 @@
           "n": 34
         },
         "cited2": {
-          "delta": 0.0294,
+          "delta": 0.0882,
           "ci95": [
-            0.0,
-            0.0882
+            -0.0588,
+            0.2353
           ],
           "n": 34
         }
@@ -1273,25 +1273,25 @@
   },
   "lookup": {
     "kb": {
-      "hops": 225,
-      "hops_mixed": 2,
-      "items": 228,
-      "lookup_item_share": 0.3904,
+      "hops": 264,
+      "hops_mixed": 3,
+      "items": 273,
+      "lookup_item_share": 0.3736,
       "lookup": {
-        "items": 89,
-        "doc_hit": 75,
-        "paras": 100,
-        "gold_paras": 81,
-        "item_precision": 0.8427,
-        "para_gold_precision": 0.81
+        "items": 102,
+        "doc_hit": 85,
+        "paras": 113,
+        "gold_paras": 90,
+        "item_precision": 0.8333,
+        "para_gold_precision": 0.7965
       },
       "search": {
-        "items": 139,
-        "doc_hit": 99,
-        "paras": 695,
-        "gold_paras": 147,
-        "item_precision": 0.7122,
-        "para_gold_precision": 0.2115
+        "items": 171,
+        "doc_hit": 112,
+        "paras": 855,
+        "gold_paras": 166,
+        "item_precision": 0.655,
+        "para_gold_precision": 0.1942
       }
     },
     "kb_no_lookup": {
@@ -1320,31 +1320,31 @@
   "ablation_subset": {
     "rrf": {
       "n": 134,
-      "em": 0.1716,
-      "f1": 0.2346,
-      "abstain": 0.5373,
-      "parse_err": 0.0746,
+      "em": 0.1866,
+      "f1": 0.2505,
+      "abstain": 0.5597,
+      "parse_err": 0.0075,
       "all_gold_docs": 0.2313,
       "gold_doc_recall": 0.5889,
-      "cited2": 0.2985,
-      "cited_gold_recall": 0.403,
+      "cited2": 0.3284,
+      "cited_gold_recall": 0.4279,
       "calls": 1.0,
-      "tokens": 3211.2015,
+      "tokens": 3246.6119,
       "answer_prompt_tokens": 1948.306,
-      "answered": 0.3881,
-      "em_answered": 0.4423,
-      "f1_answered": 0.6046,
-      "tokens_total": 430301,
-      "utilization": 0.0362,
+      "answered": 0.4328,
+      "em_answered": 0.431,
+      "f1_answered": 0.5765,
+      "tokens_total": 435046,
+      "utilization": 0.0399,
       "stages": {
         "retrieval_miss": 4,
-        "hop_miss": 83,
+        "hop_miss": 81,
         "assembly_drop": 0,
         "generation_wrong": 13,
         "correct_ok": 11,
-        "correct_citation_gap": 23
+        "correct_citation_gap": 25
       },
-      "claims": 179,
+      "claims": 196,
       "cite_ids_ok": 1.0,
       "cite_quote_ok": 1.0
     },
@@ -1410,31 +1410,31 @@
     },
     "kb": {
       "n": 134,
-      "em": 0.3657,
-      "f1": 0.4666,
-      "abstain": 0.2612,
-      "parse_err": 0.0821,
+      "em": 0.3881,
+      "f1": 0.4853,
+      "abstain": 0.306,
+      "parse_err": 0.0224,
       "all_gold_docs": 0.4328,
-      "gold_doc_recall": 0.722,
-      "cited2": 0.4925,
-      "cited_gold_recall": 0.533,
+      "gold_doc_recall": 0.7239,
+      "cited2": 0.5075,
+      "cited_gold_recall": 0.5466,
       "calls": 2.0,
-      "tokens": 7156.9254,
-      "answer_prompt_tokens": 2039.4552,
-      "answered": 0.6567,
-      "em_answered": 0.5568,
-      "f1_answered": 0.7091,
-      "tokens_total": 959028,
-      "utilization": 0.0474,
+      "tokens": 7509.9701,
+      "answer_prompt_tokens": 2014.1866,
+      "answered": 0.6716,
+      "em_answered": 0.5778,
+      "f1_answered": 0.7211,
+      "tokens_total": 1006336,
+      "utilization": 0.0493,
       "stages": {
         "retrieval_miss": 2,
-        "hop_miss": 48,
-        "assembly_drop": 3,
+        "hop_miss": 47,
+        "assembly_drop": 2,
         "generation_wrong": 13,
         "correct_ok": 34,
-        "correct_citation_gap": 34
+        "correct_citation_gap": 36
       },
-      "claims": 235,
+      "claims": 242,
       "cite_ids_ok": 1.0,
       "cite_quote_ok": 1.0
     }

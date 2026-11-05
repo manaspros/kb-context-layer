@@ -1,0 +1,31 @@
+{
+  "n": 68,
+  "low_effort": {
+    "answer_empty": 0.058823529411764705,
+    "check_unparsed": 0.14705882352941177,
+    "em": 0.17647058823529413,
+    "f1": 0.2299974535268653,
+    "answer_completion_tokens": 999.25,
+    "check_completion_tokens": 1475.5441176470588,
+    "tokens": 456989
+  },
+  "max8000": {
+    "answer_empty": 0.0,
+    "check_unparsed": 0.029411764705882353,
+    "em": 0.19117647058823528,
+    "f1": 0.24785459638400814,
+    "answer_completion_tokens": 1080.6176470588234,
+    "check_completion_tokens": 1671.7794117647059,
+    "tokens": 475866
+  },
+  "both": {
+    "answer_empty": 0.014705882352941176,
+    "check_unparsed": 0.029411764705882353,
+    "em": 0.20588235294117646,
+    "f1": 0.25888400814871404,
+    "answer_completion_tokens": 1098.8970588235295,
+    "check_completion_tokens": 1804.6911764705883,
+    "tokens": 486147
+  },
+  "chosen": "max8000"
+}

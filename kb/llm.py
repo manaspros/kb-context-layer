@@ -18,12 +18,14 @@ from collections import deque
 from kb.common import ROOT
 
 CACHE = ROOT / "data" / "cache"
-PARAMS = {"temperature": 0, "max_tokens": 4000}
+PARAMS = {"temperature": 0, "max_tokens": 8000}  # 4000 left 8-17% of outputs empty (reasoning exhausts it); chosen on tune
+LEGACY_MAX_TOKENS = 4000  # the cap before round 2
 MAX_CONCURRENT = 6
 TOKENS_PER_MIN = 400_000
-RESERVE_SLACK = 24_000  # MAX_CONCURRENT * max_tokens: worst-case overshoot before true-up
+RESERVE_SLACK = 48_000  # MAX_CONCURRENT * max_tokens: worst-case overshoot before true-up
 EXPECTED_COMPLETION = 1500  # reserved per call until the real usage is known
-TOTAL_CAP = 12_000_000
+SPENT_BEFORE_ROUND = 10_983_194  # cache total when the round-2 budget started (ledger: spent() - this)
+TOTAL_CAP = SPENT_BEFORE_ROUND + 10_000_000
 LONG_RETRY_AFTER = 120
 POLICY_429 = re.compile(r"polic|organi[sz]ation|\borg\b|org-wide|org_|workspace", re.I)
 
@@ -46,7 +48,8 @@ def spent() -> int:
     """Total tokens ever spent through this cache (prior runs included), plus this process."""
     with _lock:
         if _state["total"] is None:
-            _state["total"] = sum(sum(json.loads(f.read_text())["usage"].values()) for f in CACHE.glob("*.json"))
+            docs = (json.loads(f.read_text()) for f in CACHE.glob("*.json"))
+            _state["total"] = sum(sum(d["usage"].values()) for d in docs if not d.get("carried"))
         return _state["total"]
 
 
@@ -78,6 +81,16 @@ def chat(messages: list[dict]) -> dict:
     path = CACHE / f"{key}.json"
     if path.exists():
         return {**json.loads(path.read_text()), "cached": True}
+    if PARAMS["max_tokens"] > LEGACY_MAX_TOKENS and "reasoning" not in PARAMS:
+        # A response that stopped by itself under the old 4000 cap is a valid response under a higher cap, so it is
+        # carried over (no tokens spent, not counted by spent()); only truncated or empty responses are re-issued.
+        old = CACHE / (hashlib.sha256(json.dumps(
+            [model, messages, {**PARAMS, "max_tokens": LEGACY_MAX_TOKENS}], sort_keys=True).encode()).hexdigest() + ".json")
+        if old.exists():
+            d = json.loads(old.read_text())
+            if d["text"].strip() and d["usage"]["completion_tokens"] < LEGACY_MAX_TOKENS:
+                path.write_text(json.dumps({**d, "carried": True}))
+                return {**d, "cached": True}
     headers = {"Content-Type": "application/json", "User-Agent": "kb-context-layer/0.1",
                "Authorization": f"Bearer {os.environ['LLM_API_KEY']}",
                **json.loads(os.environ.get("LLM_HEADERS") or "{}")}
@@ -120,7 +133,8 @@ def chat(messages: list[dict]) -> dict:
             _state["total"] = (_state["total"] or 0) + used
     out = {"text": (data["choices"][0]["message"].get("content") or ""),
            "usage": {"prompt_tokens": u.get("prompt_tokens", 0),
-                     "completion_tokens": u.get("completion_tokens", 0)}}
+                     "completion_tokens": u.get("completion_tokens", 0)},
+           "reasoning_tokens": (u.get("completion_tokens_details") or {}).get("reasoning_tokens")}
     CACHE.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(out))
     return {**out, "cached": False}

@@ -1,6 +1,6 @@
 import sys
 
-USAGE = "usage: python -m kb {data|ingest|index|recall|answer|score|graph|graph-eval|tune}"
+USAGE = "usage: python -m kb {data|ingest|index|recall|answer|score|graph|graph-eval|tune|tune-llm}"
 
 
 def main() -> None:
@@ -21,6 +21,8 @@ def main() -> None:
         from kb.graph import evaluate as run
     elif cmd == "tune":
         from kb.assemble import tune as run
+    elif cmd == "tune-llm":
+        from kb.assemble import tune_llm as run
     elif cmd == "score":
         from kb.score import run
     else:

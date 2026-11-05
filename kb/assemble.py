@@ -231,3 +231,53 @@ def tune() -> None:
         (RESULTS / "assembly" / "tune.json").write_text(json.dumps(out, indent=2) + "\n")
     except StopRun as e:
         raise SystemExit(f"STOPPED, completed calls stay cached: {e}")
+
+
+LLM_CONFIGS = {"low_effort": {"reasoning": {"effort": "low"}}, "max8000": {"max_tokens": 8000},
+               "both": {"reasoning": {"effort": "low"}, "max_tokens": 8000}}
+
+
+def tune_llm() -> None:
+    """Pick the request settings that cure empty outputs, on every 3rd tune question per hop only: each config
+    answers with RRF top-10 and runs the first sufficiency check on the graph-expanded top-10. Pick by empty rate
+    (answers + checks pooled), then EM."""
+    from kb import llm
+    from kb.answer import answer_one
+    from kb.llm import StopRun, spent
+    from kb.score import question_metrics
+    kb, base = KB(), dict(llm.PARAMS)
+    qs = [x for h in (2, 3, 4) for x in [q for q in load_questions("tune_ids.txt", 200) if q["hop"] == h][::3]]
+    a = Assembler(kb)
+    rrf = {q["id"]: [a.r.para_ids[i] for i in rk[:BUDGET]] for q, rk in zip(qs, a.r.search([q["question"] for q in qs])["rrf"])}
+    first = a.first(qs)
+    out: dict = {"n": len(qs)}
+    try:
+        for name, extra in LLM_CONFIGS.items():
+            llm.PARAMS.clear()
+            llm.PARAMS.update(base, **extra)
+            before = spent()
+
+            def work(q: dict) -> tuple[dict, dict, dict]:
+                rec = answer_one(kb, q["question"], rrf[q["id"]])
+                ctx = select([{"pid": p, "hop": 0, "qi": 0, "rank": i} for i, p in enumerate(first[q["id"]][:BUDGET])], CHECK_CAP)
+                obj, u = a.check(q["question"], ctx, [])
+                return rec, question_metrics(rec, q, kb), {"ok": obj is not None, **u}
+
+            with ThreadPoolExecutor(WORKERS) as ex:
+                res = list(ex.map(work, qs))
+            n = len(res)
+            out[name] = {"answer_empty": sum(not r["raw"].strip() for r, _, _ in res) / n,
+                         "check_unparsed": sum(not c["ok"] for _, _, c in res) / n,
+                         "em": sum(m["em"] for _, m, _ in res) / n, "f1": sum(m["f1"] for _, m, _ in res) / n,
+                         "answer_completion_tokens": sum(r["usage"][0]["completion_tokens"] for r, _, _ in res) / n,
+                         "check_completion_tokens": sum(c["completion_tokens"] for _, _, c in res) / n,
+                         "tokens": spent() - before}
+            print(name, out[name], flush=True)
+    except StopRun as e:
+        raise SystemExit(f"STOPPED, completed calls stay cached: {e}")
+    best = min(LLM_CONFIGS, key=lambda k: (out[k]["answer_empty"] + out[k]["check_unparsed"], -out[k]["em"]))
+    out["chosen"] = best
+    llm.PARAMS.clear()
+    llm.PARAMS.update(base)
+    (RESULTS / "assembly" / "llm_tune.json").write_text(json.dumps(out, indent=2) + "\n")
+    print("chosen on tune:", best)
