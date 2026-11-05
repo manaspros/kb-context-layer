@@ -82,6 +82,13 @@ def subset_questions() -> list[dict]:
     return load_questions("subset_ids.txt", 400)
 
 
+def unanswerable() -> tuple[list[dict], dict[str, set[str]]]:
+    """The 60 probe questions (data/unanswerable.jsonl) and their per-question masked paragraph ids."""
+    rows = read_jsonl(ROOT / "data" / "unanswerable.jsonl")
+    by_id = {q["id"]: q for q in read_jsonl(INDEX / "questions.jsonl")}
+    return [by_id[r["id"]] for r in rows], {r["id"]: set(r["masked_para_ids"]) for r in rows}
+
+
 def ablation_questions() -> list[dict]:
     """Every 3rd question per hop (134 of 400, stratified, deterministic): the ablations only fit this
     slice of the 12M-token budget; kb and rrf are re-aggregated on the same ids for the comparison."""
@@ -99,17 +106,22 @@ def ablation_questions() -> list[dict]:
 
 def run() -> None:
     """python -m kb answer [system ...]: closed bm25 dense rrf kb kb_hop0 kb_no_lookup kb_no_graph (default: the four
-    baselines)."""
+    baselines); rrf_unans / kb_unans run rrf / kb on the unanswerable probe with the last-step gold documents masked."""
     systems = sys.argv[2:] or ["closed", *BASELINES]
     kb = KB()
     for name in systems:
-        qs = ablation_questions() if name == "kb_no_graph" else subset_questions()
+        unans = name.endswith("_unans")
+        qs, mask = unanswerable() if unans else (ablation_questions() if name == "kb_no_graph" else subset_questions(), None)
         try:
             if name.startswith("kb"):
                 from kb.assemble import Config, assemble_all
                 cfg = {"kb": Config(), "kb_hop0": Config(hops=0), "kb_no_lookup": Config(lookup=False),
-                       "kb_no_graph": Config(graph=False)}[name]
-                ctx = assemble_all(kb, qs, cfg)  # {qid: {"para_ids", "trace", "usage"}}
+                       "kb_no_graph": Config(graph=False)}[name.removesuffix("_unans")]
+                ctx = assemble_all(kb, qs, cfg, mask)  # {qid: {"para_ids", "trace", "usage"}}
+            elif unans:
+                from kb.assemble import Assembler
+                tops = Assembler(kb).retrieve([q["question"] for q in qs], [mask[q["id"]] for q in qs], graph=False)
+                ctx = {q["id"]: {"para_ids": t[:BUDGET]} for q, t in zip(qs, tops)}
             elif name == "closed":
                 ctx = {q["id"]: {"para_ids": []} for q in qs}
             else:

@@ -1765,5 +1765,75 @@
       "cite_ids_ok": 1.0,
       "cite_quote_ok": 1.0
     }
+  },
+  "unanswerable": {
+    "rrf_unans": {
+      "all": {
+        "n": 60,
+        "abstain": 0.7333,
+        "gold_answer": 0.05,
+        "other": 0.1333,
+        "empty": 0.0833,
+        "cites_gold_doc": 0.5333
+      },
+      "2": {
+        "n": 20,
+        "abstain": 0.8,
+        "gold_answer": 0.1,
+        "other": 0.1,
+        "empty": 0.0,
+        "cites_gold_doc": 0.55
+      },
+      "3": {
+        "n": 20,
+        "abstain": 0.8,
+        "gold_answer": 0.0,
+        "other": 0.15,
+        "empty": 0.05,
+        "cites_gold_doc": 0.65
+      },
+      "4": {
+        "n": 20,
+        "abstain": 0.6,
+        "gold_answer": 0.05,
+        "other": 0.15,
+        "empty": 0.2,
+        "cites_gold_doc": 0.4
+      }
+    },
+    "kb_unans": {
+      "all": {
+        "n": 60,
+        "abstain": 0.6167,
+        "gold_answer": 0.05,
+        "other": 0.2,
+        "empty": 0.1333,
+        "cites_gold_doc": 0.6
+      },
+      "2": {
+        "n": 20,
+        "abstain": 0.65,
+        "gold_answer": 0.1,
+        "other": 0.2,
+        "empty": 0.05,
+        "cites_gold_doc": 0.65
+      },
+      "3": {
+        "n": 20,
+        "abstain": 0.7,
+        "gold_answer": 0.0,
+        "other": 0.15,
+        "empty": 0.15,
+        "cites_gold_doc": 0.65
+      },
+      "4": {
+        "n": 20,
+        "abstain": 0.5,
+        "gold_answer": 0.05,
+        "other": 0.25,
+        "empty": 0.2,
+        "cites_gold_doc": 0.5
+      }
+    }
   }
 }

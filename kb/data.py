@@ -21,6 +21,9 @@ TUNE_SEED = 7
 TUNE_PER_HOP = {2: 80, 3: 70, 4: 50}  # disjoint from the eval subset; every hyperparameter is chosen here
 TUNE = ROOT / "data" / "tune_ids.txt"
 TUNE_SHA = ROOT / "data" / "tune_ids.sha256"
+UNANS_SEED = 11
+UNANS_PER_HOP = 20
+UNANS = ROOT / "data" / "unanswerable.jsonl"
 
 
 def sha256(path: Path) -> str:
@@ -95,6 +98,19 @@ def run() -> None:
     tune = sample(TUNE_SEED, TUNE_PER_HOP, set(chosen), TUNE, TUNE_SHA)
     assert not set(tune) & set(chosen)
 
+    # Unanswerable probe: dev questions outside eval and tune; mask every paragraph of the document that
+    # supports the LAST decomposition step (how MuSiQue-Full builds its unanswerable contrasts).
+    last_doc = {r["id"]: doc_id(r["paragraphs"][r["question_decomposition"][-1]["paragraph_support_idx"]]["title"]) for r in rows}
+    paras_of: dict[str, list[str]] = {}
+    for c in corpus:
+        paras_of.setdefault(c["doc_id"], []).append(c["para_id"])
+    rng, pool, unans = random.Random(UNANS_SEED), set(chosen) | set(tune), []
+    for hop in PER_HOP:
+        ids = sorted(q["id"] for q in questions if q["hop"] == hop and q["id"] not in pool)
+        unans += [{"id": i, "hop": hop, "masked_doc_id": last_doc[i], "masked_para_ids": paras_of[last_doc[i]]}
+                  for i in rng.sample(ids, UNANS_PER_HOP)]
+    write_jsonl(UNANS, unans)
+
     sub = set(chosen)
     docs_per_q = [len(q["gold_doc_ids"]) for q in questions]
     print(f"rows={len(rows)} multi-doc questions={len(questions)} excluded single-doc={single_doc}")
@@ -103,5 +119,6 @@ def run() -> None:
     print(f"gold docs/question: mean={sum(docs_per_q)/len(docs_per_q):.2f} max={max(docs_per_q)}")
     print(f"subset={len(sub)} sha256={SUBSET_SHA.read_text().strip()} hops=",
           dict(sorted(Counter(int(i[0]) for i in sub).items())))
+    print(f"unanswerable probe={len(unans)} masked paragraphs={sum(len(u['masked_para_ids']) for u in unans)} -> {UNANS.name}")
     print(f"tune={len(tune)} sha256={TUNE_SHA.read_text().strip()} hops=",
           dict(sorted(Counter(int(i[0]) for i in tune).items())), "overlap with subset=0")

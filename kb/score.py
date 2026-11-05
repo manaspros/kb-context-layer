@@ -9,6 +9,7 @@ import numpy as np
 from kb.answer import KB, subset_questions
 from kb.common import RESULTS, read_jsonl
 
+UNANS_SYSTEMS = ("rrf_unans", "kb_unans")
 SYSTEMS = ("closed", "bm25", "dense", "rrf", "kb", "kb_hop0", "kb_no_lookup", "kb_no_graph")
 STAGES = ("retrieval_miss", "hop_miss", "assembly_drop", "generation_wrong", "correct_ok", "correct_citation_gap")
 BOOT_KEYS = ("em", "f1", "all_gold_docs", "cited2")
@@ -136,6 +137,29 @@ def lookup_stats(rows: list[dict], qs: dict[str, dict]) -> dict:
                for p, a in st.items()}}
 
 
+def unanswerable_table(kb: KB) -> dict:
+    """Probe: the last-step gold documents are masked, so the right output is NOT ANSWERABLE. `gold_answer` = the
+    true answer anyway (parametric memory); `other` = a different answer; `cites_gold_doc` = cites a gold document."""
+    from kb.answer import unanswerable
+    qs = {q["id"]: q for q in unanswerable()[0]}
+    out = {}
+    for s in UNANS_SYSTEMS:
+        path = RESULTS / "answers" / f"{s}.jsonl"
+        if not path.exists():
+            continue
+        rows = []
+        for r in read_jsonl(path):
+            q, m = qs[r["id"]], question_metrics(r, qs[r["id"]], kb)
+            cited = {i.split(":")[0] for c in (r["parsed"] or {}).get("claims", []) for i in (c.get("span_ids") or [])
+                     if isinstance(i, str)} & set(q["gold_doc_ids"])
+            rows.append({"hop": str(r["hop"]), "abstain": m["abstain"], "empty": m["empty"], "gold_answer": m["em"],
+                         "other": m["answered"] - m["em"], "cites_gold_doc": float(bool(cited))})
+        out[s] = {h: {"n": len(sel), **{k: round(float(np.mean([r[k] for r in sel])), 4)
+                                        for k in ("abstain", "gold_answer", "other", "empty", "cites_gold_doc")}}
+                  for h in HOPS for sel in [[r for r in rows if h == "all" or r["hop"] == h]]}
+    return out
+
+
 def run() -> None:
     kb = KB()
     qs = {q["id"]: q for q in subset_questions()}
@@ -160,6 +184,7 @@ def run() -> None:
     if abl:
         summary["ablation_subset"] = {s: aggregate([r for i, r in per_q[s].items() if i in abl])
                                       for s in ("rrf", "kb_hop0", "kb_no_lookup", "kb_no_graph", "kb") if s in per_q}
+    summary["unanswerable"] = unanswerable_table(kb)
     for s in ("kb", "kb_no_lookup"):
         if s in raw:
             summary["lookup"][s] = lookup_stats(raw[s], qs)
@@ -175,6 +200,11 @@ def run() -> None:
             for k in keys:
                 vals = " ".join((f"{byhop[h][k]:7.0f}" if k == "n" else f"{byhop[h][k]:7.3f}") if byhop[h][k] is not None else "     --" for h in HOPS)
                 print(f"{s:13} {k:17} {vals}")
+    for s, byhop in summary["unanswerable"].items():
+        print(f"\nunanswerable probe {s}: abstain is the correct behaviour")
+        for h, d in byhop.items():
+            print(f"  hop={h:>3} n={d['n']:3d} abstain {d['abstain']:.3f}  gold_answer_anyway {d['gold_answer']:.3f}  "
+                  f"other_answer {d['other']:.3f}  empty {d['empty']:.3f}  cites_gold_doc {d['cites_gold_doc']:.3f}")
     for s, a in summary.get("ablation_subset", {}).items():
         print(f"ablation slice n={a['n']}: {s:13} em {a['em']:.3f} f1 {a['f1']:.3f} all_gold {a['all_gold_docs']:.3f} "
               f"cited2 {a['cited2']:.3f} tokens/q {a['tokens']:.0f}")
