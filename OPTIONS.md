@@ -118,8 +118,8 @@ Published HippoRAG 2 / PropRAG numbers cited for context only, not as head-to-he
 ## 10. Generator LLM (open)
 
 One model for every system. Options: a cheap hosted model via an OpenAI-compatible client;
-Sarvam-M (OpenAI-compatible API); a local model on Apple Silicon (free, slow). Decision pending
-on which API key is available. Cost target: under $50 for all runs.
+Sarvam-M (OpenAI-compatible API); a local model on Apple Silicon (free, slow). **Decision: `deepseek/deepseek-v4.1-flash-1017`** through an OpenAI-compatible gateway (stdlib client,
+disk-cached by request hash, temperature 0, max_tokens 4000). Cost target: under $50 for all runs.
 
 ## Log of experiments
 
@@ -129,3 +129,8 @@ Retrieval, 400-question subset, 21,100-paragraph pool, gold-doc recall@10 / all-
 - BM25 (bm25s, title-prefixed, stopwords, no stemmer): 0.518 / 0.188. Keep as baseline.
 - Dense (bge-small-en-v1.5, query prefix): 0.574 / 0.220. Keep as baseline.
 - Hybrid RRF (k=60, depth 100): 0.596 / 0.250. Best single-shot; base retriever. 4-hop all-gold@10 is 0.020, so single-shot cannot cover later hops.
+
+Answers, 400 questions, same prompt and 10-paragraph budget, max_tokens 4000 (1200 gave 19-28% empty outputs from the reasoning model):
+- Closed-book: EM 0.247 / F1 0.345, 8.7% empty outputs. Contamination is real: a quarter of questions are answered with no retrieval. Keep as baseline.
+- BM25 0.125 / 0.182, dense 0.185 / 0.256, RRF 0.188 / 0.254; cited >= 2 gold docs 0.255 / 0.318 / 0.347. Keep.
+- All three RAG baselines score below closed-book: the model answers NOT ANSWERABLE on 52-65% of questions because a hop is missing from the context, where closed-book guesses from memory. Coverage, not generation, is the bottleneck.

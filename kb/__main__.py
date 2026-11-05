@@ -1,6 +1,6 @@
 import sys
 
-USAGE = "usage: python -m kb {data|ingest|index|recall}"
+USAGE = "usage: python -m kb {data|ingest|index|recall|answer|score}"
 
 
 def main() -> None:
@@ -13,6 +13,10 @@ def main() -> None:
         from kb.retrieval import build as run
     elif cmd == "recall":
         from kb.retrieval import recall as run
+    elif cmd == "answer":
+        from kb.answer import run
+    elif cmd == "score":
+        from kb.score import run
     else:
         sys.exit(USAGE)
     run()
