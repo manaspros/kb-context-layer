@@ -17,12 +17,10 @@ import numpy as np
 from kb.answer import BUDGET, KB, WORKERS, load_questions
 from kb.common import INDEX, RESULTS, read_jsonl
 from kb.graph import GRAPH_SEEDS, Graph, aliases
-from kb.llm import chat
+from kb.llm import SPENT_BEFORE_ROUND, chat
 from kb.retrieval import QUERY_PREFIX, Retriever
 
-# ponytail: hop 2 is implemented (Config(hops=2)) but not run: each extra hop is one more 3.9k-token check per
-# question and the 12M-token cap did not allow it. Hop cap is tuned over {0, 1} only; raise MAX_HOPS to test 2.
-MAX_HOPS = 1        # extra retrieval hops after the first (tuned on the tune split)
+MAX_HOPS = 2        # extra retrieval hops after the first (tuned on the tune split: all-gold 0.415 with 1, 0.425 with 2)
 DOC_CAP = 2         # paragraphs per document in the final context (tuned on the tune split)
 LOOKUP_TAU = 0.7    # min dense sim (best paragraph vs query) to accept a title lookup (tuned)
 CHECK_CAP = 3       # per-document cap in the context the sufficiency check sees (not tuned)
@@ -30,7 +28,6 @@ QUOTA = 3           # slots reserved per next-item in the final context
 EXTRA_DEPTH = 5     # new paragraphs kept per search-path item
 LOOKUP_PARAS = 2    # paragraphs pulled from a resolved document
 MAX_ITEMS = 2       # next-items per hop (comparison questions list two)
-TAUS = (0.0, 0.5, 0.6, 0.7)
 
 
 @dataclass(frozen=True)
@@ -193,11 +190,14 @@ def assemble_all(kb: KB, qs: list[dict], cfg: Config = Config()) -> dict[str, di
 
 
 def tune() -> None:
-    """Choose lookup tau, hop cap and per-document cap on the tune split only; no answer calls."""
+    """Choose hop cap {0,1,2} and per-document cap {2,3} on the tune split only (coverage, no answer calls).
+    The lookup threshold tau was chosen earlier and is kept (results/assembly/tune.json["tau"])."""
     from kb.llm import StopRun, spent
     kb, qs = KB(), load_questions("tune_ids.txt", 200)
     gold = {q["id"]: set(q["gold_doc_ids"]) for q in qs}
     a = Assembler(kb)
+    path = RESULTS / "assembly" / "tune.json"
+    out: dict = {"tau": json.loads(path.read_text())["tau"], "hops_cap": {}}
 
     def cover(res: dict, hops: int, cap: int) -> tuple[float, float]:
         """(all-gold-in-final-context, all-gold-in-pool) with only hops <= `hops` kept."""
@@ -209,26 +209,16 @@ def tune() -> None:
         return fin / len(res), pool / len(res)
 
     try:
-        out: dict = {"tau": {}, "hops_cap": {}}
-        for name, cfg in [(str(t), Config(hops=1, tau=t)) for t in TAUS] + [("no_lookup", Config(hops=1, lookup=False))]:
-            res = a.all(qs, cfg)
-            items = [i for r in res.values() for t in r["trace"] if "items" in t for i in t["items"]]
-            lk = [i for i in items if i["path"] == "lookup"]
-            out["tau"][name] = {"final_all_gold": cover(res, 1, DOC_CAP)[0], "pool_all_gold": cover(res, 1, DOC_CAP)[1],
-                                "items": len(items), "lookup_share": round(len(lk) / max(len(items), 1), 3)}
-            print("hop-1 tau", name, out["tau"][name], flush=True)
-        best = max(TAUS, key=lambda t: tuple(out["tau"][str(t)][k] for k in ("final_all_gold", "pool_all_gold")) + (-t,))
-        res = a.all(qs, Config(hops=MAX_HOPS, tau=best))  # same calls as the tau sweep: served from cache
-        for h in range(MAX_HOPS + 1):
+        res = a.all(qs, Config(hops=2))
+        for h in range(3):
             for cap in (2, 3):
                 out["hops_cap"][f"hops={h},cap={cap}"] = dict(zip(("final_all_gold", "pool_all_gold"), cover(res, h, cap)))
                 print(f"hops={h} cap={cap}", out["hops_cap"][f"hops={h},cap={cap}"], flush=True)
         # fewer hops win ties, then the smaller cap
         key = max(out["hops_cap"], key=lambda k: (out["hops_cap"][k]["final_all_gold"], -int(k[5]), -int(k[-1])))
-        out["chosen"] = {"tau": best, "hops": int(key[5]), "doc_cap": int(key[-1])}
-        print("chosen on tune:", out["chosen"], "tokens spent total:", spent())
-        (RESULTS / "assembly").mkdir(parents=True, exist_ok=True)
-        (RESULTS / "assembly" / "tune.json").write_text(json.dumps(out, indent=2) + "\n")
+        out["chosen"] = {"tau": LOOKUP_TAU, "hops": int(key[5]), "doc_cap": int(key[-1])}
+        print("chosen on tune:", out["chosen"], "tokens spent total:", spent() - SPENT_BEFORE_ROUND, "this round")
+        path.write_text(json.dumps(out, indent=2) + "\n")
     except StopRun as e:
         raise SystemExit(f"STOPPED, completed calls stay cached: {e}")
 

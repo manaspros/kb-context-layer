@@ -41,17 +41,25 @@
       "pool_all_gold": 0.22
     },
     "hops=1,cap=2": {
-      "final_all_gold": 0.395,
-      "pool_all_gold": 0.415
+      "final_all_gold": 0.415,
+      "pool_all_gold": 0.44
     },
     "hops=1,cap=3": {
-      "final_all_gold": 0.39,
-      "pool_all_gold": 0.415
+      "final_all_gold": 0.41,
+      "pool_all_gold": 0.44
+    },
+    "hops=2,cap=2": {
+      "final_all_gold": 0.425,
+      "pool_all_gold": 0.46
+    },
+    "hops=2,cap=3": {
+      "final_all_gold": 0.42,
+      "pool_all_gold": 0.46
     }
   },
   "chosen": {
     "tau": 0.7,
-    "hops": 1,
+    "hops": 2,
     "doc_cap": 2
   }
 }
