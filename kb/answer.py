@@ -89,16 +89,26 @@ def ablation_questions() -> list[dict]:
     return [q for h in (2, 3, 4) for q in [x for x in qs if x["hop"] == h][::3]]
 
 
+def ablation_questions() -> list[dict]:
+    """Two of every three questions per hop (268 of 400, stratified, deterministic): kb_no_graph re-runs every
+    sufficiency check and hop on a new context, which does not fit the round's token budget at 400; the bootstrap
+    pairs on these ids."""
+    qs = subset_questions()
+    return [q for h in (2, 3, 4) for i, q in enumerate(x for x in qs if x["hop"] == h) if i % 3 != 2]
+
+
 def run() -> None:
-    """python -m kb answer [system ...]: closed bm25 dense rrf kb_hop0 kb_no_lookup kb (default: the four baselines)."""
+    """python -m kb answer [system ...]: closed bm25 dense rrf kb kb_hop0 kb_no_lookup kb_no_graph (default: the four
+    baselines)."""
     systems = sys.argv[2:] or ["closed", *BASELINES]
     kb = KB()
     for name in systems:
-        qs = ablation_questions() if name in ("kb_hop0", "kb_no_lookup") else subset_questions()
+        qs = ablation_questions() if name == "kb_no_graph" else subset_questions()
         try:
             if name.startswith("kb"):
                 from kb.assemble import Config, assemble_all
-                cfg = {"kb": Config(), "kb_hop0": Config(hops=0), "kb_no_lookup": Config(lookup=False)}[name]
+                cfg = {"kb": Config(), "kb_hop0": Config(hops=0), "kb_no_lookup": Config(lookup=False),
+                       "kb_no_graph": Config(graph=False)}[name]
                 ctx = assemble_all(kb, qs, cfg)  # {qid: {"para_ids", "trace", "usage"}}
             elif name == "closed":
                 ctx = {q["id"]: {"para_ids": []} for q in qs}

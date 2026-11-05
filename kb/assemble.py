@@ -36,6 +36,7 @@ class Config:
     doc_cap: int = DOC_CAP
     tau: float = LOOKUP_TAU
     lookup: bool = True
+    graph: bool = True
 
 
 SUFF_PROMPT = """You decide whether the evidence is enough to answer a multi-hop question, and if not, what to look up next.
@@ -103,12 +104,13 @@ class Assembler:
         with self.lock:
             return self.r.model.encode([QUERY_PREFIX + s for s in texts], normalize_embeddings=True)
 
-    def retrieve(self, texts: list[str]) -> list[list[str]]:
-        """RRF + graph expansion, ranked paragraph ids per text."""
+    def retrieve(self, texts: list[str], graph: bool = True) -> list[list[str]]:
+        """RRF (+ graph expansion unless graph=False), ranked paragraph ids per text."""
         with self.lock:
             rank = self.r.search(texts)["rrf"]
             qv = self.r.model.encode([QUERY_PREFIX + s for s in texts], normalize_embeddings=True)
-        return [self.g.expand([self.r.para_ids[i] for i in rk], v, GRAPH_SEEDS) for rk, v in zip(rank, qv)]
+        tops = [[self.r.para_ids[i] for i in rk] for rk in rank]
+        return [self.g.expand(top, v, GRAPH_SEEDS) if graph else top for top, v in zip(tops, qv)]
 
     def lookup(self, entity: str, qv: np.ndarray) -> tuple[str | None, list[tuple[float, str]]]:
         """Title/alias table -> doc id (exact title, else normalized key; ties by best dense sim)
@@ -165,7 +167,7 @@ class Assembler:
                     path, new, sim = "lookup", [p for _, p in ranked if p not in seen][:LOOKUP_PARAS], ranked[0][0]
                 else:
                     path, sim = "search", None
-                    new = [p for p in self.retrieve([text])[0] if p not in seen][:EXTRA_DEPTH]
+                    new = [p for p in self.retrieve([text], cfg.graph)[0] if p not in seen][:EXTRA_DEPTH]
                 seen |= set(new)
                 pool += [{"pid": p, "hop": hop + 1, "qi": qi, "rank": i} for i, p in enumerate(new)]
                 added += new
@@ -176,11 +178,11 @@ class Assembler:
                       "pool": [[e["pid"], e["hop"], e["qi"], e["rank"]] for e in pool]})
         return {"para_ids": final, "trace": trace, "usage": usage}
 
-    def first(self, qs: list[dict]) -> dict[str, list[str]]:
-        return dict(zip((q["id"] for q in qs), self.retrieve([q["question"] for q in qs])))
+    def first(self, qs: list[dict], cfg: Config = Config()) -> dict[str, list[str]]:
+        return dict(zip((q["id"] for q in qs), self.retrieve([q["question"] for q in qs], cfg.graph)))
 
     def all(self, qs: list[dict], cfg: Config) -> dict[str, dict]:
-        first = self.first(qs)
+        first = self.first(qs, cfg)
         with ThreadPoolExecutor(WORKERS) as ex:
             return dict(zip((q["id"] for q in qs), ex.map(lambda q: self.run(q, first[q["id"]], cfg), qs)))
 

@@ -9,7 +9,7 @@ import numpy as np
 from kb.answer import KB, subset_questions
 from kb.common import RESULTS, read_jsonl
 
-SYSTEMS = ("closed", "bm25", "dense", "rrf", "kb_hop0", "kb_no_lookup", "kb")
+SYSTEMS = ("closed", "bm25", "dense", "rrf", "kb", "kb_hop0", "kb_no_lookup", "kb_no_graph")
 STAGES = ("retrieval_miss", "hop_miss", "assembly_drop", "generation_wrong", "correct_ok", "correct_citation_gap")
 BOOT_KEYS = ("em", "f1", "all_gold_docs", "cited2")
 HOPS = ("all", "2", "3", "4")
@@ -70,6 +70,7 @@ def question_metrics(rec: dict, q: dict, kb: KB) -> dict:
         "answered": float(rec["parsed"] is not None and bool(ans.strip()) and ans.strip().upper() != "NOT ANSWERABLE"),
         "abstain": float(ans.strip().upper() == "NOT ANSWERABLE"),
         "parse_err": float(rec["parse_error"] is not None),
+        "empty": float(not rec["raw"].strip()),
         "all_gold_docs": float(gold_d <= ctx_docs),
         "gold_doc_recall": len(gold_d & ctx_docs) / len(gold_d),
         "cited2": float(len(gold_d & cited) >= 2),
@@ -82,7 +83,7 @@ def question_metrics(rec: dict, q: dict, kb: KB) -> dict:
 
 def aggregate(rows: list[dict]) -> dict:
     out = {"n": len(rows)}
-    for k in ("em", "f1", "abstain", "parse_err", "all_gold_docs", "gold_doc_recall", "cited2",
+    for k in ("em", "f1", "abstain", "parse_err", "empty", "all_gold_docs", "gold_doc_recall", "cited2",
               "cited_gold_recall", "calls", "tokens", "answer_prompt_tokens"):
         out[k] = round(float(np.mean([r[k] for r in rows])), 4)
     ans = [r for r in rows if r["answered"]]  # precision when the system commits to an answer
@@ -102,7 +103,7 @@ def aggregate(rows: list[dict]) -> dict:
 
 def bootstrap(a: dict[str, dict], b: dict[str, dict], key: str) -> dict:
     """Paired bootstrap of mean(a[key] - b[key]) over questions."""
-    ids = sorted(set(a) & set(b))  # ablations cover a stratified slice of the subset
+    ids = sorted(set(a) & set(b))  # kb_no_graph covers a stratified slice of the subset
     d = np.array([a[i][key] - b[i][key] for i in ids])
     idx = np.random.default_rng(BOOT_SEED).integers(0, len(d), (BOOT_N, len(d)))
     m = d[idx].mean(axis=1)
@@ -149,22 +150,22 @@ def run() -> None:
     for s, rows in per_q.items():
         summary["systems"][s] = {h: aggregate([r for r in rows.values() if h == "all" or str(r["hop"]) == h])
                                  for h in HOPS}
-    for other in ("rrf", "kb_hop0", "kb_no_lookup"):
+    for other in ("rrf", "kb_hop0", "kb_no_lookup", "kb_no_graph"):
         if "kb" in per_q and other in per_q:
             for h in HOPS:
                 sub = lambda s: {i: r for i, r in per_q[s].items() if h == "all" or str(r["hop"]) == h}
                 summary["bootstrap"].setdefault(f"kb-{other}", {})[h] = {
                     k: bootstrap(sub("kb"), sub(other), k) for k in BOOT_KEYS}
-    abl = set(per_q.get("kb_hop0", {})) | set(per_q.get("kb_no_lookup", {}))  # same ids for every row
+    abl = set(per_q.get("kb_no_graph", {}))  # same ids for every row of the slice table
     if abl:
         summary["ablation_subset"] = {s: aggregate([r for i, r in per_q[s].items() if i in abl])
-                                      for s in ("rrf", "kb_hop0", "kb_no_lookup", "kb") if s in per_q}
+                                      for s in ("rrf", "kb_hop0", "kb_no_lookup", "kb_no_graph", "kb") if s in per_q}
     for s in ("kb", "kb_no_lookup"):
         if s in raw:
             summary["lookup"][s] = lookup_stats(raw[s], qs)
     (RESULTS / "answers" / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
 
-    for title, keys in (("answers", ("n", "em", "f1", "answered", "em_answered", "f1_answered", "abstain", "parse_err")),
+    for title, keys in (("answers", ("n", "em", "f1", "answered", "em_answered", "f1_answered", "abstain", "parse_err", "empty")),
                         ("coverage and multi-doc citation",
                          ("all_gold_docs", "gold_doc_recall", "cited2", "cited_gold_recall")),
                         ("citation checks (per claim), context utilization, cost per question",
