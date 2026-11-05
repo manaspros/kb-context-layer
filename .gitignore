@@ -6,3 +6,5 @@ __pycache__/
 data/raw/
 data/index/
 .DS_Store
+data/cache/
+uv.lock
