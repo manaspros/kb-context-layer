@@ -1,6 +1,5 @@
 """Shared paths and jsonl helpers."""
 import json
-import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,6 +17,4 @@ def write_jsonl(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w") as f:
         for r in rows:
-            # Place names inside quoted evidence trip the repo's literal company-name grep gate;
-            # escaping the 4th letter keeps the JSON identical once parsed.
-            f.write(re.sub(r"(?i)(?<=atl)a(?=n)", r"\\u0061", json.dumps(r, ensure_ascii=False)) + "\n")
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
