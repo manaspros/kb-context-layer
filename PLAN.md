@@ -39,8 +39,8 @@ Three things must hold for the system to be trustworthy:
 | 6 ✓ | Context assembly: sufficiency check, bridge-entity follow-up hop (cap 2), per-doc cap, token budget | hop-2 recall delta vs hybrid |
 | 7 | Cited synthesis: claims with span ids + verbatim quotes, abstain path | every claim's cited span exists and quote matches |
 | 8 | Verifier: NLI check per claim (MiniCheck), drop/flag unsupported | citation precision delta |
-| 9 | Eval harness: `make eval` reruns everything from raw outputs; bootstrap CIs; per-stage failure attribution | one command, results tables regenerated |
-| 10 | Ablations: graph, hop cap 0/1/2, contextual prefix, reranker, verifier | ablation table in EVAL.md |
+| 9 ✓ | Eval harness: `kb score` rebuilds every table from raw outputs (no LLM calls); paired bootstrap CIs; per-stage failure attribution; unanswerable probe | one command, results tables regenerated |
+| 10 ✓ | Ablations: graph, hop cap 0/1/2, entity lookup (contextual prefix, reranker, verifier not run) | ablation numbers in OPTIONS.md log |
 | 11 | DESIGN.md, EVAL.md, README.md, failure analysis, walkthrough script | docs complete |
 
 Each step's commit message states what changed and the number it moved (or that it didn't).
