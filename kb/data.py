@@ -24,6 +24,7 @@ TUNE_SHA = ROOT / "data" / "tune_ids.sha256"
 UNANS_SEED = 11
 UNANS_PER_HOP = 20
 UNANS = ROOT / "data" / "unanswerable.jsonl"
+UNANS_SHA = ROOT / "data" / "unanswerable.sha256"
 
 
 def sha256(path: Path) -> str:
@@ -110,6 +111,8 @@ def run() -> None:
         unans += [{"id": i, "hop": hop, "masked_doc_id": last_doc[i], "masked_para_ids": paras_of[last_doc[i]]}
                   for i in rng.sample(ids, UNANS_PER_HOP)]
     write_jsonl(UNANS, unans)
+    if sha256(UNANS) != UNANS_SHA.read_text().strip():
+        sys.exit(f"FAIL: regenerated {UNANS.name} does not match {UNANS_SHA.name}")
 
     sub = set(chosen)
     docs_per_q = [len(q["gold_doc_ids"]) for q in questions]

@@ -216,7 +216,7 @@ def run() -> None:
     for s in ("kb", "kb_no_lookup"):
         if s in raw:
             summary["lookup"][s] = lookup_stats(raw[s], qs)
-    (RESULTS / "answers" / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+    (RESULTS / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
 
     for title, keys in (("answers", ("n", "em", "f1", "answered", "em_answered", "f1_answered", "abstain", "parse_err", "empty")),
                         ("coverage and multi-doc citation",
