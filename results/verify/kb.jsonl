@@ -1,0 +1,791 @@
+{"id": "2hop__122140_37168", "claim_idx": 0, "claim": "Hala El Badry is a graduate of Cairo University.", "spans": ["e7930b0d23:0:0"], "p": 0.98875}
+{"id": "2hop__122140_37168", "claim_idx": 1, "claim": "Cairo University is ranked 551-600 according to QS World University Rankings.", "spans": ["1c39abf68e:1:0"], "p": 0.98058}
+{"id": "2hop__123545_47134", "claim_idx": 0, "claim": "Randy Conrads attended Oregon State University.", "spans": ["f2ac57cce2:0:0"], "p": 0.9884}
+{"id": "2hop__123545_47134", "claim_idx": 1, "claim": "Benny Beaver is the official mascot of Oregon State University.", "spans": ["d75f0f27dc:0:0"], "p": 0.98085}
+{"id": "2hop__124412_402641", "claim_idx": 0, "claim": "Chiang Hsiao-wen was the eldest son of Chiang Ching-kuo.", "spans": ["e8001aa2fd:0:0"], "p": 0.98564}
+{"id": "2hop__129721_40482", "claim_idx": 0, "claim": "Huguenots in South Carolina purchased plantations from the British Landgrave Edmund Bellinger.", "spans": ["e08236da83:6:5"], "p": 0.86039}
+{"id": "2hop__131951_643670", "claim_idx": 0, "claim": "Rotterdam Centrum is bounded by the Nieuwe Maas River in the South.", "spans": ["413fe68499:0:0"], "p": 0.97808}
+{"id": "2hop__131951_643670", "claim_idx": 1, "claim": "Het Scheur flows west from the confluence of the Oude Maas and Nieuwe Maas branches.", "spans": ["33913a3f2f:0:0"], "p": 0.98998}
+{"id": "2hop__135029_712629", "claim_idx": 0, "claim": "Prince Edward's mother is Queen Elizabeth II, whose spouse is Prince Philip, Duke of Edinburgh.", "spans": ["40f4dd1e9c:0:0"], "p": 0.97594}
+{"id": "2hop__135653_669373", "claim_idx": 0, "claim": "Mach's principle is credited to Ernst Mach.", "spans": ["b4676ee3ef:0:0"], "p": 0.96452}
+{"id": "2hop__136067_160249", "claim_idx": 0, "claim": "Pyrrhic victory is named after King Pyrrhus of Epirus.", "spans": ["9ab82ec842:0:0"], "p": 0.9872}
+{"id": "2hop__136067_160249", "claim_idx": 1, "claim": "Pyrrhus fought the Romans at Heraclea in 280 BC and Asculum in 279 BC during the Pyrrhic War.", "spans": ["9ab82ec842:0:0"], "p": 0.98254}
+{"id": "2hop__136067_160249", "claim_idx": 2, "claim": "In 275 BC, Pyrrhus again met the Roman army at Beneventum and withdrew completely from Italy.", "spans": ["b6b4ba388a:4:3"], "p": 0.0098}
+{"id": "2hop__136067_160249", "claim_idx": 2, "claim": "In 275 BC, Pyrrhus again met the Roman army at Beneventum and withdrew completely from Italy.", "spans": ["b6b4ba388a:4:3", "b6b4ba388a:4:5"], "p": 0.89795}
+{"id": "2hop__136067_160249", "claim_idx": 2, "claim": "In 275 BC, Pyrrhus again met the Roman army at Beneventum and withdrew completely from Italy.", "spans": ["b6b4ba388a:4:5"], "p": 0.00742}
+{"id": "2hop__136214_483189", "claim_idx": 0, "claim": "Sikyona takes its name from the ancient city Sicyon.", "spans": ["5d270fb397:0:2"], "p": 0.97237}
+{"id": "2hop__136214_483189", "claim_idx": 1, "claim": "Sicyon is a figure in Greek mythology.", "spans": ["17c2bc1d29:0:0"], "p": 0.97921}
+{"id": "2hop__142621_225454", "claim_idx": 0, "claim": "Permission to Fly is by Jordan Pruitt.", "spans": ["ed9f5b8594:0:0"], "p": 0.98755}
+{"id": "2hop__144150_82341", "claim_idx": 0, "claim": "Tom Denney is from Ocala, Florida.", "spans": ["432df24398:0:0"], "p": 0.98759}
+{"id": "2hop__144150_82341", "claim_idx": 1, "claim": "Ocala is located in Northern Florida.", "spans": ["d7c5b2f0cc:0:0"], "p": 0.96879}
+{"id": "2hop__144303_483189", "claim_idx": 0, "claim": "Eutychides was from Sicyon in Corinthia.", "spans": ["51ff7ef0a5:0:0"], "p": 0.98965}
+{"id": "2hop__144303_483189", "claim_idx": 1, "claim": "Sikyona is a municipality in Corinthia, Greece.", "spans": ["5d270fb397:0:0"], "p": 0.97622}
+{"id": "2hop__144303_483189", "claim_idx": 2, "claim": "Sicyon was an ancient city located in the same territory as Sikyona.", "spans": ["5d270fb397:0:2"], "p": 0.93161}
+{"id": "2hop__144303_483189", "claim_idx": 3, "claim": "Ancient Greek mythology is associated with ancient Greece.", "spans": ["4c965b0a4c:0:0"], "p": 0.98092}
+{"id": "2hop__144784_623159", "claim_idx": 0, "claim": "Dmitry Borisovich was born in Rostov.", "spans": ["d7ed6a2415:0:0"], "p": 0.98982}
+{"id": "2hop__144784_623159", "claim_idx": 1, "claim": "Rostov is a town in Yaroslavl Oblast, Russia.", "spans": ["7d60ea56d6:0:0"], "p": 0.98609}
+{"id": "2hop__146919_29244", "claim_idx": 0, "claim": "Marcel Bich died in Paris.", "spans": ["720b2f51a2:0:0"], "p": 0.97127}
+{"id": "2hop__146919_29244", "claim_idx": 1, "claim": "Charles de Gaulle Airport became the busiest Parisian airport in 1993.", "spans": ["22390ad11c:4:1"], "p": 0.98762}
+{"id": "2hop__152052_141308", "claim_idx": 0, "claim": "\"Don't Let Me Wait Too Long\" was sequenced on side one of the LP.", "spans": ["b7ceda5f90:0:1"], "p": 0.98455}
+{"id": "2hop__152052_141308", "claim_idx": 1, "claim": "Apple Records released \"Living in the Material World\" in America.", "spans": ["b7ceda5f90:0:0"], "p": 0.98593}
+{"id": "2hop__152052_141308", "claim_idx": 2, "claim": "Apple Records was a division of Apple Corps Ltd.", "spans": ["afcbf42e22:0:0"], "p": 0.99008}
+{"id": "2hop__152700_141308", "claim_idx": 0, "claim": "\"Oh Woman, Oh Why\" was first released on the Apple Records label.", "spans": ["f0855b56f3:0:0"], "p": 0.99072}
+{"id": "2hop__152700_141308", "claim_idx": 1, "claim": "Apple Records was founded as a division of Apple Corps Ltd.", "spans": ["afcbf42e22:0:0"], "p": 0.98891}
+{"id": "2hop__153573_109006", "claim_idx": 0, "claim": "Mickey Mouse was developed by Floyd Gottfredson, Les Clark, and Fred Moore.", "spans": ["9139290b0d:1:0"], "p": 0.616}
+{"id": "2hop__158010_58067", "claim_idx": 0, "claim": "A. P. J. Abdul Kalam served as the 11th President of India.", "spans": ["bf51d80a7f:1:0"], "p": 0.97342}
+{"id": "2hop__158010_58067", "claim_idx": 1, "claim": "He was a recipient of the Bharat Ratna, India's highest civilian honour.", "spans": ["bf51d80a7f:1:6"], "p": 0.97307}
+{"id": "2hop__161151_42352", "claim_idx": 0, "claim": "Bison antiquus lived in North America.", "spans": ["a597fcff2d:0:0"], "p": 0.98851}
+{"id": "2hop__161151_42352", "claim_idx": 1, "claim": "British settlers in the North American colonies had a population of about 1.5 million.", "spans": ["0d6ae0044c:0:0"], "p": 0.94566}
+{"id": "2hop__20059_236755", "claim_idx": 0, "claim": "Richard Stallman said the term intellectual property operates as a catch-all.", "spans": ["3e694b7e8d:0:1"], "p": 0.29087}
+{"id": "2hop__20059_236755", "claim_idx": 1, "claim": "Richard Stallman published the GNU Manifesto in 1985.", "spans": ["9880e3d5ad:0:0"], "p": 0.98093}
+{"id": "2hop__204146_850295", "claim_idx": 0, "claim": "Kapalkundala is by Bankim Chandra Chattopadhyay.", "spans": ["673a3a7fd8:0:0"], "p": 0.98591}
+{"id": "2hop__21103_16254", "claim_idx": 0, "claim": "In 1931, Ashkenazi Jews accounted for 92 percent of the world's Jews.", "spans": ["0e77f67925:18:0"], "p": 0.98727}
+{"id": "2hop__22885_36240", "claim_idx": 0, "claim": "Early parts of the Bible could be seen as legal literature.", "spans": ["c17e5c9d25:2:1"], "p": 0.9835}
+{"id": "2hop__22885_36240", "claim_idx": 1, "claim": "The biblical basis for the term Queen can be seen in the Book of Isaiah 9:6.", "spans": ["b5e4027f84:10:1"], "p": 0.98744}
+{"id": "2hop__23459_35124", "claim_idx": 0, "claim": "Ibn Sina (Avicenna) had more than 450 books attributed to him.", "spans": ["b63e6feb47:4:2"], "p": 0.97403}
+{"id": "2hop__242938_18803", "claim_idx": 0, "claim": "M. King Hubbert worked at the Shell research lab in Houston, Texas.", "spans": ["5c860f0d3f:0:1"], "p": 0.89879}
+{"id": "2hop__242938_18803", "claim_idx": 1, "claim": "In April 2010 Shell announced it was in the process of trying to find a potential buyer for all of its operations in Finland and doing similar market research concerning Swedish operations.", "spans": ["f7be61210c:2:1"], "p": 0.96193}
+{"id": "2hop__247353_55227", "claim_idx": 0, "claim": "Here Comes the Boom was co-written by and stars Kevin James.", "spans": ["408c1038cd:0:0"], "p": 0.98649}
+{"id": "2hop__247353_55227", "claim_idx": 1, "claim": "In Grown Ups, Kevin James's character Eric has wife Sally, played by Maria Bello.", "spans": ["007834a99c:0:5"], "p": 0.97549}
+{"id": "2hop__265989_531490", "claim_idx": 0, "claim": "WarGames was written by Lawrence Lasker.", "spans": ["6f151b27aa:0:0"], "p": 0.98888}
+{"id": "2hop__265989_531490", "claim_idx": 1, "claim": "Lawrence Lasker is the son of actress Jane Greer.", "spans": ["d20ec620ed:0:1"], "p": 0.89773}
+{"id": "2hop__269076_449113", "claim_idx": 0, "claim": "The Israeli government devised Operation Entebbe.", "spans": ["ff423f642e:0:1"], "p": 0.99059}
+{"id": "2hop__269766_43945", "claim_idx": 0, "claim": "Thomas Paine wrote Common Sense.", "spans": ["27eb99fb2b:0:0"], "p": 0.98861}
+{"id": "2hop__269766_43945", "claim_idx": 1, "claim": "Thomas Paine wrote The Age of Reason.", "spans": ["a5511f247f:0:0"], "p": 0.98574}
+{"id": "2hop__269766_43945", "claim_idx": 2, "claim": "Common Sense crystallized the rebellious demand for independence from Great Britain.", "spans": ["75bb4b9fab:0:1"], "p": 0.97947}
+{"id": "2hop__28203_55840", "claim_idx": 0, "claim": "Colin Firth plays the future King George VI in The King's Speech.", "spans": ["f01a88eed9:1:1"], "p": 0.68131}
+{"id": "2hop__28203_55840", "claim_idx": 1, "claim": "George VI was Albert Frederick Arthur George.", "spans": ["d4683eab7b:2:0"], "p": 0.98822}
+{"id": "2hop__286621_84856", "claim_idx": 0, "claim": "The new season of Real Time with Bill Maher first aired on January 19, 2018.", "spans": ["afd26b4f49:1:0"], "p": 0.02489}
+{"id": "2hop__289517_139339", "claim_idx": 0, "claim": "Griffin Dunne starred in After Hours.", "spans": ["38e34b228f:0:0"], "p": 0.98808}
+{"id": "2hop__289517_139339", "claim_idx": 1, "claim": "Griffin Dunne was nominated for an Academy Award for Best Live Action Short Film for Duke of Groove.", "spans": ["06ee62974d:0:0"], "p": 0.98309}
+{"id": "2hop__30905_213732", "claim_idx": 0, "claim": "The 1994 Senate resolution to end the trade embargo against Vietnam was sponsored by Kerry and John McCain.", "spans": ["d5e75dc6ab:10:2"], "p": 0.98351}
+{"id": "2hop__30905_213732", "claim_idx": 1, "claim": "Meghan McCain is the daughter of John McCain.", "spans": ["c8c2dbd32e:0:0"], "p": 0.98897}
+{"id": "2hop__311931_417706", "claim_idx": 0, "claim": "Emotional Rain is by singer Lee Aaron and was released through A&M Records (Canada).", "spans": ["ee11a04eef:0:0"], "p": 0.98841}
+{"id": "2hop__326140_9237", "claim_idx": 0, "claim": "The Federated States of Micronesia Maritime Boundary Treaty was signed in Majuro on 5 July 2006.", "spans": ["d24b5396eb:0:0"], "p": 0.50561}
+{"id": "2hop__326404_120065", "claim_idx": 0, "claim": "Charles Frederick II was born in Merseburg.", "spans": ["fe7fbbdd7c:0:0"], "p": 0.9862}
+{"id": "2hop__326404_120065", "claim_idx": 1, "claim": "Merseburg fell to the Electorate of Saxony after 1738.", "spans": ["812a8aa10e:0:0"], "p": 0.97421}
+{"id": "2hop__329676_119915", "claim_idx": 0, "claim": "Francisco Giner de los Ríos was born in Ronda, Spain.", "spans": ["9cecaa84d1:0:0"], "p": 0.99034}
+{"id": "2hop__329676_119915", "claim_idx": 1, "claim": "The Taifa of Ronda existed from 1039 to 1065.", "spans": ["83b4122b98:0:1"], "p": 0.06654}
+{"id": "2hop__33288_157788", "claim_idx": 0, "claim": "Japan conquered Manchuria from China in 1931.", "spans": ["91a07d7911:3:5"], "p": 0.97566}
+{"id": "2hop__33288_157788", "claim_idx": 1, "claim": "The Yamanote Line is a railway loop line in Tokyo, Japan.", "spans": ["a5bf8f6f96:0:0"], "p": 0.20793}
+{"id": "2hop__335418_279684", "claim_idx": 0, "claim": "Anna Benson was the ex-wife of Kris Benson.", "spans": ["27c9d37890:0:0"], "p": 0.98872}
+{"id": "2hop__335418_279684", "claim_idx": 1, "claim": "Kris Benson was drafted first overall by the Pittsburgh Pirates in 1996.", "spans": ["1057345cb2:0:0"], "p": 0.97538}
+{"id": "2hop__335899_124498", "claim_idx": 0, "claim": "Qui de nous deux is an album by Matthieu Chedid.", "spans": ["9a3f57f57f:0:1"], "p": 0.12001}
+{"id": "2hop__335899_124498", "claim_idx": 1, "claim": "Matthieu Chedid is the son of Louis Chedid.", "spans": ["826e5da06c:0:0"], "p": 0.98687}
+{"id": "2hop__34595_160249", "claim_idx": 0, "claim": "The Pyrrhic War included the Battle of Heraclea in 280 BC and the Battle of Asculum in 279 BC.", "spans": ["9ab82ec842:0:0"], "p": 0.98382}
+{"id": "2hop__35137_22896", "claim_idx": 0, "claim": "Avicenna had access to the great library of Balkh.", "spans": ["1bb33a8240:12:3"], "p": 0.98088}
+{"id": "2hop__35209_17335", "claim_idx": 0, "claim": "The invader of the Achaemenid Empire in 334 BC was Alexander the Great.", "spans": ["889224e3fc:2:0"], "p": 0.98604}
+{"id": "2hop__362107_652514", "claim_idx": 0, "claim": "Callum McManaman was born in Whiston, Merseyside.", "spans": ["3aa56855e8:0:0"], "p": 0.98422}
+{"id": "2hop__362107_652514", "claim_idx": 1, "claim": "Whiston is within the Metropolitan Borough of Knowsley in Merseyside.", "spans": ["73dda143a5:0:0"], "p": 0.98416}
+{"id": "2hop__373544_66723", "claim_idx": 0, "claim": "Robert Khayat has B.A. and J.D. degrees from the University of Mississippi.", "spans": ["e6e15d85b2:0:3"], "p": 0.97086}
+{"id": "2hop__373544_66723", "claim_idx": 1, "claim": "James Meredith became the first African-American student admitted to the segregated University of Mississippi.", "spans": ["b324fbbe28:1:1"], "p": 0.89381}
+{"id": "2hop__37656_160040", "claim_idx": 0, "claim": "Protestantism holds the Bible alone as the highest authority in matters of faith and morals (sola scriptura).", "spans": ["74dea93cce:1:1"], "p": 0.81633}
+{"id": "2hop__37656_160040", "claim_idx": 1, "claim": "Martin Luther is widely acknowledged to have started the Reformation.", "spans": ["35149df0e9:0:0"], "p": 0.98217}
+{"id": "2hop__37656_160040", "claim_idx": 2, "claim": "Luther insisted that Catholic doctrine had no foundation in the Bible.", "spans": ["35149df0e9:0:1"], "p": 0.97969}
+{"id": "2hop__38828_89399", "claim_idx": 0, "claim": "Mr. Lawrence voices Plankton in SpongeBob SquarePants.", "spans": ["c60498178e:2:0"], "p": 0.96681}
+{"id": "2hop__38828_89399", "claim_idx": 1, "claim": "Plankton are aquatic organisms.", "spans": ["0bafc1bbb3:0:0"], "p": 0.97843}
+{"id": "2hop__39954_65371", "claim_idx": 0, "claim": "In Tanzania, a safari hunter is estimated to spend fifty to one hundred times that of the average ecotourist.", "spans": ["52f5d9fedd:0:1"], "p": 0.98467}
+{"id": "2hop__39954_65371", "claim_idx": 1, "claim": "The incumbent Permanent Representative of Tanzania to the United Nations is Modest Jonathan Mero since March 2017.", "spans": ["0acd4c2df3:0:0"], "p": 0.67438}
+{"id": "2hop__411091_625230", "claim_idx": 0, "claim": "Mark Dismore was born in Greenfield, Indiana.", "spans": ["e06cb31294:0:0"], "p": 0.98996}
+{"id": "2hop__411091_625230", "claim_idx": 1, "claim": "Greenfield is in Hancock County, Indiana.", "spans": ["d33824110e:0:0"], "p": 0.97532}
+{"id": "2hop__417937_158105", "claim_idx": 0, "claim": "Business @ the Speed of Thought was written by Bill Gates and Collins Hemingway in 1999.", "spans": ["3bdc297c70:0:0"], "p": 0.94333}
+{"id": "2hop__417937_158105", "claim_idx": 1, "claim": "Bill Gates was highlighting the operating system's ease of use and enhanced support for Plug and Play.", "spans": ["bdae4500dc:0:1"], "p": 0.93714}
+{"id": "2hop__42747_83837", "claim_idx": 0, "claim": "Light It Up is by Luke Bryan.", "spans": ["ec9c56a059:0:0"], "p": 0.98581}
+{"id": "2hop__42747_83837", "claim_idx": 1, "claim": "Home Alone Tonight is a Luke Bryan duet with Karen Fairchild.", "spans": ["685b9f02cd:0:0"], "p": 0.98919}
+{"id": "2hop__428940_135373", "claim_idx": 0, "claim": "Partridge Lake is part of the Bering Sea drainage basin.", "spans": ["a8bf524152:0:0"], "p": 0.9873}
+{"id": "2hop__428940_135373", "claim_idx": 1, "claim": "The Bering Sea is named for Vitus Bering.", "spans": ["8c11552d0f:0:3"], "p": 0.98696}
+{"id": "2hop__435184_84856", "claim_idx": 0, "claim": "Pizza Man stars Bill Maher.", "spans": ["9aa5e2ce99:0:0"], "p": 0.98988}
+{"id": "2hop__435184_84856", "claim_idx": 1, "claim": "Real Time with Bill Maher season 16 first aired on January 19, 2018.", "spans": ["afd26b4f49:1:0"], "p": 0.02413}
+{"id": "2hop__445963_6063", "claim_idx": 0, "claim": "Francis Watson was born on a ship in the bay at Saint Helena.", "spans": ["94003dc2be:0:0"], "p": 0.97628}
+{"id": "2hop__445963_6063", "claim_idx": 1, "claim": "Saint Helena has a population of about 4,250 inhabitants.", "spans": ["03bdca149f:7:0"], "p": 0.98758}
+{"id": "2hop__446324_620302", "claim_idx": 0, "claim": "Elizabeth and After is a novel by Matt Cohen.", "spans": ["abf15b50c9:0:0"], "p": 0.98768}
+{"id": "2hop__446324_620302", "claim_idx": 1, "claim": "Matt Cohen studied political economy at the University of Toronto.", "spans": ["83bcc6e113:0:1"], "p": 0.98174}
+{"id": "2hop__448615_127908", "claim_idx": 0, "claim": "José Cancela was dealt to the Colorado Rapids.", "spans": ["7c3d71552d:0:0"], "p": 0.9881}
+{"id": "2hop__448615_127908", "claim_idx": 1, "claim": "The Colorado Rapids compete in Major League Soccer (MLS).", "spans": ["38c11bd07f:0:1"], "p": 0.81419}
+{"id": "2hop__463884_807572", "claim_idx": 0, "claim": "The Ira C. Allen Mansion is in Fair Haven, Vermont.", "spans": ["0aa270a6c7:0:0"], "p": 0.98759}
+{"id": "2hop__464479_70131", "claim_idx": 0, "claim": "The Freikorps consisted largely of World War I veterans.", "spans": ["bc40f59852:0:0"], "p": 0.98564}
+{"id": "2hop__464479_70131", "claim_idx": 1, "claim": "The German Socialist Party was a German nationalist party during the early Weimar Republic.", "spans": ["24c9f9f5f6:0:0"], "p": 0.98516}
+{"id": "2hop__48033_90973", "claim_idx": 0, "claim": "Mila Kunis voices Meg Griffin.", "spans": ["f51f8ea0b0:3:0"], "p": 0.97828}
+{"id": "2hop__48033_90973", "claim_idx": 1, "claim": "Meg Griffin was originally voiced by Lacey Chabert during the first season.", "spans": ["8cd336d147:1:1"], "p": 0.93963}
+{"id": "2hop__486314_544665", "claim_idx": 0, "claim": "Menucha Rochel Slonim was a daughter of Rabbi Dovber Schneuri, the second Rebbe of Chabad.", "spans": ["6418dfcf32:0:0"], "p": 0.96129}
+{"id": "2hop__486314_544665", "claim_idx": 1, "claim": "Menachem Mendel Schneersohn was the third Rebbe.", "spans": ["a499ee6faf:0:0"], "p": 0.98304}
+{"id": "2hop__50910_177869", "claim_idx": 0, "claim": "The North Star was published by abolitionist Frederick Douglass.", "spans": ["e6c6f772b3:0:0"], "p": 0.97882}
+{"id": "2hop__50910_177869", "claim_idx": 1, "claim": "Helen Pitts Douglass was the second wife of Frederick Douglass.", "spans": ["0e8780858d:0:0"], "p": 0.98341}
+{"id": "2hop__510679_57816", "claim_idx": 0, "claim": "Abraham Lavender is a professor at Florida International University.", "spans": ["e84bc7412e:0:0"], "p": 0.98957}
+{"id": "2hop__510679_57816", "claim_idx": 1, "claim": "The FIU College of Law was ranked 100 in the United States by the 2017 U.S. News & World Report.", "spans": ["e354dc44a8:0:0"], "p": 0.97957}
+{"id": "2hop__51074_75184", "claim_idx": 0, "claim": "Jennifer Parker was played by Claudia Wells in Back to the Future.", "spans": ["0fe94af4c4:3:0"], "p": 0.2819}
+{"id": "2hop__510860_22402", "claim_idx": 0, "claim": "Roberto Andorno is Associate Professor at the University of Zurich.", "spans": ["e336e19f54:0:0"], "p": 0.96567}
+{"id": "2hop__510860_22402", "claim_idx": 1, "claim": "The University of Zurich has nearly 25,000 students.", "spans": ["77dcd849e5:12:2"], "p": 0.98291}
+{"id": "2hop__51261_87295", "claim_idx": 0, "claim": "Julie Andrews played Mary Poppins in the 1964 film.", "spans": ["61347e539d:1:2"], "p": 0.34829}
+{"id": "2hop__51261_87295", "claim_idx": 1, "claim": "Julie Andrews plays Clarisse Renaldi in The Princess Diaries.", "spans": ["cee375ea60:0:1"], "p": 0.67661}
+{"id": "2hop__518354_67465", "claim_idx": 0, "claim": "Blue Slide Park is the debut studio album by American rapper Mac Miller.", "spans": ["fa2114d2ea:0:0"], "p": 0.9848}
+{"id": "2hop__518354_67465", "claim_idx": 1, "claim": "Best Day Ever is the fifth mixtape by American rapper Mac Miller.", "spans": ["4faf281943:0:0"], "p": 0.98564}
+{"id": "2hop__518354_67465", "claim_idx": 2, "claim": "Best Day Ever was released online March 11, 2011.", "spans": ["4faf281943:0:1"], "p": 0.37406}
+{"id": "2hop__51881_20590", "claim_idx": 0, "claim": "The Lord of the Rings films were a New Zealand–American venture.", "spans": ["b2e6833c9b:2:3"], "p": 0.72424}
+{"id": "2hop__51881_20590", "claim_idx": 1, "claim": "New Zealand achieved self-government after 1900.", "spans": ["3114df4bb9:16:4"], "p": 0.98158}
+{"id": "2hop__520033_123956", "claim_idx": 0, "claim": "Denny Januar Ali was born in Palembang.", "spans": ["32a156b2cc:0:0"], "p": 0.99039}
+{"id": "2hop__520033_123956", "claim_idx": 1, "claim": "The Battle of Palembang occurred on 13–15 February 1942.", "spans": ["ff317d6880:0:1"], "p": 0.37453}
+{"id": "2hop__53433_59035", "claim_idx": 0, "claim": "The Lord of the Rings films were filmed entirely in New Zealand.", "spans": ["b2e6833c9b:0:0"], "p": 0.97929}
+{"id": "2hop__554167_451128", "claim_idx": 0, "claim": "Victim of Romance is Michelle Phillips' solo album.", "spans": ["675bc90749:0:0"], "p": 0.98756}
+{"id": "2hop__554167_451128", "claim_idx": 1, "claim": "Chynna Phillips is the daughter of John and Michelle Phillips.", "spans": ["67ba8a6657:0:0"], "p": 0.97313}
+{"id": "2hop__55552_158105", "claim_idx": 0, "claim": "Bill Gates announced Windows on November 10, 1983.", "spans": ["dac429ca54:0:0"], "p": 0.96226}
+{"id": "2hop__55552_158105", "claim_idx": 1, "claim": "Bill Gates highlighted Windows 98's ease of use and enhanced support for Plug and Play.", "spans": ["bdae4500dc:0:1"], "p": 0.03534}
+{"id": "2hop__567471_123283", "claim_idx": 0, "claim": "John Houseman produced On Dangerous Ground.", "spans": ["8460106fd1:0:0"], "p": 0.98856}
+{"id": "2hop__567471_123283", "claim_idx": 1, "claim": "John Houseman was educated at Clifton College.", "spans": ["5f74fe9093:0:3"], "p": 0.98617}
+{"id": "2hop__567471_123283", "claim_idx": 2, "claim": "John Houseman worked in the grain trade in London.", "spans": ["5f74fe9093:0:3"], "p": 0.9829}
+{"id": "2hop__57543_158262", "claim_idx": 0, "claim": "Jefferson Davis was a colonel of a volunteer regiment during the Mexican–American War (1846–1848).", "spans": ["8c17623f40:1:1"], "p": 0.98653}
+{"id": "2hop__57543_158262", "claim_idx": 1, "claim": "The Mexican–American War lasted from 1846 to 1848.", "spans": ["bea183706b:1:0"], "p": 0.98288}
+{"id": "2hop__575797_91104", "claim_idx": 0, "claim": "INSAT-4CR is operated by ISRO.", "spans": ["1b564639bb:0:0"], "p": 0.98689}
+{"id": "2hop__575797_91104", "claim_idx": 1, "claim": "ATS-6 was a NASA experimental satellite.", "spans": ["2d478e8dac:0:0"], "p": 0.99079}
+{"id": "2hop__575797_91104", "claim_idx": 2, "claim": "ATS-6 was part of the Satellite Instructional Television Experiment between NASA and ISRO.", "spans": ["2d478e8dac:0:0"], "p": 0.99023}
+{"id": "2hop__57638_72467", "claim_idx": 0, "claim": "The Chicago Bulls selected Jordan with the third overall pick.", "spans": ["45b6ea86a8:0:6"], "p": 0.98481}
+{"id": "2hop__58111_7298", "claim_idx": 0, "claim": "Josh Groban plays Andy Bernard's younger brother Walter Bernard, Jr.", "spans": ["af46dc62e9:0:1"], "p": 0.98419}
+{"id": "2hop__58111_7298", "claim_idx": 1, "claim": "Michael Bublé and Josh Groban started out as adult contemporary artists.", "spans": ["57d71d38a5:8:0"], "p": 0.63761}
+{"id": "2hop__58168_1783", "claim_idx": 0, "claim": "The U.S. unemployment rate reached as high as 25% during the Great Depression.", "spans": ["2882bb07e0:0:2"], "p": 0.98269}
+{"id": "2hop__58168_38663", "claim_idx": 0, "claim": "The highest US unemployment rate was 25% during the Great Depression.", "spans": ["2882bb07e0:0:2"], "p": 0.98139}
+{"id": "2hop__58168_38663", "claim_idx": 1, "claim": "The Dow Jones fell 54.7% in the Great Depression.", "spans": ["7e380be8dc:7:1"], "p": 0.95613}
+{"id": "2hop__59274_461854", "claim_idx": 0, "claim": "Vivien Leigh played Scarlett in Gone with the Wind.", "spans": ["c7eef03fd4:3:4"], "p": 0.96791}
+{"id": "2hop__59274_461854", "claim_idx": 1, "claim": "Herbert Leigh Holman was Vivien Leigh's first husband.", "spans": ["6e550350e7:0:1"], "p": 0.98241}
+{"id": "2hop__60001_512508", "claim_idx": 0, "claim": "Henry Moseley found a relationship between the X-ray wavelength of an element and its atomic number.", "spans": ["085d91cf00:0:0"], "p": 0.97664}
+{"id": "2hop__60001_512508", "claim_idx": 1, "claim": "Henry Moseley was killed in action at Gallipoli.", "spans": ["085d91cf00:0:0"], "p": 0.74812}
+{"id": "2hop__60001_512508", "claim_idx": 2, "claim": "The Gallipoli campaign was a campaign of the First World War.", "spans": ["d39ca3ac64:0:0"], "p": 0.99142}
+{"id": "2hop__60229_38663", "claim_idx": 0, "claim": "The first cake mix was established during the Great Depression.", "spans": ["9c6e5a3f44:0:0"], "p": 0.01607}
+{"id": "2hop__60229_38663", "claim_idx": 0, "claim": "The first cake mix was established during the Great Depression.", "spans": ["9c6e5a3f44:0:0", "9c6e5a3f44:0:1"], "p": 0.94245}
+{"id": "2hop__60229_38663", "claim_idx": 0, "claim": "The first cake mix was established during the Great Depression.", "spans": ["9c6e5a3f44:0:1"], "p": 0.02864}
+{"id": "2hop__60229_38663", "claim_idx": 1, "claim": "The Dow Jones had a total drop of 89% over the following 16 months during the Great Depression.", "spans": ["7e380be8dc:7:1"], "p": 0.29565}
+{"id": "2hop__62020_158262", "claim_idx": 0, "claim": "Jefferson Davis was the only President of the Confederate States from 1861 to 1865.", "spans": ["75aeef2e36:1:0"], "p": 0.98279}
+{"id": "2hop__62020_158262", "claim_idx": 1, "claim": "Jefferson Davis fought in the Mexican–American War (1846–1848) as a colonel of a volunteer regiment.", "spans": ["75aeef2e36:0:4"], "p": 0.95694}
+{"id": "2hop__62020_158262", "claim_idx": 2, "claim": "The Mexican–American War was fought from 1846 to 1848.", "spans": ["bea183706b:1:0"], "p": 0.98497}
+{"id": "2hop__622637_120171", "claim_idx": 0, "claim": "Starship Command was published by Acornsoft.", "spans": ["f06be725f5:0:0"], "p": 0.98844}
+{"id": "2hop__622637_120171", "claim_idx": 1, "claim": "Acornsoft ceased to operate as a separate company in January 1986.", "spans": ["9f3f6998f6:0:0"], "p": 0.97539}
+{"id": "2hop__62311_62279", "claim_idx": 0, "claim": "The American Revolutionary War was between Great Britain and its Thirteen Colonies.", "spans": ["e2f8f5ff31:1:0"], "p": 0.98589}
+{"id": "2hop__62311_62279", "claim_idx": 1, "claim": "In September 1940, the Luftwaffe began targeting British cities in 'The Blitz'.", "spans": ["a3c7937fce:0:3"], "p": 0.98492}
+{"id": "2hop__628752_538661", "claim_idx": 0, "claim": "In the Shadow of Greatness was published by the United States Naval Institute.", "spans": ["96b80362a6:0:0"], "p": 0.98928}
+{"id": "2hop__628752_538661", "claim_idx": 1, "claim": "The United States Naval Institute is based in Annapolis, Maryland.", "spans": ["07a313254e:0:0"], "p": 0.98911}
+{"id": "2hop__631024_18974", "claim_idx": 0, "claim": "Gong Beibi was born in Fujian, China.", "spans": ["386a5251e4:0:0"], "p": 0.99015}
+{"id": "2hop__631024_18974", "claim_idx": 1, "claim": "Chen Zheng led a military expedition to pacify rebellion in Fujian.", "spans": ["c885fc5597:4:0"], "p": 0.98246}
+{"id": "2hop__635185_141338", "claim_idx": 0, "claim": "Marie Rutkoski is a professor at Brooklyn College.", "spans": ["b31e4c865e:0:0"], "p": 0.9882}
+{"id": "2hop__635185_141338", "claim_idx": 1, "claim": "Brooklyn College is part of the City University of New York.", "spans": ["db5f12151b:0:1"], "p": 0.07942}
+{"id": "2hop__63982_768138", "claim_idx": 0, "claim": "Joey on Gimme a Break! was played by Joey Lawrence", "spans": ["418b7a5373:1:2"], "p": 0.93442}
+{"id": "2hop__63982_768138", "claim_idx": 1, "claim": "Joey Lawrence's brothers are Matthew Lawrence and Andy Lawrence", "spans": ["f4ddbd8a3b:0:1"], "p": 0.56249}
+{"id": "2hop__640262_122868", "claim_idx": 0, "claim": "1967: The Last Good Year was written by Pierre Berton.", "spans": ["b1bbf0756a:0:0"], "p": 0.9761}
+{"id": "2hop__640262_122868", "claim_idx": 1, "claim": "Pierre Berton studied at the University of British Columbia.", "spans": ["2e70575056:0:0"], "p": 0.99037}
+{"id": "2hop__642686_7292", "claim_idx": 0, "claim": "Hello Tomorrow is an album by Dave Koz.", "spans": ["66a8358154:0:0"], "p": 0.98191}
+{"id": "2hop__642686_7292", "claim_idx": 1, "claim": "George Benson, Kenny G, and Dave Koz had crossover hits played on smooth jazz and soft AC stations.", "spans": ["57d71d38a5:4:1"], "p": 0.95272}
+{"id": "2hop__65202_712629", "claim_idx": 0, "claim": "The British Virgin Islands' monarch is Elizabeth II.", "spans": ["1fc1b5b29c:0:0"], "p": 0.98878}
+{"id": "2hop__66167_72467", "claim_idx": 0, "claim": "Wilt Chamberlain holds the all-time record for total points scored in a season (4,029).", "spans": ["073ab9bd48:1:0"], "p": 0.96321}
+{"id": "2hop__66167_90991", "claim_idx": 0, "claim": "Greg Oden was drafted first overall by the Portland Trail Blazers.", "spans": ["959f7d5f5c:0:0"], "p": 0.97247}
+{"id": "2hop__66167_90991", "claim_idx": 1, "claim": "Kevin Durant was drafted second overall by the Seattle SuperSonics.", "spans": ["959f7d5f5c:0:2"], "p": 0.9855}
+{"id": "2hop__66167_90991", "claim_idx": 2, "claim": "Kevin Durant is the youngest scoring leader in NBA history, averaging 30.1 points in 2009–10.", "spans": ["073ab9bd48:0:0"], "p": 0.82278}
+{"id": "2hop__669456_108549", "claim_idx": 0, "claim": "Aaron Ashmore is known for his role as Jimmy Olsen on \"Smallville\".", "spans": ["d381a0d209:0:1"], "p": 0.97572}
+{"id": "2hop__669456_108549", "claim_idx": 1, "claim": "Smallville was developed by writer-producers Alfred Gough and Miles Millar.", "spans": ["207defe3fd:0:0"], "p": 0.98663}
+{"id": "2hop__691639_154896", "claim_idx": 0, "claim": "The People's Vanguard Party was a Ba'athist political party in South Yemen.", "spans": ["281f47c426:0:0"], "p": 0.983}
+{"id": "2hop__691639_154896", "claim_idx": 1, "claim": "The South Yemen insurgency has been ongoing since 27 April 2009.", "spans": ["47c3071d1f:0:0"], "p": 0.99006}
+{"id": "2hop__695364_513121", "claim_idx": 0, "claim": "Money (1921) starred Henry Ainley.", "spans": ["425de75127:0:0"], "p": 0.98651}
+{"id": "2hop__695364_513121", "claim_idx": 1, "claim": "Richard Ainley was the son of Henry Ainley.", "spans": ["150dc13a08:0:0"], "p": 0.98974}
+{"id": "2hop__697729_576069", "claim_idx": 0, "claim": "Adolf Overweg died in Maduari, Chad.", "spans": ["484107d7e3:0:3"], "p": 0.9778}
+{"id": "2hop__697729_576069", "claim_idx": 1, "claim": "The Chad Basin is the largest endorheic basin in Africa, centered on Lake Chad.", "spans": ["e95efebfbf:0:0"], "p": 0.97613}
+{"id": "2hop__697729_576069", "claim_idx": 2, "claim": "The Chad Basin includes most of Chad.", "spans": ["e95efebfbf:0:3"], "p": 0.96399}
+{"id": "2hop__697790_864352", "claim_idx": 0, "claim": "Caroline LeRoy was the second wife of Daniel Webster.", "spans": ["974a96bb78:0:0"], "p": 0.98004}
+{"id": "2hop__697790_864352", "claim_idx": 1, "claim": "Fletcher Webster was the son of Daniel Webster.", "spans": ["da45375bf3:0:0"], "p": 0.97656}
+{"id": "2hop__701525_342810", "claim_idx": 0, "claim": "Cedar Springs is an unincorporated community in west Falls County, Texas.", "spans": ["dcd0252ebe:0:0"], "p": 0.96868}
+{"id": "2hop__705035_152093", "claim_idx": 0, "claim": "Crazy Love is an album by Hawk Nelson.", "spans": ["844fa486c6:0:0"], "p": 0.98499}
+{"id": "2hop__70930_7298", "claim_idx": 0, "claim": "The One That Got Away is about Josh Groban.", "spans": ["ba31980545:0:8"], "p": 0.97233}
+{"id": "2hop__70930_7298", "claim_idx": 1, "claim": "Michael Bublé and Josh Groban started out as AC artists.", "spans": ["57d71d38a5:8:0"], "p": 0.9864}
+{"id": "2hop__709357_136043", "claim_idx": 0, "claim": "Move Ya Body was recorded by Nina Sky.", "spans": ["f185342d48:0:0"], "p": 0.98163}
+{"id": "2hop__709357_136043", "claim_idx": 1, "claim": "Nina Sky is composed of identical twins Nicole and Natalie Albino.", "spans": ["9908bfb1e3:0:0"], "p": 0.98577}
+{"id": "2hop__71715_50429", "claim_idx": 0, "claim": "The Dukes of Hazzard is set in Hazzard County, Georgia.", "spans": ["daa9356a3d:1:0"], "p": 0.78264}
+{"id": "2hop__71715_50429", "claim_idx": 1, "claim": "Georgia's population was 10,310,371 in 2016.", "spans": ["e93a290b64:0:0"], "p": 0.98289}
+{"id": "2hop__73069_88165", "claim_idx": 0, "claim": "Abraham married Keturah after the death of Sarah.", "spans": ["63b45495ff:0:1"], "p": 0.9714}
+{"id": "2hop__734582_71302", "claim_idx": 0, "claim": "The Good Shepherd was produced and directed by Robert De Niro.", "spans": ["84902cfe45:0:0"], "p": 0.98542}
+{"id": "2hop__734582_71302", "claim_idx": 1, "claim": "Robert De Niro portrayed Vito Corleone as a young man in The Godfather Part II.", "spans": ["2dbb26c85f:0:1"], "p": 0.89747}
+{"id": "2hop__73615_20510", "claim_idx": 0, "claim": "The British East India Company abolished the system of Dual Government in Bengal.", "spans": ["1bef58764d:0:7"], "p": 0.98347}
+{"id": "2hop__73615_20510", "claim_idx": 1, "claim": "The East India Company received a Royal Charter from Queen Elizabeth I on 31 December 1600.", "spans": ["41bebabf76:6:0"], "p": 0.91044}
+{"id": "2hop__739909_807845", "claim_idx": 0, "claim": "The Daily News is owned by MediaNews Group.", "spans": ["32b1521472:0:0"], "p": 0.9903}
+{"id": "2hop__74084_75184", "claim_idx": 0, "claim": "Michael J. Fox voices Chance in Homeward Bound.", "spans": ["fb929ef08f:0:0"], "p": 0.31311}
+{"id": "2hop__74084_75184", "claim_idx": 1, "claim": "Michael J. Fox stars as Marty McFly in Back to the Future.", "spans": ["ebd4505dc4:0:1"], "p": 0.86586}
+{"id": "2hop__74084_75184", "claim_idx": 2, "claim": "Jennifer Parker is Marty McFly's girlfriend.", "spans": ["cf5c88b678:2:0"], "p": 0.98755}
+{"id": "2hop__74084_75184", "claim_idx": 3, "claim": "Claudia Wells played Jennifer Parker in Back to the Future.", "spans": ["5d7d44d233:0:0"], "p": 0.98474}
+{"id": "2hop__752214_639679", "claim_idx": 0, "claim": "The author of Queen of the Elephants is Mark Shand.", "spans": ["caf915c688:0:0"], "p": 0.98845}
+{"id": "2hop__77775_162341", "claim_idx": 0, "claim": "Philip Seymour Hoffman won the Academy Award for Best Actor for his portrayal of Truman Capote in Capote.", "spans": ["61778c8f4e:0:1"], "p": 0.32202}
+{"id": "2hop__781079_9237", "claim_idx": 0, "claim": "Marshall Islands International Airport is located on Majuro Atoll, the capital of the Marshall Islands.", "spans": ["044e295d48:0:0"], "p": 0.79797}
+{"id": "2hop__781079_9237", "claim_idx": 1, "claim": "The first mosque in the capital opened in September 2012.", "spans": ["bb130626b4:9:1"], "p": 0.98585}
+{"id": "2hop__78873_461854", "claim_idx": 0, "claim": "Vivien Leigh portrayed Scarlett in Gone with the Wind.", "spans": ["c7eef03fd4:2:3"], "p": 0.96479}
+{"id": "2hop__78873_461854", "claim_idx": 1, "claim": "Vivien Leigh's first husband was Herbert Leigh Holman.", "spans": ["6e550350e7:0:1"], "p": 0.98602}
+{"id": "2hop__797443_120537", "claim_idx": 0, "claim": "Avro International Aerospace was formed by British Aerospace to consolidate production of the British Aerospace 146.", "spans": ["fb8f0faba4:0:0"], "p": 0.98269}
+{"id": "2hop__797443_120537", "claim_idx": 1, "claim": "The company became known as BAE Systems on 30 November 1999.", "spans": ["243a569f03:0:1"], "p": 0.98262}
+{"id": "2hop__810411_159673", "claim_idx": 0, "claim": "Now You See Him, Now You Don't stars Kurt Russell.", "spans": ["b85e0a60f5:0:0"], "p": 0.98905}
+{"id": "2hop__810411_159673", "claim_idx": 1, "claim": "Now You See Him, Now You Don't is the sequel to The Computer Wore Tennis Shoes.", "spans": ["b85e0a60f5:0:1"], "p": 0.15882}
+{"id": "2hop__82910_75184", "claim_idx": 0, "claim": "Alex P. Keaton was played by Michael J. Fox.", "spans": ["3c5f8fab93:0:2"], "p": 0.52553}
+{"id": "2hop__82910_75184", "claim_idx": 1, "claim": "Michael J. Fox stars in Back to the Future as Marty McFly.", "spans": ["ebd4505dc4:0:1"], "p": 0.85846}
+{"id": "2hop__82910_75184", "claim_idx": 2, "claim": "Marty McFly's girlfriend is Jennifer Parker.", "spans": ["cf5c88b678:2:0"], "p": 0.98696}
+{"id": "2hop__82910_75184", "claim_idx": 3, "claim": "Claudia Wells played Jennifer Parker in Back to the Future.", "spans": ["5d7d44d233:0:0"], "p": 0.98474}
+{"id": "2hop__83489_747874", "claim_idx": 0, "claim": "Andy Murray is the only person to have won the BBC Sports Personality of the Year first place award three times.", "spans": ["4e7a77a3b8:0:0"], "p": 0.9626}
+{"id": "2hop__83489_747874", "claim_idx": 1, "claim": "Andy Murray and Jamie Murray were the defending champions at the 2011 Valencia Open 500 doubles.", "spans": ["67a8508e8f:0:0"], "p": 0.10626}
+{"id": "2hop__835710_7298", "claim_idx": 0, "claim": "Michael Bublé and Josh Groban started out as adult contemporary artists.", "spans": ["57d71d38a5:8:0"], "p": 0.63761}
+{"id": "2hop__835914_91104", "claim_idx": 0, "claim": "IRS-P2 was launched under the NNRMS programme undertaken by ISRO.", "spans": ["0f0f6aeb73:0:0"], "p": 0.97211}
+{"id": "2hop__835914_91104", "claim_idx": 1, "claim": "GSAT-7 is a communications satellite developed by ISRO.", "spans": ["224faafbf8:0:0"], "p": 0.98538}
+{"id": "2hop__835914_91104", "claim_idx": 2, "claim": "GSAT-7 has been operational since September 2013.", "spans": ["224faafbf8:0:1"], "p": 0.31593}
+{"id": "2hop__835914_91104", "claim_idx": 3, "claim": "ATS-6 was a NASA experimental satellite.", "spans": ["2d478e8dac:0:0"], "p": 0.99079}
+{"id": "2hop__835914_91104", "claim_idx": 4, "claim": "ATS-6 was launched May 30, 1974.", "spans": ["2d478e8dac:0:1"], "p": 0.90041}
+{"id": "2hop__835914_91104", "claim_idx": 5, "claim": "ATS-6 was part of the Satellite Instructional Television Experiment between NASA and ISRO.", "spans": ["2d478e8dac:0:0"], "p": 0.99023}
+{"id": "2hop__839126_472799", "claim_idx": 0, "claim": "Sergio Dalma is the Spanish singer associated with Cadore 33.", "spans": ["4a43c9e3fc:0:0"], "p": 0.74033}
+{"id": "2hop__839126_472799", "claim_idx": 1, "claim": "Sergio Dalma represented Spain at the Eurovision Song Contest 1991.", "spans": ["fb2515fafd:0:0"], "p": 0.97769}
+{"id": "2hop__846921_160249", "claim_idx": 0, "claim": "Pyrrhus was the son of Aeacides of Epirus.", "spans": ["6b5bad523a:0:0"], "p": 0.61786}
+{"id": "2hop__846921_160249", "claim_idx": 1, "claim": "Pyrrhus fought the Romans at Heraclea in 280 BC and Asculum in 279 BC during the Pyrrhic War.", "spans": ["9ab82ec842:0:0"], "p": 0.98254}
+{"id": "2hop__846921_160249", "claim_idx": 2, "claim": "Pyrrhus again met the Roman army at Beneventum in 275 BC.", "spans": ["b6b4ba388a:4:3"], "p": 0.97464}
+{"id": "2hop__852657_155922", "claim_idx": 0, "claim": "Lennox Bridge crosses the Parramatta River.", "spans": ["fd917c118b:0:0"], "p": 0.98895}
+{"id": "2hop__852657_155922", "claim_idx": 1, "claim": "The Parramatta River is the main tributary of Sydney Harbour.", "spans": ["17029b6d85:0:1"], "p": 0.98297}
+{"id": "2hop__853227_68633", "claim_idx": 0, "claim": "Arthur Marryatt represented New Zealand on the International Olympic Committee.", "spans": ["7428edd7db:0:0"], "p": 0.9909}
+{"id": "2hop__853227_68633", "claim_idx": 1, "claim": "The International Olympic Committee has Thomas Bach as president.", "spans": ["e6b2139a3f:0:0"], "p": 0.97791}
+{"id": "2hop__85463_50252", "claim_idx": 0, "claim": "Kim Il-sung was the North Korean leader during the Korean War.", "spans": ["4221ad776a:6:2"], "p": 0.97843}
+{"id": "2hop__857585_14251", "claim_idx": 0, "claim": "George Robey was a Southern Roses cast member.", "spans": ["d29b81ef52:0:0"], "p": 0.98851}
+{"id": "2hop__857585_14251", "claim_idx": 1, "claim": "The archie nickname is believed to derive from George Robey's line \"Archibald, certainly not!\"", "spans": ["72d463532c:14:3"], "p": 0.98958}
+{"id": "2hop__85958_87295", "claim_idx": 0, "claim": "Julie Andrews starred in the original Broadway and London productions of My Fair Lady.", "spans": ["4e48591fb7:0:2"], "p": 0.80316}
+{"id": "2hop__85958_87295", "claim_idx": 1, "claim": "In The Princess Diaries, Julie Andrews plays Queen dowager Clarisse Renaldi.", "spans": ["cee375ea60:0:1"], "p": 0.86292}
+{"id": "2hop__861157_135481", "claim_idx": 0, "claim": "The 1972 Federation Cup was the tenth edition of the most important competition between national teams in women's tennis.", "spans": ["62e159a62a:0:0"], "p": 0.97815}
+{"id": "2hop__861157_135481", "claim_idx": 1, "claim": "The Fed Cup is the premier international team competition in women's tennis, launched to celebrate the 50th anniversary of the International Tennis Federation.", "spans": ["ea9efeba1c:0:0"], "p": 0.93133}
+{"id": "2hop__861157_135481", "claim_idx": 2, "claim": "The competition was known as the Federation Cup until 1995.", "spans": ["ea9efeba1c:0:1"], "p": 0.98377}
+{"id": "2hop__87053_319330", "claim_idx": 0, "claim": "Woodrow Wilson was the 28th President of the United States.", "spans": ["1d716ec9d5:0:0"], "p": 0.98659}
+{"id": "2hop__87053_319330", "claim_idx": 1, "claim": "Woodrow Wilson's children were Margaret, Jessie, and Eleanor.", "spans": ["1d716ec9d5:1:0"], "p": 0.97672}
+{"id": "2hop__87953_17335", "claim_idx": 0, "claim": "The Battle of the Hydaspes was fought between Alexander the Great and King Porus.", "spans": ["5d7df23edf:0:0"], "p": 0.98654}
+{"id": "2hop__87953_17335", "claim_idx": 1, "claim": "The Battle of the Hydaspes resulted in a complete Greek victory.", "spans": ["5d7df23edf:0:1"], "p": 0.53021}
+{"id": "2hop__88372_83837", "claim_idx": 0, "claim": "Home Alone Tonight is a duet by Luke Bryan and Karen Fairchild.", "spans": ["685b9f02cd:0:0"], "p": 0.98834}
+{"id": "2hop__88372_83837", "claim_idx": 1, "claim": "Crash My Party is by Luke Bryan.", "spans": ["72b7891af2:0:0"], "p": 0.98728}
+{"id": "2hop__88953_64006", "claim_idx": 0, "claim": "The Marshall Plan was an American initiative to aid Western Europe.", "spans": ["baa0912b5f:1:0"], "p": 0.99032}
+{"id": "2hop__88953_64006", "claim_idx": 1, "claim": "The Black Death is estimated to have killed 30–60% of Europe's total population.", "spans": ["e5d8af5af2:5:2"], "p": 0.97859}
+{"id": "2hop__92900_512508", "claim_idx": 0, "claim": "James Chadwick discovered the neutron in 1932.", "spans": ["0b6f2f6ce0:0:0"], "p": 0.98674}
+{"id": "2hop__92900_512508", "claim_idx": 1, "claim": "Chadwick carried out research as part of the Tube Alloys project.", "spans": ["7f27e2b763:0:0"], "p": 0.98987}
+{"id": "2hop__93145_54024", "claim_idx": 0, "claim": "England was ruled by James I in 1616.", "spans": ["b3573aab1f:0:0"], "p": 0.52544}
+{"id": "2hop__93145_54024", "claim_idx": 1, "claim": "King James I convened the Hampton Court Conference, where a new English Bible version was conceived.", "spans": ["f462e97856:1:1"], "p": 0.71916}
+{"id": "2hop__93145_54024", "claim_idx": 2, "claim": "The King James Version is an English Bible translation begun in 1604 and completed in 1611.", "spans": ["f462e97856:3:0"], "p": 0.84061}
+{"id": "2hop__9512_36630", "claim_idx": 0, "claim": "Cog-railways were built early in the 20th century in the Alps.", "spans": ["0e9ca0230a:7:1"], "p": 0.91426}
+{"id": "2hop__9512_36630", "claim_idx": 1, "claim": "The United Kingdom and Prussia experienced continued economic growth.", "spans": ["6e280aedd2:2:1"], "p": 0.98648}
+{"id": "2hop__95172_456836", "claim_idx": 0, "claim": "Claudia Cardinale starred in Signora Enrica.", "spans": ["0a82993fab:0:0"], "p": 0.98774}
+{"id": "2hop__95172_456836", "claim_idx": 1, "claim": "Claudia Cardinale was born in La Goulette, a neighborhood of Tunis, in the French protectorate of Tunisia.", "spans": ["820d758cc5:0:0"], "p": 0.814}
+{"id": "2hop__96096_78606", "claim_idx": 0, "claim": "Real Rob was created by Rob Schneider.", "spans": ["a19c1c8493:0:0"], "p": 0.98516}
+{"id": "2hop__96096_78606", "claim_idx": 1, "claim": "In Grown Ups, Rob Schneider's current wife Gloria is played by Joyce Van Patten.", "spans": ["007834a99c:0:9"], "p": 0.85762}
+{"id": "2hop__96410_159054", "claim_idx": 0, "claim": "The Bourne Ultimatum film was loosely based on the novel of the same name by Robert Ludlum.", "spans": ["6d222160ba:0:0"], "p": 0.98328}
+{"id": "2hop__96410_159054", "claim_idx": 1, "claim": "The Bourne Betrayal is a Jason Bourne series novel created by Robert Ludlum.", "spans": ["78feefa943:0:0"], "p": 0.94649}
+{"id": "2hop__96411_159054", "claim_idx": 0, "claim": "The Bourne Deception is the seventh novel in the Jason Bourne series created by Robert Ludlum.", "spans": ["bcd7f24081:0:0"], "p": 0.96403}
+{"id": "2hop__9930_21567", "claim_idx": 0, "claim": "John Kukuzelis introduced a system of notation widely used in the Balkans.", "spans": ["0b5e64c6aa:6:2"], "p": 0.98073}
+{"id": "3hop1__102087_214799_259594", "claim_idx": 0, "claim": "Bernd Baumgart competed for East Germany.", "spans": ["a2244c2358:0:0"], "p": 0.99035}
+{"id": "3hop1__102087_214799_259594", "claim_idx": 1, "claim": "East Germany is the German Democratic Republic.", "spans": ["6ffde3e344:0:2"], "p": 0.98797}
+{"id": "3hop1__103751_24918_24991", "claim_idx": 0, "claim": "After Gorbachev left the Kremlin, the Soviet flag was lowered and the Russian tricolor was raised in its place.", "spans": ["7c179c6ab8:9:0"], "p": 0.98558}
+{"id": "3hop1__104237_214799_259594", "claim_idx": 0, "claim": "Alfred Kurella was a German author and functionary in East Germany.", "spans": ["d0ac6ae4bf:0:0"], "p": 0.98191}
+{"id": "3hop1__104237_214799_259594", "claim_idx": 1, "claim": "East Germany is abbreviated as GDR.", "spans": ["255c274f2c:1:0"], "p": 0.93526}
+{"id": "3hop1__104762_24918_24991", "claim_idx": 0, "claim": "After Gorbachev left the Kremlin, the Soviet flag was lowered for the last time and the Russian tricolor was raised in its place.", "spans": ["7c179c6ab8:9:0"], "p": 0.98514}
+{"id": "3hop1__105126_443779_52195", "claim_idx": 0, "claim": "Gado-gado is widely sold in Indonesia.", "spans": ["28acba305c:0:0"], "p": 0.98756}
+{"id": "3hop1__105126_443779_52195", "claim_idx": 1, "claim": "The truth commission was established jointly by Indonesia and East Timor.", "spans": ["889305a8a7:0:0"], "p": 0.98873}
+{"id": "3hop1__105126_443779_52195", "claim_idx": 2, "claim": "The commission’s final report was handed to the presidents of both nations, and Indonesian President Susilo Bambang Yudhoyono endorsed it.", "spans": ["889305a8a7:0:2"], "p": 0.98932}
+{"id": "3hop1__105767_443779_52195", "claim_idx": 0, "claim": "Kemplang is a traditional savory fish cracker snack commonly found in southern parts of Sumatra, Indonesia.", "spans": ["d4e30fe23e:0:0"], "p": 0.88252}
+{"id": "3hop1__105767_443779_52195", "claim_idx": 1, "claim": "The Indonesia–Timor Leste Commission on Truth and Friendship was established jointly by Indonesia and East Timor.", "spans": ["889305a8a7:0:0"], "p": 0.9847}
+{"id": "3hop1__105767_443779_52195", "claim_idx": 2, "claim": "East Timor's president is Francisco Guterres.", "spans": ["6557aca8cd:0:0"], "p": 0.98617}
+{"id": "3hop1__106042_64399_59680", "claim_idx": 0, "claim": "The Stations of the Cross happened at fourteen sites along the Via Dolorosa.", "spans": ["bcfff8d7b4:0:0"], "p": 0.9685}
+{"id": "3hop1__106042_64399_62676", "claim_idx": 0, "claim": "Jerusalem became the capital of the United Kingdom of Israel after King David's sack of Jerusalem in c. 1000 BCE.", "spans": ["962292ca68:0:0"], "p": 0.98481}
+{"id": "3hop1__106688_160713_77246", "claim_idx": 0, "claim": "Mushkil was an Urdu film released in Pakistan.", "spans": ["6dcd13a79f:0:0"], "p": 0.98809}
+{"id": "3hop1__106688_160713_77246", "claim_idx": 1, "claim": "British India was partitioned into the Dominion of India and the Dominion of Pakistan.", "spans": ["3d7cbe56d3:1:1"], "p": 0.92351}
+{"id": "3hop1__106688_160713_77246", "claim_idx": 2, "claim": "Hinduism is the largest religion in India.", "spans": ["973c52e47c:0:0"], "p": 0.98736}
+{"id": "3hop1__106688_160713_77246", "claim_idx": 3, "claim": "The Arabic equivalent Al-Hind referred to the country of India.", "spans": ["6f7b5a3702:0:6"], "p": 0.97464}
+{"id": "3hop1__106864_160713_77246", "claim_idx": 0, "claim": "Hinduism is the largest religion in India.", "spans": ["973c52e47c:0:0"], "p": 0.98736}
+{"id": "3hop1__106864_160713_77246", "claim_idx": 1, "claim": "The Partition of India created the independent dominions India and Pakistan.", "spans": ["d33a8a9c4e:1:0"], "p": 0.96485}
+{"id": "3hop1__106864_160713_77246", "claim_idx": 2, "claim": "The word Hindu derives from the Sanskrit word Sindhu, meaning a large body of water, river, or ocean.", "spans": ["6f7b5a3702:0:0"], "p": 0.62242}
+{"id": "3hop1__106864_160713_77246", "claim_idx": 3, "claim": "The Arabic equivalent Al-Hind referred to the country of India.", "spans": ["6f7b5a3702:0:6"], "p": 0.97464}
+{"id": "3hop1__109196_720914_41132", "claim_idx": 0, "claim": "The creator of the Malchiostro Annunciation is Titian.", "spans": ["595040c6b6:0:0"], "p": 0.99011}
+{"id": "3hop1__109422_720914_27537", "claim_idx": 0, "claim": "The Punishment of Tythus is a painting by Titian.", "spans": ["381cc27303:0:0"], "p": 0.98983}
+{"id": "3hop1__109422_720914_27537", "claim_idx": 1, "claim": "Roncalli left Venice for the conclave in Rome.", "spans": ["d1b523a2af:0:2"], "p": 0.98809}
+{"id": "3hop1__127821_157828_239539", "claim_idx": 0, "claim": "Olivera Marković was a Serbian actress.", "spans": ["5598d40f8d:0:0"], "p": 0.9883}
+{"id": "3hop1__127821_157828_239539", "claim_idx": 1, "claim": "Serbian is co-official in the territory of Kosovo.", "spans": ["bce3bb23c1:0:1"], "p": 0.97845}
+{"id": "3hop1__127837_157828_239539", "claim_idx": 0, "claim": "Kuhinjica is a culinary magazine in Serbia.", "spans": ["7caeead01c:0:0"], "p": 0.98765}
+{"id": "3hop1__127837_157828_239539", "claim_idx": 1, "claim": "Serbian is co-official in the territory of Kosovo.", "spans": ["bce3bb23c1:0:1"], "p": 0.97845}
+{"id": "3hop1__128516_30587_83479", "claim_idx": 0, "claim": "WEDR is licensed to Miami, Florida.", "spans": ["f26d870b7d:0:0"], "p": 0.98988}
+{"id": "3hop1__128516_30587_83479", "claim_idx": 1, "claim": "The Battle of the Atlantic included Germany's subsequent counter-blockade.", "spans": ["51be534175:1:1"], "p": 0.85143}
+{"id": "3hop1__129499_33897_81096", "claim_idx": 0, "claim": "The Poachie Range is located in Arizona.", "spans": ["a132a33f4c:0:0"], "p": 0.99002}
+{"id": "3hop1__129499_33897_81096", "claim_idx": 1, "claim": "Phoenix is the largest city in Arizona.", "spans": ["104fd3fd53:0:3"], "p": 0.81234}
+{"id": "3hop1__129499_33897_81096", "claim_idx": 2, "claim": "Mario Andretti's final career victory came in the 1993 Indy car race at Phoenix.", "spans": ["4197408733:0:2"], "p": 0.96528}
+{"id": "3hop1__131110_39743_24526", "claim_idx": 0, "claim": "Walnut Spring is in Montgomery County, Virginia.", "spans": ["9b84319141:0:0"], "p": 0.95589}
+{"id": "3hop1__131110_39743_24526", "claim_idx": 1, "claim": "Richmond is in the Piedmont region of Virginia.", "spans": ["b0bac1ccf5:7:2"], "p": 0.96178}
+{"id": "3hop1__131110_39743_24526", "claim_idx": 2, "claim": "In winter, Piedmont daytime temperatures usually average in the upper 40s–lower 50s °F (8–12 °C).", "spans": ["8ddbb9fd49:10:0"], "p": 0.89078}
+{"id": "3hop1__131829_39743_24526", "claim_idx": 0, "claim": "WXBX is licensed to Rural Retreat, Virginia.", "spans": ["fde29f8f3a:0:0"], "p": 0.99018}
+{"id": "3hop1__131829_39743_24526", "claim_idx": 1, "claim": "In winter, the Piedmont’s daytime temperatures usually average in the upper 40s–lower 50s °F (8–12 °C).", "spans": ["8ddbb9fd49:10:0"], "p": 0.94919}
+{"id": "3hop1__133292_40769_64047", "claim_idx": 0, "claim": "The facelift was unveiled at the March 2012 Geneva Motor Show with new head and tail lamps and new grilles.", "spans": ["a0a7e1bd88:0:1"], "p": 0.97276}
+{"id": "3hop1__133292_40769_64047", "claim_idx": 1, "claim": "Sales began worldwide in April 2012 for the RX 350 and RX 450h.", "spans": ["a0a7e1bd88:0:5"], "p": 0.98586}
+{"id": "3hop1__135793_87694_64412", "claim_idx": 0, "claim": "San Pietro in Ciel d'Oro means Saint Peter in Golden Sky, referring to Saint Peter.", "spans": ["001cbd1845:0:0"], "p": 0.26479}
+{"id": "3hop1__135793_87694_64412", "claim_idx": 1, "claim": "St. Peter's Basilica is in Vatican City.", "spans": ["d3a1d22178:1:0"], "p": 0.99122}
+{"id": "3hop1__135793_87694_64412", "claim_idx": 2, "claim": "Vatican City was established as a modern city-state by the Lateran Treaty signed on 11 February 1929.", "spans": ["136f5db5de:0:0"], "p": 0.91686}
+{"id": "3hop1__136016_87694_124169", "claim_idx": 0, "claim": "Leeds Minster is dedicated to Saint Peter.", "spans": ["c3db6741d8:0:2"], "p": 0.96786}
+{"id": "3hop1__136016_87694_124169", "claim_idx": 1, "claim": "No successor was appointed to the Governor of Vatican City, and the post was not mentioned in the Fundamental Law that entered into force on 22 February 2001.", "spans": ["12e871b9d1:0:1"], "p": 0.37382}
+{"id": "3hop1__136016_87694_64412", "claim_idx": 0, "claim": "Leeds Minster is dedicated to Saint Peter.", "spans": ["c3db6741d8:0:2"], "p": 0.96786}
+{"id": "3hop1__136016_87694_64412", "claim_idx": 1, "claim": "St. Peter's Basilica is located in Vatican City.", "spans": ["d3a1d22178:1:0"], "p": 0.99125}
+{"id": "3hop1__136016_87694_64412", "claim_idx": 2, "claim": "Vatican City was established as a modern city-state by the Lateran Treaty signed on 11 February 1929.", "spans": ["136f5db5de:0:0"], "p": 0.91686}
+{"id": "3hop1__139773_88110_77129", "claim_idx": 0, "claim": "The Rachel Maddow Show airs on MSNBC.", "spans": ["5c7cbbcab9:0:0"], "p": 0.99141}
+{"id": "3hop1__139773_88110_77129", "claim_idx": 1, "claim": "MSNBC's name came from a partnership between Microsoft and NBC.", "spans": ["1ef8d0f312:0:2"], "p": 0.98716}
+{"id": "3hop1__139773_88110_77129", "claim_idx": 2, "claim": "Hyper-V is Microsoft Hyper-V.", "spans": ["04ae3c2fb8:0:0"], "p": 0.71081}
+{"id": "3hop1__139773_88110_77129", "claim_idx": 3, "claim": "Hyper-V became the hardware virtualization component of client editions of Windows NT starting with Windows 8.", "spans": ["04ae3c2fb8:0:1"], "p": 0.95277}
+{"id": "3hop1__139787_88110_77129", "claim_idx": 0, "claim": "Buchanan & Press aired on MSNBC.", "spans": ["bd7e813f9e:0:0"], "p": 0.9909}
+{"id": "3hop1__139787_88110_77129", "claim_idx": 1, "claim": "MSNBC's name comes from Microsoft and NBC.", "spans": ["1ef8d0f312:0:2"], "p": 0.98374}
+{"id": "3hop1__139787_88110_77129", "claim_idx": 2, "claim": "Hyper-V became a client Windows component starting with Windows 8.", "spans": ["04ae3c2fb8:0:1"], "p": 0.91095}
+{"id": "3hop1__140994_2053_52946", "claim_idx": 0, "claim": "Hello, Larry aired on NBC.", "spans": ["8113466145:0:0"], "p": 0.99074}
+{"id": "3hop1__140994_2053_52946", "claim_idx": 1, "claim": "ABC, CBS, and NBC are the three major American broadcast networks headquartered in New York.", "spans": ["1b29325950:38:1"], "p": 0.96119}
+{"id": "3hop1__140994_2053_52946", "claim_idx": 2, "claim": "Celebrity Big Brother premiered on February 7, 2018.", "spans": ["a95258ed71:1:4"], "p": 0.87}
+{"id": "3hop1__141138_2053_5289", "claim_idx": 0, "claim": "The three major American broadcast networks are all headquartered in New York: ABC, CBS, and NBC.", "spans": ["1b29325950:38:1"], "p": 0.98599}
+{"id": "3hop1__141138_2053_52946", "claim_idx": 0, "claim": "CBS is one of the three major American broadcast networks headquartered in New York, along with ABC and NBC.", "spans": ["1b29325950:38:1"], "p": 0.94502}
+{"id": "3hop1__141138_2053_52946", "claim_idx": 1, "claim": "Celebrity Big Brother is set to air on CBS.", "spans": ["09fdc75f90:0:0"], "p": 0.98697}
+{"id": "3hop1__141138_2053_52946", "claim_idx": 2, "claim": "CBS announced that the series is set to premiere on February 7, 2018.", "spans": ["a95258ed71:2:4"], "p": 0.98289}
+{"id": "3hop1__144678_443779_52195", "claim_idx": 0, "claim": "Bustami is an Indonesian footballer.", "spans": ["a66fcd2bf9:0:0"], "p": 0.9903}
+{"id": "3hop1__144678_443779_52195", "claim_idx": 1, "claim": "The Commission on Truth and Friendship was established jointly by the governments of Indonesia and East Timor.", "spans": ["889305a8a7:0:0"], "p": 0.98298}
+{"id": "3hop1__144678_443779_52195", "claim_idx": 2, "claim": "East Timor's president is Francisco Guterres.", "spans": ["6557aca8cd:0:0"], "p": 0.98617}
+{"id": "3hop1__144678_443779_52195", "claim_idx": 3, "claim": "East Timor declared independence on 28 November 1975.", "spans": ["6557aca8cd:0:0"], "p": 0.98616}
+{"id": "3hop1__145427_106426_157788", "claim_idx": 0, "claim": "The Longest Night in Shanghai was produced by Japan's Movie Eye Entertainment.", "spans": ["121728fa07:0:0"], "p": 0.989}
+{"id": "3hop1__145427_106426_157788", "claim_idx": 1, "claim": "You Wenhui was born in Shanghai.", "spans": ["e4060f2116:0:0"], "p": 0.99056}
+{"id": "3hop1__145427_106426_157788", "claim_idx": 2, "claim": "The Yamanote Line is a railway loop line in Tokyo, Japan.", "spans": ["a5bf8f6f96:0:0"], "p": 0.20793}
+{"id": "3hop1__161507_160713_77246", "claim_idx": 0, "claim": "Masherbrum is located in Pakistan.", "spans": ["ebd67f5711:0:0"], "p": 0.98962}
+{"id": "3hop1__161507_160713_77246", "claim_idx": 1, "claim": "Hinduism is the largest religion in India.", "spans": ["973c52e47c:0:0"], "p": 0.98736}
+{"id": "3hop1__161507_160713_77246", "claim_idx": 2, "claim": "The word Hindu is derived from the Sanskrit word Sindhu.", "spans": ["6f7b5a3702:0:0"], "p": 0.96269}
+{"id": "3hop1__161507_160713_77246", "claim_idx": 3, "claim": "The Arabic equivalent Al-Hind referred to the country of India.", "spans": ["6f7b5a3702:0:6"], "p": 0.97464}
+{"id": "3hop1__19768_19788_10117", "claim_idx": 0, "claim": "Islam is the most widely practised religion in Southeast Asia.", "spans": ["d1ba5116b6:2:0"], "p": 0.98626}
+{"id": "3hop1__19768_19788_10117", "claim_idx": 1, "claim": "Islam arrived in Zhejiang 1,400 years ago.", "spans": ["288d992343:3:0"], "p": 0.98335}
+{"id": "3hop1__210639_147339_47686", "claim_idx": 0, "claim": "Scene in the Northwest: Portrait of John Henry Lefroy is by Paul Kane.", "spans": ["22ac15fa85:0:0"], "p": 0.98239}
+{"id": "3hop1__222380_443779_52195", "claim_idx": 0, "claim": "Buru Regency is in Indonesia.", "spans": ["99d7fad294:0:0"], "p": 0.98546}
+{"id": "3hop1__222380_443779_52195", "claim_idx": 1, "claim": "The Commission on Truth and Friendship was established jointly by Indonesia and East Timor.", "spans": ["889305a8a7:0:0"], "p": 0.9858}
+{"id": "3hop1__222380_443779_52195", "claim_idx": 2, "claim": "East Timor's president is Francisco Guterres.", "spans": ["6557aca8cd:0:0"], "p": 0.98617}
+{"id": "3hop1__222497_309482_27537", "claim_idx": 0, "claim": "Al gran sole carico d'amore has music by Luigi Nono", "spans": ["315bbca60c:0:0"], "p": 0.9903}
+{"id": "3hop1__222497_309482_27537", "claim_idx": 1, "claim": "Roncalli was appointed Patriarch of Venice on 12 January 1953", "spans": ["d1b523a2af:3:0"], "p": 0.97463}
+{"id": "3hop1__222497_309482_27537", "claim_idx": 2, "claim": "Roncalli left France for Venice on 23 February 1953", "spans": ["d1b523a2af:3:1"], "p": 0.98593}
+{"id": "3hop1__222497_309482_80702", "claim_idx": 0, "claim": "Al gran sole carico d'amore has music by Luigi Nono", "spans": ["315bbca60c:0:0"], "p": 0.9903}
+{"id": "3hop1__222979_40769_64047", "claim_idx": 0, "claim": "The facelift was unveiled at the March 2012 Geneva Motor Show.", "spans": ["a0a7e1bd88:0:1"], "p": 0.98385}
+{"id": "3hop1__222979_40769_64047", "claim_idx": 1, "claim": "Sales began worldwide in April 2012 for the RX 350 and RX 450h.", "spans": ["a0a7e1bd88:0:5"], "p": 0.98586}
+{"id": "3hop1__239036_15840_36014", "claim_idx": 0, "claim": "Nintendo limited each third-party developer to five games per year.", "spans": ["22566f49c6:0:0"], "p": 0.98334}
+{"id": "3hop1__243276_42197_18397", "claim_idx": 0, "claim": "Norair Sisakian was a Member of the Presidium of the Academy of Sciences of the USSR.", "spans": ["6beb92936a:0:0"], "p": 0.98341}
+{"id": "3hop1__243276_42197_18397", "claim_idx": 1, "claim": "Mao Zedong argued that the Soviet Union had itself become an imperialist power.", "spans": ["91a07d7911:6:9"], "p": 0.97545}
+{"id": "3hop1__243276_42197_18397", "claim_idx": 2, "claim": "Mao Zedong reported to the Politburo that he would intervene in Korea.", "spans": ["4221ad776a:15:1"], "p": 0.98844}
+{"id": "3hop1__24980_42197_18397", "claim_idx": 0, "claim": "Mao Zedong argued that the Soviet Union had become an imperialist power.", "spans": ["91a07d7911:6:9"], "p": 0.97399}
+{"id": "3hop1__24980_42197_18397", "claim_idx": 1, "claim": "Mao reported to the Politburo that he would intervene in Korea.", "spans": ["4221ad776a:15:1"], "p": 0.99004}
+{"id": "3hop1__273571_834494_34109", "claim_idx": 0, "claim": "Summit is located in Pima County, Arizona.", "spans": ["b8b1e8754e:0:0"], "p": 0.95158}
+{"id": "3hop1__273571_834494_34109", "claim_idx": 1, "claim": "Tucson is a city in Pima County, Arizona.", "spans": ["109a10e9db:7:0"], "p": 0.92599}
+{"id": "3hop1__273571_834494_34109", "claim_idx": 2, "claim": "KUAT-TV 6 is a PBS affiliate.", "spans": ["109a10e9db:4:2"], "p": 0.9877}
+{"id": "3hop1__275261_443779_52195", "claim_idx": 0, "claim": "Pantar is in Indonesia.", "spans": ["138606186a:0:0"], "p": 0.98605}
+{"id": "3hop1__275261_443779_52195", "claim_idx": 1, "claim": "The commission was established jointly by Indonesia and East Timor.", "spans": ["889305a8a7:0:0"], "p": 0.98882}
+{"id": "3hop1__275261_443779_52195", "claim_idx": 2, "claim": "Francisco Guterres is the President of East Timor.", "spans": ["6557aca8cd:0:0"], "p": 0.97945}
+{"id": "3hop1__280834_547811_80702", "claim_idx": 0, "claim": "Bajazet was composed by Antonio Vivaldi.", "spans": ["6b399503c6:0:0"], "p": 0.99005}
+{"id": "3hop1__280834_547811_80702", "claim_idx": 1, "claim": "Antonio Vivaldi was born in Venice.", "spans": ["e5efee2bde:0:1"], "p": 0.98432}
+{"id": "3hop1__28404_160713_77246", "claim_idx": 0, "claim": "Hinduism is the largest religion in India.", "spans": ["973c52e47c:0:0"], "p": 0.98736}
+{"id": "3hop1__28404_160713_77246", "claim_idx": 1, "claim": "The Arabic equivalent Al-Hind referred to the country of India.", "spans": ["6f7b5a3702:0:6"], "p": 0.97464}
+{"id": "3hop1__287291_375759_84283", "claim_idx": 0, "claim": "The Tri-Tone Fascination was released through Eye Reckon Records.", "spans": ["a37056fc38:0:0"], "p": 0.99056}
+{"id": "3hop1__28841_547811_41132", "claim_idx": 0, "claim": "Antonio Vivaldi composed the Concerto in C major Op.3 6.", "spans": ["7af2d04324:0:0"], "p": 0.97209}
+{"id": "3hop1__28841_547811_41132", "claim_idx": 1, "claim": "Antonio Vivaldi was born in Venice.", "spans": ["e5efee2bde:0:1"], "p": 0.98432}
+{"id": "3hop1__28841_547811_41132", "claim_idx": 2, "claim": "Plague occurred in Venice 22 times between 1361 and 1528.", "spans": ["e5d8af5af2:0:5"], "p": 0.98479}
+{"id": "3hop1__320697_547811_41132", "claim_idx": 0, "claim": "Nulla in mundo pax sincera was composed by Antonio Vivaldi.", "spans": ["ec38f0c605:0:0"], "p": 0.99121}
+{"id": "3hop1__320697_547811_41132", "claim_idx": 1, "claim": "Antonio Vivaldi was born in Venice.", "spans": ["e5efee2bde:0:1"], "p": 0.98432}
+{"id": "3hop1__320697_547811_41132", "claim_idx": 2, "claim": "Plague occurred in Venice 22 times between 1361 and 1528.", "spans": ["e5d8af5af2:0:5"], "p": 0.98479}
+{"id": "3hop1__346812_15840_36014", "claim_idx": 0, "claim": "Nintendo required third-party developers to only make five games per year on the NES.", "spans": ["3e1648e164:2:5"], "p": 0.96976}
+{"id": "3hop1__347858_503371_21711", "claim_idx": 0, "claim": "Castiliscar is located in Aragon, Spain.", "spans": ["c8f3ceaf9f:0:0"], "p": 0.98234}
+{"id": "3hop1__347858_503371_21711", "claim_idx": 1, "claim": "Martin of Aragon was King of Aragon.", "spans": ["c28ee6665b:0:0"], "p": 0.98939}
+{"id": "3hop1__347858_503371_21711", "claim_idx": 2, "claim": "The Palau de la Generalitat in Barcelona was built in the 15th century.", "spans": ["4135232696:2:2"], "p": 0.98888}
+{"id": "3hop1__354480_834494_33939", "claim_idx": 0, "claim": "Eric Marcus Municipal Airport is in Pima County, Arizona.", "spans": ["17856b1b09:0:0"], "p": 0.95633}
+{"id": "3hop1__354480_834494_33939", "claim_idx": 1, "claim": "Tucson is located in Pima County.", "spans": ["109a10e9db:2:5"], "p": 0.95054}
+{"id": "3hop1__354480_834494_33939", "claim_idx": 2, "claim": "By 1900, 7,531 people lived in Tucson.", "spans": ["109a10e9db:2:0"], "p": 0.46717}
+{"id": "3hop1__365934_87694_64412", "claim_idx": 0, "claim": "Mantua Cathedral is dedicated to Saint Peter.", "spans": ["5c679c6dfb:0:0"], "p": 0.98999}
+{"id": "3hop1__365934_87694_64412", "claim_idx": 1, "claim": "Saint Peter's Basilica is associated with Saint Peter's remains.", "spans": ["3d521b7e0d:0:3"], "p": 0.98049}
+{"id": "3hop1__365934_87694_64412", "claim_idx": 2, "claim": "The pope is the direct papal successor to Saint Peter.", "spans": ["3d521b7e0d:0:5"], "p": 0.97458}
+{"id": "3hop1__365934_87694_64412", "claim_idx": 3, "claim": "Vatican City was established as a modern city-state by the Lateran Treaty signed on 11 February 1929.", "spans": ["136f5db5de:0:0"], "p": 0.91686}
+{"id": "3hop1__38426_91850_685675", "claim_idx": 0, "claim": "Jorge Posada hit the first Yankee home run in the new ballpark.", "spans": ["c86c5efb84:0:4"], "p": 0.97794}
+{"id": "3hop1__38738_73181_68042", "claim_idx": 0, "claim": "The Senate bill gave regulators discretion but not obligation to prohibit proprietary trades.", "spans": ["7e380be8dc:9:3"], "p": 0.98475}
+{"id": "3hop1__38738_73181_68042", "claim_idx": 1, "claim": "The current Senate majority is Republican.", "spans": ["22b32e3bf9:2:0"], "p": 0.98011}
+{"id": "3hop1__38738_73181_68042", "claim_idx": 2, "claim": "Republicans regained control of the House in the 2010 elections.", "spans": ["4cf26fa652:0:0"], "p": 0.2626}
+{"id": "3hop1__433054_831637_91775", "claim_idx": 0, "claim": "SEAL stands for Sea, Air, and Land.", "spans": ["1d14c86acf:1:2"], "p": 0.86954}
+{"id": "3hop1__446612_160545_60577", "claim_idx": 0, "claim": "The Beach was filmed on the Thai island Koh Phi Phi.", "spans": ["90c3320320:1:2"], "p": 0.68865}
+{"id": "3hop1__454441_55349_651302", "claim_idx": 0, "claim": "The Hobbit is an episode of South Park.", "spans": ["40af4fa1e5:0:0"], "p": 0.9901}
+{"id": "3hop1__454441_55349_651302", "claim_idx": 1, "claim": "Trey Parker voices Stan Marsh.", "spans": ["360058cf79:0:0"], "p": 0.96419}
+{"id": "3hop1__458916_665330_47686", "claim_idx": 0, "claim": "Spirit If... is the debut solo album by Kevin Drew.", "spans": ["ccd33c4510:0:0"], "p": 0.98357}
+{"id": "3hop1__458916_665330_47686", "claim_idx": 1, "claim": "Kevin Drew co-founded the Toronto collective Broken Social Scene.", "spans": ["bb29317803:0:0"], "p": 0.9906}
+{"id": "3hop1__469478_15840_36014", "claim_idx": 0, "claim": "Sunman was planned for the Nintendo Entertainment System.", "spans": ["1613c2e39e:0:0"], "p": 0.98938}
+{"id": "3hop1__469478_15840_36014", "claim_idx": 1, "claim": "The Nintendo Entertainment System is abbreviated as NES.", "spans": ["3e1648e164:4:0"], "p": 0.98853}
+{"id": "3hop1__469478_15840_36014", "claim_idx": 2, "claim": "Nintendo required third-party developers to only make five games per year.", "spans": ["3e1648e164:2:5"], "p": 0.98871}
+{"id": "3hop1__483634_720378_15538", "claim_idx": 0, "claim": "Howard Mill is located in Lake County, California.", "spans": ["3bcf1f4f0d:0:0"], "p": 0.95155}
+{"id": "3hop1__487301_443779_52195", "claim_idx": 0, "claim": "Kaimana is located in Indonesia.", "spans": ["6eb8f0b68a:0:0"], "p": 0.9847}
+{"id": "3hop1__487301_443779_52195", "claim_idx": 1, "claim": "The Commission on Truth and Friendship was established by Indonesia and East Timor.", "spans": ["889305a8a7:0:0"], "p": 0.98617}
+{"id": "3hop1__487301_443779_52195", "claim_idx": 2, "claim": "The president of East Timor is Francisco Guterres.", "spans": ["6557aca8cd:0:0"], "p": 0.98282}
+{"id": "3hop1__491648_339990_54675", "claim_idx": 0, "claim": "Coles Creek is in Columbia County, Pennsylvania.", "spans": ["fef3f210c8:0:0"], "p": 0.93231}
+{"id": "3hop1__49236_89752_54221", "claim_idx": 0, "claim": "The Handmaid's Tale is set in a near-future New England.", "spans": ["57532d5258:1:1"], "p": 0.95659}
+{"id": "3hop1__49236_89752_54221", "claim_idx": 1, "claim": "Maine is the largest state in New England by area.", "spans": ["73973b9cdf:0:1"], "p": 0.34996}
+{"id": "3hop1__49236_89752_54221", "claim_idx": 2, "claim": "Alcohol may be sold in Maine starting at 5am.", "spans": ["f0bd1cdd63:0:0"], "p": 0.16469}
+{"id": "3hop1__506062_792411_51423", "claim_idx": 0, "claim": "When I Was a Boy is a 1993 album by Jane Siberry.", "spans": ["cade6b57a1:0:0"], "p": 0.98417}
+{"id": "3hop1__51933_40769_64047", "claim_idx": 0, "claim": "The facelift was unveiled at the March 2012 Geneva Motor Show.", "spans": ["a0a7e1bd88:0:1"], "p": 0.98385}
+{"id": "3hop1__51933_40769_64047", "claim_idx": 1, "claim": "Sales began worldwide in April 2012 for the RX 350 and RX 450h.", "spans": ["a0a7e1bd88:0:5"], "p": 0.98586}
+{"id": "3hop1__534450_831637_91775", "claim_idx": 0, "claim": "SEAL stands for Sea, Air, and Land.", "spans": ["1d14c86acf:1:0"], "p": 0.87688}
+{"id": "3hop1__534450_831637_91775", "claim_idx": 1, "claim": "USS Chinquapin was built for the United States Navy.", "spans": ["1debd32848:0:0"], "p": 0.9851}
+{"id": "3hop1__534450_831637_91775", "claim_idx": 2, "claim": "USS Macdonough was a destroyer in the United States Navy.", "spans": ["64cc65cf82:0:0"], "p": 0.98867}
+{"id": "3hop1__586087_339990_54675", "claim_idx": 0, "claim": "McCauley Mountain is in Columbia County, Pennsylvania.", "spans": ["7a6c2a1534:0:0"], "p": 0.97572}
+{"id": "3hop1__603558_87694_64412", "claim_idx": 0, "claim": "San Pietro in Ciel d'Oro is named after Saint Peter.", "spans": ["001cbd1845:0:0"], "p": 0.87857}
+{"id": "3hop1__603558_87694_64412", "claim_idx": 1, "claim": "St. Peter's Basilica is located in Vatican City.", "spans": ["d3a1d22178:1:0"], "p": 0.99125}
+{"id": "3hop1__603558_87694_64412", "claim_idx": 2, "claim": "Vatican City was established as a modern city-state by the Lateran Treaty signed on 11 February 1929.", "spans": ["136f5db5de:0:0"], "p": 0.91686}
+{"id": "3hop1__617062_127905_80487", "claim_idx": 0, "claim": "Jim Wilson was released by the Indians following the 1986 season.", "spans": ["ff65128285:0:0"], "p": 0.96402}
+{"id": "3hop1__617062_127905_80487", "claim_idx": 1, "claim": "The Indians compete in Major League Baseball (MLB).", "spans": ["1c0416bb3a:0:1"], "p": 0.98829}
+{"id": "3hop1__617062_127905_80487", "claim_idx": 2, "claim": "The 2018 MLB All-Star Game was played on July 17, 2018.", "spans": ["b5369992bf:0:1"], "p": 0.96386}
+{"id": "3hop1__617062_127905_89859", "claim_idx": 0, "claim": "Jim Wilson was released by the Indians following the 1986 season.", "spans": ["ff65128285:0:0"], "p": 0.96402}
+{"id": "3hop1__617062_127905_89859", "claim_idx": 1, "claim": "Major League Baseball is a professional baseball organization.", "spans": ["1b96554f7e:0:0"], "p": 0.98792}
+{"id": "3hop1__622497_160088_73916", "claim_idx": 0, "claim": "The Wild Women of Chastity Gulch is an American film.", "spans": ["9bc52354a1:0:0"], "p": 0.99095}
+{"id": "3hop1__622497_160088_73916", "claim_idx": 1, "claim": "The Wild Women of Chastity Gulch was executive produced by Aaron Spelling.", "spans": ["9bc52354a1:0:1"], "p": 0.64496}
+{"id": "3hop1__622497_160088_73916", "claim_idx": 2, "claim": "The mean household income in the United States was $72,641.", "spans": ["cd981bd031:0:5"], "p": 0.9725}
+{"id": "3hop1__640171_228453_10972", "claim_idx": 0, "claim": "Blanton's is produced and marketed by the Sazerac Company.", "spans": ["8fcda5a5b8:0:0"], "p": 0.98095}
+{"id": "3hop1__652852_2053_52946", "claim_idx": 0, "claim": "The three major American broadcast networks headquartered in New York are ABC, CBS, and NBC.", "spans": ["1b29325950:38:1"], "p": 0.96117}
+{"id": "3hop1__652852_2053_52946", "claim_idx": 1, "claim": "Celebrity Big Brother aired on CBS during the winter of the 2017–18 network television season.", "spans": ["a95258ed71:1:1"], "p": 0.80821}
+{"id": "3hop1__652852_2053_52946", "claim_idx": 2, "claim": "The season premiered on February 7, 2018.", "spans": ["a95258ed71:1:4"], "p": 0.98392}
+{"id": "3hop1__654651_55349_651302", "claim_idx": 0, "claim": "Insecurity is an episode of South Park.", "spans": ["484de1aaea:0:0"], "p": 0.99036}
+{"id": "3hop1__654651_55349_651302", "claim_idx": 1, "claim": "Trey Parker voices Stan Marsh.", "spans": ["360058cf79:0:0"], "p": 0.96419}
+{"id": "3hop1__673934_831637_91775", "claim_idx": 0, "claim": "SEAL stands for Sea, Air, and Land.", "spans": ["1d14c86acf:1:2"], "p": 0.86954}
+{"id": "3hop1__67704_237521_291682", "claim_idx": 0, "claim": "Michael Jackson recorded \"Rock with You\".", "spans": ["c096f62624:0:0"], "p": 0.98157}
+{"id": "3hop1__67704_237521_291682", "claim_idx": 1, "claim": "The Michael Jackson documentary was produced by David Gest.", "spans": ["809a4171e0:0:0"], "p": 0.9809}
+{"id": "3hop1__67704_237521_291682", "claim_idx": 2, "claim": "David Gest was then-husband of Liza Minnelli.", "spans": ["ae0634f26d:0:0"], "p": 0.988}
+{"id": "3hop1__68732_39743_24526", "claim_idx": 0, "claim": "The Battle of Fredericksburg was fought at Fredericksburg, Virginia.", "spans": ["11c328410d:0:0"], "p": 0.98687}
+{"id": "3hop1__68732_39743_24526", "claim_idx": 1, "claim": "Richmond is in the Piedmont region of Virginia.", "spans": ["b0bac1ccf5:7:2"], "p": 0.96178}
+{"id": "3hop1__68732_39743_24526", "claim_idx": 2, "claim": "In winter, the Piedmont averages upper 40s–lower 50s °F (8–12 °C) during the day.", "spans": ["8ddbb9fd49:10:0"], "p": 0.94984}
+{"id": "3hop1__68981_91191_156667", "claim_idx": 0, "claim": "Islam is the most widely practised religion in Southeast Asia.", "spans": ["d1ba5116b6:2:0"], "p": 0.98626}
+{"id": "3hop1__694534_160088_49779", "claim_idx": 0, "claim": "MacGruder and Loud was from Aaron Spelling's production company.", "spans": ["615239d9be:0:0"], "p": 0.39184}
+{"id": "3hop1__694534_160088_49779", "claim_idx": 1, "claim": "Aaron Spelling was an American film and television producer.", "spans": ["ab8f22ae4f:0:0"], "p": 0.98703}
+{"id": "3hop1__694534_160088_49779", "claim_idx": 2, "claim": "The original U.S. version of Who Wants to Be a Millionaire was hosted by Regis Philbin.", "spans": ["55e9b47d84:0:0"], "p": 0.9852}
+{"id": "3hop1__694534_160088_73916", "claim_idx": 0, "claim": "MacGruder and Loud was from Aaron Spelling's production company.", "spans": ["615239d9be:0:0"], "p": 0.39184}
+{"id": "3hop1__694534_160088_73916", "claim_idx": 1, "claim": "Aaron Spelling was American.", "spans": ["ab8f22ae4f:0:0"], "p": 0.99054}
+{"id": "3hop1__694534_160088_73916", "claim_idx": 2, "claim": "The mean household income in the United States was $72,641.", "spans": ["cd981bd031:0:5"], "p": 0.9725}
+{"id": "3hop1__698501_503371_21711", "claim_idx": 0, "claim": "Sisamón is located in Aragon, Spain.", "spans": ["c85b17b284:0:0"], "p": 0.98211}
+{"id": "3hop1__698501_503371_21711", "claim_idx": 1, "claim": "Martin was King of Aragon.", "spans": ["c28ee6665b:0:0"], "p": 0.99027}
+{"id": "3hop1__698501_503371_21711", "claim_idx": 2, "claim": "The Palau de la Generalitat in Barcelona was built in the 15th century.", "spans": ["4135232696:2:2"], "p": 0.98888}
+{"id": "3hop1__715607_792411_51423", "claim_idx": 0, "claim": "A Collection 1984–1989 is a compilation by Jane Siberry.", "spans": ["47b6d4a127:0:0"], "p": 0.95326}
+{"id": "3hop1__742464_15840_36002", "claim_idx": 0, "claim": "Robodemons was released for the Nintendo Entertainment System.", "spans": ["43d6a4328f:0:0"], "p": 0.98918}
+{"id": "3hop1__742464_15840_36002", "claim_idx": 1, "claim": "The NES is an 8-bit console.", "spans": ["3e1648e164:4:0"], "p": 0.98715}
+{"id": "3hop1__742464_15840_36002", "claim_idx": 2, "claim": "The Sega Genesis is a 16-bit console.", "spans": ["826b292b1b:0:0"], "p": 0.9858}
+{"id": "3hop1__742464_15840_36002", "claim_idx": 3, "claim": "The Genesis offered improved graphics and sound over the 8-bit NES.", "spans": ["22566f49c6:3:2"], "p": 0.45113}
+{"id": "3hop1__765565_326948_86925", "claim_idx": 0, "claim": "\"Here Come the Girls\" was originally recorded by Ernie K-Doe.", "spans": ["5841fbe993:0:0"], "p": 0.98985}
+{"id": "3hop1__765565_326948_86925", "claim_idx": 1, "claim": "The New Orleans Saints are based in New Orleans, Louisiana.", "spans": ["a7ca6b93b4:0:0"], "p": 0.98488}
+{"id": "3hop1__773338_42197_18397", "claim_idx": 0, "claim": "Yuri Bogatyryov was a Soviet actor.", "spans": ["55aae7f2d9:0:0"], "p": 0.99131}
+{"id": "3hop1__773338_42197_18397", "claim_idx": 1, "claim": "Mao Zedong argued that the Soviet Union had become an imperialist power.", "spans": ["91a07d7911:6:9"], "p": 0.97399}
+{"id": "3hop1__773338_42197_18397", "claim_idx": 2, "claim": "Mao Zedong reported to the Politburo that he would intervene in Korea.", "spans": ["4221ad776a:15:1"], "p": 0.98844}
+{"id": "3hop1__786067_228453_86925", "claim_idx": 0, "claim": "McAfee's Benchmark is produced by the Sazerac Company.", "spans": ["67eea36000:0:0"], "p": 0.9893}
+{"id": "3hop1__786067_228453_86925", "claim_idx": 1, "claim": "The New Orleans Saints are based in New Orleans.", "spans": ["a7ca6b93b4:0:0"], "p": 0.98713}
+{"id": "3hop1__791757_15840_36014", "claim_idx": 0, "claim": "Knight Rider is a video game for the Nintendo Entertainment System.", "spans": ["bb215d88d9:0:0"], "p": 0.98426}
+{"id": "3hop1__791757_15840_36014", "claim_idx": 1, "claim": "Nintendo required third-party developers to only make five games per year.", "spans": ["3e1648e164:2:5"], "p": 0.98871}
+{"id": "3hop1__816887_127905_80286", "claim_idx": 0, "claim": "Dick Aylward received his MLB trial with Cleveland.", "spans": ["dbae314f72:0:3"], "p": 0.98639}
+{"id": "3hop1__816887_127905_80286", "claim_idx": 1, "claim": "Pete Rose holds the Major League record for most career hits, with 4,256.", "spans": ["c23d4fccc9:0:0"], "p": 0.98456}
+{"id": "3hop1__818422_160545_60577", "claim_idx": 0, "claim": "Beatrice Heuser was born in Bangkok.", "spans": ["4659e97499:0:0"], "p": 0.99048}
+{"id": "3hop1__818422_160545_60577", "claim_idx": 1, "claim": "Bangkok is the capital of Thailand.", "spans": ["a2b7c120c9:0:3"], "p": 0.61683}
+{"id": "3hop1__818422_160545_60577", "claim_idx": 2, "claim": "The Beach was filmed on the Thai island Koh Phi Phi.", "spans": ["90c3320320:1:2"], "p": 0.68865}
+{"id": "3hop1__820301_720914_27537", "claim_idx": 0, "claim": "Pope Pius XII died on 9 October 1958.", "spans": ["d1b523a2af:0:0"], "p": 0.98789}
+{"id": "3hop1__820301_720914_27537", "claim_idx": 1, "claim": "Roncalli left Venice for the conclave in Rome.", "spans": ["d1b523a2af:0:2"], "p": 0.98809}
+{"id": "3hop1__820301_720914_41132", "claim_idx": 0, "claim": "The Crucifixion of St Julia is by Hieronymus Bosch.", "spans": ["404d475a16:0:0"], "p": 0.98076}
+{"id": "3hop1__820301_720914_41132", "claim_idx": 1, "claim": "The painting is housed at the Palazzo Ducale in Venice.", "spans": ["404d475a16:0:2"], "p": 0.23997}
+{"id": "3hop1__831162_831637_91775", "claim_idx": 0, "claim": "USS Dour was built for the United States Navy.", "spans": ["91e5dd52b4:0:0"], "p": 0.98506}
+{"id": "3hop1__831162_831637_91775", "claim_idx": 1, "claim": "The Navy SEALs are part of the U.S. Navy.", "spans": ["1d14c86acf:1:0"], "p": 0.9903}
+{"id": "3hop1__831162_831637_91775", "claim_idx": 2, "claim": "SEAL stands for Sea, Air, and Land.", "spans": ["1d14c86acf:1:0"], "p": 0.87688}
+{"id": "3hop1__837871_831637_91775", "claim_idx": 0, "claim": "SEAL stands for Sea, Air, and Land.", "spans": ["1d14c86acf:1:0"], "p": 0.87688}
+{"id": "3hop1__841091_339990_54675", "claim_idx": 0, "claim": "Knob Mountain is in Pennsylvania.", "spans": ["73effd1a9e:0:0"], "p": 0.98993}
+{"id": "3hop1__857_846_7769", "claim_idx": 0, "claim": "The edict was addressed to the Karmapa.", "spans": ["3fece4079a:18:0"], "p": 0.99164}
+{"id": "3hop1__857_846_7769", "claim_idx": 1, "claim": "The Yongle Emperor greeted the Karmapa in Nanjing.", "spans": ["3fece4079a:7:2"], "p": 0.98741}
+{"id": "3hop1__857_846_7769", "claim_idx": 2, "claim": "Nanjing has a total land area of 2,548 square miles.", "spans": ["16c8ceee4c:20:0"], "p": 0.98481}
+{"id": "3hop1__857_846_7770", "claim_idx": 0, "claim": "The edict was addressed to the Karmapa.", "spans": ["3fece4079a:18:0"], "p": 0.99164}
+{"id": "3hop1__857_846_7770", "claim_idx": 1, "claim": "The Yongle Emperor greeted the Karmapa in Nanjing.", "spans": ["3fece4079a:7:2"], "p": 0.98741}
+{"id": "3hop1__857_846_7770", "claim_idx": 2, "claim": "The Yangtze River flows past the west side and then north side of Nanjing City.", "spans": ["16c8ceee4c:20:1"], "p": 0.97369}
+{"id": "3hop1__857_846_7877", "claim_idx": 0, "claim": "Nanjing has two major sports centers.", "spans": ["16c8ceee4c:26:0"], "p": 0.98286}
+{"id": "3hop1__857_846_7877", "claim_idx": 1, "claim": "Deshin Shekpa presided over religious ceremonies for the Yongle Emperor's deceased parents at Linggu Temple in Nanjing.", "spans": ["3fece4079a:21:1"], "p": 0.9547}
+{"id": "3hop1__857_846_7877", "claim_idx": 2, "claim": "The edict was addressed to the Karmapa.", "spans": ["3fece4079a:18:0"], "p": 0.99164}
+{"id": "3hop1__865037_214799_259594", "claim_idx": 0, "claim": "Rainer Ernst is a former German footballer who played for East Germany.", "spans": ["adefe119f8:0:0"], "p": 0.98688}
+{"id": "3hop1__865037_214799_259594", "claim_idx": 1, "claim": "The German Federal Border Guard was a German border force.", "spans": ["fea625e204:0:1"], "p": 0.95943}
+{"id": "3hop1__92991_73181_68042", "claim_idx": 0, "claim": "The 2014 elections gave Republicans control of the Senate.", "spans": ["124483a1a6:0:2"], "p": 0.98882}
+{"id": "3hop1__92991_73181_68042", "claim_idx": 1, "claim": "John Boehner was elected Speaker when the House reconvened in 2011.", "spans": ["bf3d635f88:3:3"], "p": 0.98473}
+{"id": "3hop1__92991_73181_68042", "claim_idx": 2, "claim": "The Speaker is traditionally the leader of the controlling party.", "spans": ["b04f0f3567:3:0"], "p": 0.98064}
+{"id": "3hop2__11282_57233_56883", "claim_idx": 0, "claim": "Compulsory National Service for 20-year-old males was introduced in 1964.", "spans": ["6a1451756a:0:0"], "p": 0.97918}
+{"id": "3hop2__11282_57233_56883", "claim_idx": 1, "claim": "The Things They Carried is about the Vietnam War.", "spans": ["c5bb809564:0:0"], "p": 0.98865}
+{"id": "3hop2__125104_90098_10557", "claim_idx": 0, "claim": "Rotrude was the second daughter of Charlemagne.", "spans": ["aa253dbfd8:0:0"], "p": 0.98802}
+{"id": "3hop2__125104_90098_10557", "claim_idx": 1, "claim": "The expanded Frankish state Charlemagne founded is called the Carolingian Empire.", "spans": ["0f0736bc66:0:3"], "p": 0.98314}
+{"id": "3hop2__125104_90098_10557", "claim_idx": 2, "claim": "Sylvester is a name derived from the Latin adjective silvestris.", "spans": ["15d40dfc56:0:0"], "p": 0.96871}
+{"id": "3hop2__132957_295815_40768", "claim_idx": 0, "claim": "The Acura Legend was manufactured by Honda.", "spans": ["dd5486303a:0:0"], "p": 0.98636}
+{"id": "3hop2__132957_295815_40768", "claim_idx": 1, "claim": "Toyopet Master was among Toyota's Toyopet vehicles.", "spans": ["5983871b10:1:1"], "p": 0.97019}
+{"id": "3hop2__132957_295815_40768", "claim_idx": 2, "claim": "Honda, Toyota, and Nissan began building US plants by the early 1980s.", "spans": ["5983871b10:0:2"], "p": 0.88937}
+{"id": "3hop2__132957_295815_40768", "claim_idx": 3, "claim": "Honda, Toyota and Nissan opened US assembly plants a decade after the 1973 oil crisis.", "spans": ["0d48dc8d64:2:1"], "p": 0.98714}
+{"id": "3hop2__132957_433432_40768", "claim_idx": 0, "claim": "Honda, Toyota and Nissan opened US assembly plants a decade after the 1973 oil crisis.", "spans": ["0d48dc8d64:2:1"], "p": 0.98714}
+{"id": "3hop2__132957_483843_40768", "claim_idx": 0, "claim": "The Acura Legend was manufactured by Honda.", "spans": ["dd5486303a:0:0"], "p": 0.98636}
+{"id": "3hop2__132957_483843_40768", "claim_idx": 1, "claim": "The Scion bbX was revealed by Toyota for Scion.", "spans": ["66d0445151:0:0"], "p": 0.94528}
+{"id": "3hop2__132957_483843_40768", "claim_idx": 2, "claim": "Honda, Toyota and Nissan opened US assembly plants a decade after the 1973 oil crisis.", "spans": ["0d48dc8d64:2:1"], "p": 0.98714}
+{"id": "3hop2__14777_8533_9331", "claim_idx": 0, "claim": "The legal privileges of the szlachta were abolished in the Second Polish Republic by the March Constitution of 1921.", "spans": ["ec2f3e5be2:1:2"], "p": 0.77679}
+{"id": "3hop2__14777_8533_9331", "claim_idx": 1, "claim": "The Russian Empire used Pan-Slavism as a political tool.", "spans": ["4be7079cec:5:2"], "p": 0.98151}
+{"id": "3hop2__14777_8533_9331", "claim_idx": 2, "claim": "The North German Confederation was led by the Kingdom of Prussia.", "spans": ["854dd95116:3:2"], "p": 0.99087}
+{"id": "3hop2__14777_8533_9331", "claim_idx": 3, "claim": "The partitioning powers included the Russian Empire, the Kingdom of Prussia, and the Habsburg Monarchy.", "spans": ["ec2f3e5be2:1:1"], "p": 0.98543}
+{"id": "3hop2__19639_90098_10557", "claim_idx": 0, "claim": "Sylvester derives from the Latin adjective silvestris.", "spans": ["15d40dfc56:0:0"], "p": 0.98137}
+{"id": "3hop2__19639_90098_10557", "claim_idx": 1, "claim": "By the 9th century, large tribes in modern Germany were united under Charlemagne.", "spans": ["b5ccc8c3dd:10:4"], "p": 0.98359}
+{"id": "3hop2__19639_90098_10557", "claim_idx": 2, "claim": "By Charlemagne's reign, Latin had diverged from Classical Latin and was later called Medieval Latin.", "spans": ["2079b48b1e:3:8"], "p": 0.84038}
+{"id": "3hop2__222979_133099_40768", "claim_idx": 0, "claim": "Honda fitted the Comstar wheel to its motorcycles", "spans": ["b210a6fb02:0:0"], "p": 0.98959}
+{"id": "3hop2__222979_133099_40768", "claim_idx": 1, "claim": "Scion is a marque of Toyota", "spans": ["bd39821d91:0:0"], "p": 0.98284}
+{"id": "3hop2__222979_133099_40768", "claim_idx": 2, "claim": "Toyota, Nissan and Honda began building US plants by the early 1980s", "spans": ["5983871b10:0:2"], "p": 0.97797}
+{"id": "3hop2__30152_105895_20999", "claim_idx": 0, "claim": "Phoe Pyonn Cho is a Myanmar drama film.", "spans": ["6e89cee8b3:0:0"], "p": 0.9861}
+{"id": "3hop2__30152_105895_20999", "claim_idx": 1, "claim": "The Ajuran Empire defied the Portuguese economic monopoly by employing a new coinage.", "spans": ["a1785f35ee:7:2"], "p": 0.98242}
+{"id": "3hop2__30152_105895_20999", "claim_idx": 2, "claim": "The dynasty defeated the Portuguese in 1613.", "spans": ["928b7c48a6:11:0"], "p": 0.96687}
+{"id": "3hop2__304722_667199_63959", "claim_idx": 0, "claim": "Malcolm Briggs played in the Football League for Birmingham City.", "spans": ["61b5c75a12:0:0"], "p": 0.98874}
+{"id": "3hop2__326964_320101_7713", "claim_idx": 0, "claim": "Noel Lee was born in Nanjing, China.", "spans": ["eb61b8b0a7:0:0"], "p": 0.98437}
+{"id": "3hop2__326964_320101_7713", "claim_idx": 1, "claim": "Yaxing Coach is based in Yangzhou, Jiangsu, China.", "spans": ["1970d9c033:0:0"], "p": 0.9839}
+{"id": "3hop2__326964_320101_7713", "claim_idx": 2, "claim": "Nanjing is the capital city of Jiangsu province.", "spans": ["16c8ceee4c:14:1"], "p": 0.98105}
+{"id": "3hop2__326964_36852_7713", "claim_idx": 0, "claim": "The Qing lost Nanjing in 1853.", "spans": ["743b048422:0:0"], "p": 0.98991}
+{"id": "3hop2__326964_36852_7713", "claim_idx": 1, "claim": "Yaxing Coach is based in Yangzhou, Jiangsu.", "spans": ["1970d9c033:0:0"], "p": 0.9878}
+{"id": "3hop2__326964_36852_7713", "claim_idx": 2, "claim": "Nanjing is the capital city of Jiangsu province.", "spans": ["16c8ceee4c:14:1"], "p": 0.98105}
+{"id": "3hop2__326964_36852_7713", "claim_idx": 3, "claim": "Nanjing has served as Jiangsu's capital since China was established and still does.", "spans": ["16c8ceee4c:19:3"], "p": 0.75649}
+{"id": "3hop2__326964_573858_7713", "claim_idx": 0, "claim": "China Sunergy is based in Nanjing, Jiangsu.", "spans": ["b5dc06f536:0:0"], "p": 0.98551}
+{"id": "3hop2__326964_573858_7713", "claim_idx": 1, "claim": "Yaxing Coach is based in Yangzhou, Jiangsu.", "spans": ["1970d9c033:0:0"], "p": 0.9878}
+{"id": "3hop2__326964_573858_7713", "claim_idx": 2, "claim": "Nanjing is the capital city of Jiangsu province.", "spans": ["16c8ceee4c:14:1"], "p": 0.98105}
+{"id": "3hop2__326964_573858_7713", "claim_idx": 3, "claim": "Nanjing has served as Jiangsu's capital since China was established.", "spans": ["16c8ceee4c:19:3"], "p": 0.95601}
+{"id": "3hop2__326964_573858_7713", "claim_idx": 4, "claim": "The People's Republic of China was established in 1949.", "spans": ["4cdd644269:0:5"], "p": 0.98622}
+{"id": "3hop2__326964_7845_7713", "claim_idx": 0, "claim": "Yaxing Coach is based in Yangzhou, Jiangsu, China.", "spans": ["1970d9c033:0:0"], "p": 0.9839}
+{"id": "3hop2__326964_7845_7713", "claim_idx": 1, "claim": "Nanjing has served as the capital city of Jiangsu province since China was established.", "spans": ["16c8ceee4c:19:3"], "p": 0.94218}
+{"id": "3hop2__326964_7855_7713", "claim_idx": 0, "claim": "Yaxing Coach is based in Yangzhou, Jiangsu, China.", "spans": ["1970d9c033:0:0"], "p": 0.9839}
+{"id": "3hop2__326964_7855_7713", "claim_idx": 1, "claim": "Nanjing had been the capital city of Yangzhou for about 400 years from late Han to early Tang.", "spans": ["16c8ceee4c:2:9"], "p": 0.97911}
+{"id": "3hop2__38242_92991_76291", "claim_idx": 0, "claim": "Republicans held congressional majorities in 1953–55.", "spans": ["bf3d635f88:3:0"], "p": 0.98529}
+{"id": "3hop2__43283_12039_93690", "claim_idx": 0, "claim": "Houston is the city where degree-holders tend to stay.", "spans": ["3ac6c1a95c:7:2"], "p": 0.98281}
+{"id": "3hop2__43283_12039_93690", "claim_idx": 1, "claim": "The American League leads the All-Star Game series with 44 victories.", "spans": ["7136ef0348:0:1"], "p": 0.91728}
+{"id": "3hop2__43283_12039_93690", "claim_idx": 2, "claim": "The Astros played in the National League from 1962 to 2012.", "spans": ["f5e79b5eb7:3:0"], "p": 0.97038}
+{"id": "3hop2__49541_140712_51068", "claim_idx": 0, "claim": "Monsterpiece Theater is a parody of the PBS show Masterpiece Theatre.", "spans": ["3f489291de:0:0"], "p": 0.98664}
+{"id": "3hop2__49541_140712_51068", "claim_idx": 1, "claim": "Queen Victoria was Queen of the United Kingdom from 1837 until her death.", "spans": ["9e79b81a3a:8:0"], "p": 0.97296}
+{"id": "3hop2__49541_140712_51068", "claim_idx": 2, "claim": "Jenna Coleman played Queen Victoria in the ITV biographical drama series Victoria.", "spans": ["7ef4a9028e:0:1"], "p": 0.97767}
+{"id": "3hop2__57233_105140_56883", "claim_idx": 0, "claim": "The Things They Carried is set during the Vietnam War.", "spans": ["c5bb809564:0:0"], "p": 0.98688}
+{"id": "3hop2__57233_105140_56883", "claim_idx": 1, "claim": "Grievous Bodily Harm was released in Australia.", "spans": ["e2d857601f:0:0"], "p": 0.98311}
+{"id": "3hop2__57233_105140_56883", "claim_idx": 2, "claim": "Australia introduced compulsory National Service in 1964.", "spans": ["6a1451756a:0:0"], "p": 0.75689}
+{"id": "3hop2__57233_11282_56883", "claim_idx": 0, "claim": "Compulsory National Service for 20-year-old males was introduced in 1964 under the National Service Act (1964).", "spans": ["6a1451756a:0:0"], "p": 0.97618}
+{"id": "3hop2__60649_90098_10557", "claim_idx": 0, "claim": "Charlemagne was King of the Franks and Holy Roman Emperor from 800.", "spans": ["0f0736bc66:1:0"], "p": 0.31007}
+{"id": "3hop2__60649_90098_10557", "claim_idx": 1, "claim": "Sylvester is derived from the Latin adjective silvestris.", "spans": ["15d40dfc56:0:0"], "p": 0.98084}
+{"id": "3hop2__655849_467331_162182", "claim_idx": 0, "claim": "A Lưới is a district in Vietnam's North Central Coast region.", "spans": ["b5dbf31db1:0:0"], "p": 0.96539}
+{"id": "3hop2__655849_467331_162182", "claim_idx": 1, "claim": "The Zone 5 Military Museum is located in Da Nang, Vietnam.", "spans": ["9703f195ac:0:0"], "p": 0.98808}
+{"id": "3hop2__668732_223623_162182", "claim_idx": 0, "claim": "An Phú is in the Mekong Delta region of Vietnam.", "spans": ["113b5b98c6:0:0"], "p": 0.98724}
+{"id": "3hop2__668732_223623_162182", "claim_idx": 1, "claim": "John Phan was born in Da Nang, Vietnam.", "spans": ["46d190ed9c:0:0"], "p": 0.98759}
+{"id": "3hop2__69814_76873_64554", "claim_idx": 0, "claim": "Memoirs of a Geisha is set before and after World War II.", "spans": ["8d89e25194:0:1"], "p": 0.93631}
+{"id": "3hop2__69814_76873_64554", "claim_idx": 1, "claim": "The Cold War divided Germany between the Allies in the west and Soviets in the east.", "spans": ["32f3d42e6a:0:0"], "p": 0.98492}
+{"id": "3hop2__69814_76873_64554", "claim_idx": 2, "claim": "The Cold War was between the Soviet Union and the United States.", "spans": ["4221ad776a:11:3"], "p": 0.98907}
+{"id": "3hop2__781093_223623_162182", "claim_idx": 0, "claim": "Lâm Thao is in Vietnam.", "spans": ["6f07cbaaa4:0:0"], "p": 0.98862}
+{"id": "3hop2__781093_223623_162182", "claim_idx": 1, "claim": "John Phan was born in Da Nang, Vietnam.", "spans": ["46d190ed9c:0:0"], "p": 0.98759}
+{"id": "3hop2__782397_467331_162182", "claim_idx": 0, "claim": "Phu Luong is in Vietnam.", "spans": ["1ef8a73790:0:3"], "p": 0.98457}
+{"id": "3hop2__782397_467331_162182", "claim_idx": 1, "claim": "The Zone 5 Military Museum is in Da Nang, Vietnam.", "spans": ["9703f195ac:0:0"], "p": 0.98872}
+{"id": "3hop2__809962_89048_66294", "claim_idx": 0, "claim": "The singer of \"Is She Really Going Out with Him?\" is Joe Jackson.", "spans": ["646fe1f0fd:0:0"], "p": 0.95119}
+{"id": "3hop2__809962_89048_66294", "claim_idx": 1, "claim": "\"Speechless\" is a song by Michael Jackson.", "spans": ["a8a5f89747:0:0"], "p": 0.98974}
+{"id": "3hop2__809962_89048_66294", "claim_idx": 2, "claim": "Lawrence Hilton-Jacobs played Joseph Jackson, the Jacksons' patriarch.", "spans": ["e98024423b:1:0"], "p": 0.97067}
+{"id": "3hop2__851134_613770_7713", "claim_idx": 0, "claim": "Pfrang Association is based in Nanjing, China.", "spans": ["48795edaf6:0:0"], "p": 0.98989}
+{"id": "3hop2__851134_613770_7713", "claim_idx": 1, "claim": "Guangling District is in Yangzhou, Jiangsu province, China.", "spans": ["4507f00945:0:0"], "p": 0.97187}
+{"id": "3hop2__89048_228_66294", "claim_idx": 0, "claim": "Joe Jackson released \"Is She Really Going Out with Him?\"", "spans": ["646fe1f0fd:0:0"], "p": 0.98017}
+{"id": "3hop2__89048_228_66294", "claim_idx": 1, "claim": "Lawrence Hilton-Jacobs played Joseph Jackson in The Jacksons: An American Dream.", "spans": ["e98024423b:1:0"], "p": 0.84783}
+{"id": "3hop2__89854_38738_76291", "claim_idx": 0, "claim": "Republicans held a majority of seats in the House.", "spans": ["bf3d635f88:2:1"], "p": 0.80998}
+{"id": "3hop2__89854_38738_76291", "claim_idx": 1, "claim": "The Senate bill gave regulators discretion to prohibit proprietary trades.", "spans": ["7e380be8dc:9:3"], "p": 0.95135}
+{"id": "3hop2__89854_38738_76291", "claim_idx": 2, "claim": "The 2014 elections gave Republicans control of the Senate.", "spans": ["124483a1a6:0:2"], "p": 0.98882}
+{"id": "3hop2__90098_125104_10557", "claim_idx": 0, "claim": "Sylvester derives from the Latin adjective silvestris.", "spans": ["15d40dfc56:0:0"], "p": 0.98137}
+{"id": "3hop2__90098_125104_10557", "claim_idx": 1, "claim": "Rotrude was the second daughter of Charlemagne.", "spans": ["aa253dbfd8:0:0"], "p": 0.98802}
+{"id": "3hop2__90098_125104_10557", "claim_idx": 2, "claim": "By Charlemagne's reign, Latin had diverged from the classical and was later called Medieval Latin.", "spans": ["2079b48b1e:3:8"], "p": 0.87569}
+{"id": "3hop2__90098_79978_10557", "claim_idx": 0, "claim": "Sylvester derives from the Latin adjective silvestris.", "spans": ["15d40dfc56:0:0"], "p": 0.98137}
+{"id": "3hop2__90098_79978_10557", "claim_idx": 1, "claim": "Charlemagne was crowned emperor in 800.", "spans": ["094b3dbcb4:0:2"], "p": 0.98802}
+{"id": "3hop2__90098_79978_10557", "claim_idx": 2, "claim": "By Charlemagne's reign, Latin was later called Medieval Latin.", "spans": ["2079b48b1e:3:8"], "p": 0.96416}
+{"id": "3hop2__90327_89854_76291", "claim_idx": 0, "claim": "Republicans held a majority of seats in the House of Representatives.", "spans": ["bf3d635f88:2:1"], "p": 0.83148}
+{"id": "3hop2__90327_89854_76291", "claim_idx": 1, "claim": "The Senate confirms cabinet members nominated by the President.", "spans": ["1710c74e51:0:0"], "p": 0.95144}
+{"id": "3hop2__90327_89854_76291", "claim_idx": 2, "claim": "The 2014 elections gave Republicans control of the Senate.", "spans": ["124483a1a6:0:2"], "p": 0.98882}
+{"id": "3hop2__90327_89854_76291", "claim_idx": 3, "claim": "The 114th Congress met from January 3, 2015.", "spans": ["124483a1a6:0:1"], "p": 0.73236}
+{"id": "3hop2__92991_38326_76291", "claim_idx": 0, "claim": "Stewart and Harlan were conservative Republicans.", "spans": ["51d4baa654:19:1"], "p": 0.98648}
+{"id": "3hop2__92991_38326_76291", "claim_idx": 1, "claim": "The Senate has power to establish its rules.", "spans": ["41f66a3587:0:1"], "p": 0.96532}
+{"id": "3hop2__92991_38326_76291", "claim_idx": 2, "claim": "The Republican Party controlled the US Senate after the election of 1918.", "spans": ["75d21a2447:0:0"], "p": 0.99016}
+{"id": "4hop1__105401_17130_70784_61381", "claim_idx": 0, "claim": "Strangers No More is about a school in Tel Aviv, Israel.", "spans": ["17f6918a07:0:0"], "p": 0.98791}
+{"id": "4hop1__105401_17130_70784_61381", "claim_idx": 1, "claim": "Israel shares a land border with Lebanon to the north.", "spans": ["4c197dfd67:7:2"], "p": 0.97911}
+{"id": "4hop1__130404_59747_211319_557671", "claim_idx": 0, "claim": "WDXQ is licensed to Cochran, Georgia.", "spans": ["9511975664:0:0"], "p": 0.98963}
+{"id": "4hop1__130404_59747_211319_557671", "claim_idx": 1, "claim": "Atlanta is the capital and largest city of Georgia.", "spans": ["e93a290b64:0:0"], "p": 0.96963}
+{"id": "4hop1__131002_53706_795904_580996", "claim_idx": 0, "claim": "The Shakespeare Bridge is in Los Angeles, California.", "spans": ["87ababdc98:0:0"], "p": 0.98725}
+{"id": "4hop1__131002_53706_795904_580996", "claim_idx": 1, "claim": "Samuel Brannan set up a store and walked through San Francisco during the California Gold Rush.", "spans": ["47297dde68:0:1"], "p": 0.40045}
+{"id": "4hop1__13170_32392_823060_610794", "claim_idx": 0, "claim": "South Carolina was the first state to secede.", "spans": ["b4813b17d6:4:2"], "p": 0.98535}
+{"id": "4hop1__13170_32392_823060_610794", "claim_idx": 1, "claim": "Columbia is the capital of South Carolina.", "spans": ["e7a5c5abb8:0:0"], "p": 0.98354}
+{"id": "4hop1__145087_32392_823060_610794", "claim_idx": 0, "claim": "Velma Barfield was born in rural South Carolina.", "spans": ["c278d46c28:0:0"], "p": 0.98255}
+{"id": "4hop1__145087_32392_823060_610794", "claim_idx": 1, "claim": "Columbia is the capital of South Carolina.", "spans": ["e7a5c5abb8:0:0"], "p": 0.98354}
+{"id": "4hop1__145087_32392_823060_610794", "claim_idx": 2, "claim": "Columbia extends into neighboring Lexington County.", "spans": ["e7a5c5abb8:0:1"], "p": 0.8863}
+{"id": "4hop1__151650_5274_458768_33637", "claim_idx": 0, "claim": "Desde El Principio was the duo's final album for the Sony Music Entertainment label.", "spans": ["0bc2ccdf18:0:0"], "p": 0.98449}
+{"id": "4hop1__151650_5274_458768_33637", "claim_idx": 1, "claim": "Universal Music Group is the largest of the Big Three record companies, with SME middle-sized.", "spans": ["942109af33:7:3"], "p": 0.84599}
+{"id": "4hop1__151903_5274_458768_33637", "claim_idx": 0, "claim": "The Lost Trident Sessions was released through Sony Music Entertainment.", "spans": ["2febf61fd8:0:0"], "p": 0.99009}
+{"id": "4hop1__151903_5274_458768_33637", "claim_idx": 1, "claim": "Egypt's ethnic minorities include Abazas, Turks, Greeks, Bedouin Arab tribes, Siwis, and Nubian communities.", "spans": ["1c39abf68e:6:1"], "p": 0.51881}
+{"id": "4hop1__151903_5274_458768_33637", "claim_idx": 2, "claim": "Egypt also has tribal Beja communities and Dom clans.", "spans": ["1c39abf68e:6:2"], "p": 0.97892}
+{"id": "4hop1__151903_5274_458768_33677", "claim_idx": 0, "claim": "The Lost Trident Sessions was released through Sony Music Entertainment.", "spans": ["2febf61fd8:0:0"], "p": 0.99009}
+{"id": "4hop1__151903_5274_458768_33677", "claim_idx": 1, "claim": "The Right Stuff Records is based out of Santa Monica, California and is now owned by Universal Music Group.", "spans": ["08a12ac9ca:0:0"], "p": 0.96808}
+{"id": "4hop1__151903_5274_458768_33677", "claim_idx": 2, "claim": "Santa Monica received the Bicycle Friendly Community Award Silver in 2013.", "spans": ["a4318eab24:3:2"], "p": 0.98096}
+{"id": "4hop1__15567_59747_211319_557671", "claim_idx": 0, "claim": "Demarcus Sears remains under a death sentence in Georgia.", "spans": ["e3891c24e2:1:1"], "p": 0.98532}
+{"id": "4hop1__15567_59747_211319_557671", "claim_idx": 1, "claim": "Atlanta is the capital and largest city of Georgia.", "spans": ["e93a290b64:0:0"], "p": 0.96963}
+{"id": "4hop1__15567_59747_211319_557671", "claim_idx": 2, "claim": "Riverdale is a city in Clayton County, Georgia.", "spans": ["d3ca334dae:0:0"], "p": 0.97792}
+{"id": "4hop1__15567_59747_211319_557671", "claim_idx": 3, "claim": "Riverdale is part of the Atlanta metropolitan area.", "spans": ["d3ca334dae:0:2"], "p": 0.9881}
+{"id": "4hop1__15607_59747_211319_557671", "claim_idx": 0, "claim": "Armed robbery is a capital crime in Georgia.", "spans": ["e3891c24e2:11:0"], "p": 0.98708}
+{"id": "4hop1__15607_59747_211319_557671", "claim_idx": 1, "claim": "Atlanta is the capital and largest city of Georgia.", "spans": ["e93a290b64:0:0"], "p": 0.96963}
+{"id": "4hop1__159467_725495_49925_267352", "claim_idx": 0, "claim": "In New Zealand, Roman Catholicism is 12.6%.", "spans": ["a2238e9190:0:3"], "p": 0.95776}
+{"id": "4hop1__159467_725495_49925_267352", "claim_idx": 1, "claim": "The Catholic Church is active in Lesotho.", "spans": ["dce8144abd:0:1"], "p": 0.02195}
+{"id": "4hop1__159467_725495_49925_267352", "claim_idx": 2, "claim": "Martin Luther started the Reformation.", "spans": ["35149df0e9:0:0"], "p": 0.97391}
+{"id": "4hop1__159467_725495_49925_349426", "claim_idx": 0, "claim": "Roman Catholicism is the denomination constituting 12.6% in New Zealand.", "spans": ["a2238e9190:0:3"], "p": 0.94615}
+{"id": "4hop1__159467_725495_49925_349426", "claim_idx": 1, "claim": "Katharina von Bora was the wife of Martin Luther, the German reformer.", "spans": ["ba4b334bad:0:0"], "p": 0.98371}
+{"id": "4hop1__199362_378185_282674_759393", "claim_idx": 0, "claim": "WAPL is licensed to Appleton, Wisconsin.", "spans": ["e37ee9f4f6:0:0"], "p": 0.99049}
+{"id": "4hop1__199362_378185_282674_759393", "claim_idx": 1, "claim": "John C. Petersen was from Appleton, Wisconsin and served from Outagamie County.", "spans": ["327c674db6:0:0"], "p": 0.95722}
+{"id": "4hop1__264443_49925_13759_736921", "claim_idx": 0, "claim": "Edward Egan was a Roman Catholic cardinal.", "spans": ["7b767a9b21:0:0"], "p": 0.98952}
+{"id": "4hop1__264443_49925_13759_736921", "claim_idx": 1, "claim": "Luther was a reformer who preached about veneration of Mary.", "spans": ["b5e4027f84:1:6"], "p": 0.988}
+{"id": "4hop1__264443_49925_13759_736921", "claim_idx": 2, "claim": "Luther's final thoughts on Marian devotion are preserved in a sermon preached at Wittenberg before his death.", "spans": ["b5e4027f84:1:10"], "p": 0.50701}
+{"id": "4hop1__264443_49925_13759_736921", "claim_idx": 3, "claim": "Wittenberg is a district in the east of Saxony-Anhalt, Germany.", "spans": ["4f67812fc5:0:0"], "p": 0.97364}
+{"id": "4hop1__31050_725495_49925_267352", "claim_idx": 0, "claim": "John Knox urged his countrymen to reform the Church in line with Calvinist doctrines.", "spans": ["3cc9e8dfd2:7:0"], "p": 0.99038}
+{"id": "4hop1__31050_725495_49925_267352", "claim_idx": 1, "claim": "The Protestant reform in Scotland was led, among others, by John Knox.", "spans": ["14e8254c42:0:1"], "p": 0.98131}
+{"id": "4hop1__324759_765799_282674_759393", "claim_idx": 0, "claim": "Pierce Manufacturing is based in Appleton, Wisconsin.", "spans": ["e43191aed4:0:0"], "p": 0.98832}
+{"id": "4hop1__324759_765799_282674_759393", "claim_idx": 1, "claim": "Appleton is associated with Outagamie County.", "spans": ["327c674db6:0:0"], "p": 0.97557}
+{"id": "4hop1__324759_765799_282674_759393", "claim_idx": 2, "claim": "Brown County is mentioned in connection with Appleton.", "spans": ["e37ee9f4f6:0:1"], "p": 0.94765}
+{"id": "4hop1__341777_508773_85832_745702", "claim_idx": 0, "claim": "Eduardo Cuervo was born in Guadalajara, Jalisco, Mexico.", "spans": ["e508802bbc:0:0"], "p": 0.83051}
+{"id": "4hop1__341777_508773_85832_745702", "claim_idx": 1, "claim": "John Cabot was an Italian navigator who explored continental North America for England.", "spans": ["56da8ced02:0:0"], "p": 0.93869}
+{"id": "4hop1__341777_508773_85832_745702", "claim_idx": 2, "claim": "Sebastian Cabot was the son of John Cabot.", "spans": ["fa626e8bf6:0:1"], "p": 0.96154}
+{"id": "4hop1__342858_131850_33952_34099", "claim_idx": 0, "claim": "The Yuma County Library District serves Yuma County, Arizona, and its Main Library is located in Yuma.", "spans": ["9ea228f8b6:0:0"], "p": 0.19406}
+{"id": "4hop1__342858_131850_33952_34099", "claim_idx": 0, "claim": "The Yuma County Library District serves Yuma County, Arizona, and its Main Library is located in Yuma.", "spans": ["9ea228f8b6:0:0", "9ea228f8b6:0:1"], "p": 0.96132}
+{"id": "4hop1__342858_131850_33952_34099", "claim_idx": 0, "claim": "The Yuma County Library District serves Yuma County, Arizona, and its Main Library is located in Yuma.", "spans": ["9ea228f8b6:0:1"], "p": 0.35565}
+{"id": "4hop1__342858_131850_33952_34099", "claim_idx": 1, "claim": "Tucson is the second-largest populated city in Arizona behind Phoenix.", "spans": ["109a10e9db:7:3"], "p": 0.97035}
+{"id": "4hop1__342858_131850_33952_34099", "claim_idx": 2, "claim": "Tucson's council members and mayor serve four-year terms.", "spans": ["109a10e9db:1:0"], "p": 0.10479}
+{"id": "4hop1__370129_621192_10659_42311", "claim_idx": 0, "claim": "Many expelled French Jews emigrated eastwards and settled in Poland and Hungary.", "spans": ["2079b48b1e:9:1"], "p": 0.84312}
+{"id": "4hop1__370129_621192_10659_42311", "claim_idx": 1, "claim": "The Medical University of Warsaw is the largest medical school in Poland.", "spans": ["706f6339e8:2:2"], "p": 0.98444}
+{"id": "4hop1__39871_314549_131976_90181", "claim_idx": 0, "claim": "Main Street Station is located within Richmond city limits.", "spans": ["b0bac1ccf5:12:3"], "p": 0.97356}
+{"id": "4hop1__39871_314549_131976_90181", "claim_idx": 1, "claim": "Virginia borders the Atlantic Ocean.", "spans": ["027fb4bdb2:0:1"], "p": 0.98134}
+{"id": "4hop1__39871_314549_131976_90181", "claim_idx": 2, "claim": "Milwaukee Deep is the deepest point in the Atlantic Ocean.", "spans": ["97c181e5a8:0:2"], "p": 0.94883}
+{"id": "4hop1__40316_497223_15840_36002", "claim_idx": 0, "claim": "The Genesis was 16-bit and offered improved graphics and sound over the 8-bit NES.", "spans": ["22566f49c6:3:2"], "p": 0.50273}
+{"id": "4hop1__436202_378185_282674_759393", "claim_idx": 0, "claim": "J.P. Hayes was born and raised in Appleton, Wisconsin.", "spans": ["2e7aadbd1e:0:0"], "p": 0.96889}
+{"id": "4hop1__436202_765799_282674_759393", "claim_idx": 0, "claim": "J. P. Hayes was born in Appleton, Wisconsin.", "spans": ["2e7aadbd1e:0:0"], "p": 0.97348}
+{"id": "4hop1__436202_765799_282674_759393", "claim_idx": 1, "claim": "Appleton, Wisconsin is associated with Outagamie County in the evidence.", "spans": ["327c674db6:0:0"], "p": 0.94391}
+{"id": "4hop1__46196_497223_15840_36002", "claim_idx": 0, "claim": "The Genesis was built on a 16-bit architecture and offered improved graphics and sound over the 8-bit NES.", "spans": ["22566f49c6:3:2"], "p": 0.28033}
+{"id": "4hop1__482815_624859_355213_203322", "claim_idx": 0, "claim": "Eric Carmen recorded Never Gonna Fall in Love Again.", "spans": ["70d907f37e:0:0"], "p": 0.98631}
+{"id": "4hop1__482815_624859_355213_203322", "claim_idx": 1, "claim": "Eric Carmen is from Cleveland, Ohio.", "spans": ["dfe2fb03ee:0:0"], "p": 0.98929}
+{"id": "4hop1__562740_49925_13759_736921", "claim_idx": 0, "claim": "Altarage is a term used in the Roman Catholic Church.", "spans": ["cc8c7be999:0:0"], "p": 0.76265}
+{"id": "4hop1__562740_49925_13759_736921", "claim_idx": 1, "claim": "Luther was a reformer who preached about the veneration of Mary.", "spans": ["b5e4027f84:1:6"], "p": 0.98803}
+{"id": "4hop1__562740_49925_13759_736921", "claim_idx": 2, "claim": "Luther preached a sermon on Marian devotion at Wittenberg a month before his death.", "spans": ["b5e4027f84:1:10"], "p": 0.71845}
+{"id": "4hop1__562740_49925_13759_736921", "claim_idx": 3, "claim": "Wittenberg is a district in the east of Saxony-Anhalt, Germany.", "spans": ["4f67812fc5:0:0"], "p": 0.97364}
+{"id": "4hop1__567737_141375_458768_33637", "claim_idx": 0, "claim": "Study in Brown was released on EmArcy Records.", "spans": ["856a3fd58f:0:0"], "p": 0.98972}
+{"id": "4hop1__567737_141375_458768_33637", "claim_idx": 1, "claim": "EmArcy Records is owned by Universal Music Group.", "spans": ["5e3bcede92:0:0"], "p": 0.98939}
+{"id": "4hop1__570103_49925_13759_736921", "claim_idx": 0, "claim": "Brian Noble served in the Roman Catholic Church as the Bishop of Shrewsbury.", "spans": ["09316ca52a:0:0"], "p": 0.98808}
+{"id": "4hop1__570103_49925_13759_736921", "claim_idx": 1, "claim": "Luther was a priest-professor-reformer who preached and argued about the veneration of Mary.", "spans": ["b5e4027f84:1:6"], "p": 0.9859}
+{"id": "4hop1__570103_49925_13759_736921", "claim_idx": 2, "claim": "Luther's final thoughts on Marian devotion are preserved in a sermon preached at Wittenberg only a month before his death.", "spans": ["b5e4027f84:1:10"], "p": 0.42407}
+{"id": "4hop1__570103_49925_13759_736921", "claim_idx": 3, "claim": "Wittenberg is a district in the east of Saxony-Anhalt, Germany.", "spans": ["4f67812fc5:0:0"], "p": 0.97364}
+{"id": "4hop1__707078_378185_282674_759393", "claim_idx": 0, "claim": "Erik Jensen was born in Appleton, Wisconsin.", "spans": ["b02243c3f5:0:0"], "p": 0.99021}
+{"id": "4hop1__707078_378185_282674_759393", "claim_idx": 1, "claim": "John C. Petersen was from Appleton, Wisconsin and served from Outagamie County.", "spans": ["327c674db6:0:0"], "p": 0.95722}
+{"id": "4hop1__708184_153080_159767_81096", "claim_idx": 0, "claim": "The Black Saint and the Sinner Lady is by Charles Mingus.", "spans": ["0f858f986e:0:0"], "p": 0.98902}
+{"id": "4hop1__708184_153080_159767_81096", "claim_idx": 1, "claim": "Charles Mingus was born in Nogales, Arizona.", "spans": ["327bc33274:0:0"], "p": 0.98239}
+{"id": "4hop1__708184_153080_159767_81096", "claim_idx": 2, "claim": "Arizona's capital and largest city is Phoenix.", "spans": ["104fd3fd53:0:3"], "p": 0.87543}
+{"id": "4hop1__711773_508773_85832_745702", "claim_idx": 0, "claim": "Manuel Balbi was born in Mexico.", "spans": ["e9b24f76ed:0:0"], "p": 0.99166}
+{"id": "4hop1__711773_508773_85832_745702", "claim_idx": 1, "claim": "John Cabot was a Venetian navigator and explorer who explored the coast of North America.", "spans": ["0b108db587:0:0"], "p": 0.98807}
+{"id": "4hop1__711773_508773_85832_745702", "claim_idx": 2, "claim": "Sebastian Cabot was the son of Italian explorer John Cabot.", "spans": ["fa626e8bf6:0:1"], "p": 0.94858}
+{"id": "4hop1__72247_497223_15840_36014", "claim_idx": 0, "claim": "The video game NFL was released exclusively for the Nintendo Entertainment System.", "spans": ["9a4fa23b30:0:0"], "p": 0.98844}
+{"id": "4hop1__72247_497223_15840_36014", "claim_idx": 1, "claim": "Nintendo limited each third-party developer to up to five games per year on the NES.", "spans": ["22566f49c6:0:0"], "p": 0.98183}
+{"id": "4hop1__726391_153080_33952_34109", "claim_idx": 0, "claim": "Show Your Bones is by Yeah Yeah Yeahs", "spans": ["4bde31a2d0:0:0"], "p": 0.99083}
+{"id": "4hop1__749065_698949_157828_239539", "claim_idx": 0, "claim": "Slavko Šurdonja died in Belgrade.", "spans": ["645b16fadc:0:0"], "p": 0.97692}
+{"id": "4hop1__749065_698949_157828_239539", "claim_idx": 1, "claim": "Belgrade is a 2013 Serbian documentary film.", "spans": ["f53225881f:0:0"], "p": 0.98132}
+{"id": "4hop1__749065_698949_157828_239539", "claim_idx": 2, "claim": "Serbian is co-official in the territory of Kosovo.", "spans": ["bce3bb23c1:0:1"], "p": 0.97845}
+{"id": "4hop1__749363_49925_13759_736921", "claim_idx": 0, "claim": "Innocenzo Ferrieri was a cardinal of the Roman Catholic Church.", "spans": ["7b20ffdf19:0:0"], "p": 0.98839}
+{"id": "4hop1__749363_49925_13759_736921", "claim_idx": 1, "claim": "Martin Luther was a reformer who preached about Marian devotion.", "spans": ["b5e4027f84:1:6"], "p": 0.98308}
+{"id": "4hop1__749363_49925_13759_736921", "claim_idx": 2, "claim": "Luther's sermon on Marian devotion was preached at Wittenberg.", "spans": ["b5e4027f84:1:10"], "p": 0.9337}
+{"id": "4hop1__749363_49925_13759_736921", "claim_idx": 3, "claim": "Wittenberg is a district in Saxony-Anhalt.", "spans": ["4f67812fc5:0:0"], "p": 0.9807}
+{"id": "4hop1__752321_153080_33897_81096", "claim_idx": 0, "claim": "Pithecanthropus Erectus is an album by Charles Mingus.", "spans": ["f7533c832b:0:0"], "p": 0.98547}
+{"id": "4hop1__752321_153080_33897_81096", "claim_idx": 1, "claim": "Charles Mingus was born in Nogales, Arizona.", "spans": ["327bc33274:0:0"], "p": 0.98239}
+{"id": "4hop1__752321_153080_33897_81096", "claim_idx": 2, "claim": "Phoenix is Arizona's capital and largest city.", "spans": ["104fd3fd53:0:3"], "p": 0.87462}
+{"id": "4hop1__752321_153080_33897_81096", "claim_idx": 3, "claim": "Mario Andretti's final career victory was in 1993 at Phoenix.", "spans": ["4197408733:0:2"], "p": 0.98426}
+{"id": "4hop1__777217_32392_823060_610794", "claim_idx": 0, "claim": "Andrew Deveaux was an American Loyalist from South Carolina.", "spans": ["93cdd5bbfe:0:0"], "p": 0.98891}
+{"id": "4hop1__777217_32392_823060_610794", "claim_idx": 1, "claim": "Columbia is the capital of South Carolina.", "spans": ["e7a5c5abb8:0:0"], "p": 0.98354}
+{"id": "4hop1__777217_32392_823060_610794", "claim_idx": 2, "claim": "Forest Acres is a city in Richland County, South Carolina.", "spans": ["b3102da108:0:0"], "p": 0.96649}
+{"id": "4hop1__777217_32392_823060_610794", "claim_idx": 3, "claim": "Forest Acres is part of the Columbia, South Carolina, Metropolitan Statistical Area.", "spans": ["b3102da108:0:2"], "p": 0.21337}
+{"id": "4hop1__788226_32392_823060_610794", "claim_idx": 0, "claim": "Mary Boykin Chesnut lived in South Carolina.", "spans": ["23cf154e38:0:0"], "p": 0.98957}
+{"id": "4hop1__788226_32392_823060_610794", "claim_idx": 1, "claim": "Columbia is the capital of South Carolina.", "spans": ["e7a5c5abb8:0:0"], "p": 0.98354}
+{"id": "4hop1__802394_153080_33897_81096", "claim_idx": 0, "claim": "Mingus Plays Piano is by Charles Mingus.", "spans": ["590e8de6b4:0:0"], "p": 0.98432}
+{"id": "4hop1__802394_153080_33897_81096", "claim_idx": 1, "claim": "Charles Mingus was born in Arizona.", "spans": ["327bc33274:0:0"], "p": 0.9818}
+{"id": "4hop1__802394_153080_33897_81096", "claim_idx": 2, "claim": "Mario Andretti's final career victory was in Phoenix in 1993.", "spans": ["4197408733:0:2"], "p": 0.98392}
+{"id": "4hop1__842143_153080_159767_81096", "claim_idx": 0, "claim": "Mingus Three is an album by Charles Mingus.", "spans": ["25f2528cc5:0:0"], "p": 0.99037}
+{"id": "4hop1__842143_153080_159767_81096", "claim_idx": 1, "claim": "Phoenix is the capital and largest city of Arizona.", "spans": ["104fd3fd53:0:3"], "p": 0.79307}
+{"id": "4hop1__842143_153080_159767_81096", "claim_idx": 2, "claim": "Mario Andretti's final career victory was in 1993 at Phoenix.", "spans": ["4197408733:0:2"], "p": 0.98426}
+{"id": "4hop1__842143_153080_33897_81096", "claim_idx": 0, "claim": "Mingus Three is an album by Charles Mingus.", "spans": ["25f2528cc5:0:0"], "p": 0.99037}
+{"id": "4hop1__842143_153080_33897_81096", "claim_idx": 1, "claim": "Charles Mingus was born in Nogales, Arizona.", "spans": ["327bc33274:0:0"], "p": 0.98239}
+{"id": "4hop1__842143_153080_33897_81096", "claim_idx": 2, "claim": "The Phoenix race was revived by the Verizon IndyCar Series in 2016.", "spans": ["4197408733:0:0"], "p": 0.86519}
+{"id": "4hop1__846600_153080_159767_81096", "claim_idx": 0, "claim": "A Modern Jazz Symposium of Music and Poetry is an album by Charles Mingus.", "spans": ["2cea06f30a:0:0"], "p": 0.95186}
+{"id": "4hop1__846600_153080_159767_81096", "claim_idx": 1, "claim": "Phoenix is the capital and largest city of Arizona.", "spans": ["104fd3fd53:0:3"], "p": 0.79307}
+{"id": "4hop1__846600_153080_159767_81096", "claim_idx": 2, "claim": "Mario Andretti's final career victory was at Phoenix in 1993.", "spans": ["4197408733:0:2"], "p": 0.98423}
+{"id": "4hop1__846600_153080_33897_81096", "claim_idx": 0, "claim": "A Modern Jazz Symposium of Music and Poetry is an album by Charles Mingus.", "spans": ["2cea06f30a:0:0"], "p": 0.95186}
+{"id": "4hop1__846600_153080_33897_81096", "claim_idx": 1, "claim": "Phoenix is the capital and largest city of Arizona.", "spans": ["104fd3fd53:0:3"], "p": 0.79307}
+{"id": "4hop1__846600_153080_33897_81096", "claim_idx": 2, "claim": "The Phoenix Indy car race was revived by the Verizon IndyCar Series in 2016.", "spans": ["4197408733:0:0"], "p": 0.79816}
+{"id": "4hop1__860115_798482_131926_89261", "claim_idx": 0, "claim": "Elizabeth Berg was born in Saint Paul, Minnesota.", "spans": ["5e6337cc0d:0:0"], "p": 0.94267}
+{"id": "4hop1__860115_798482_131926_89261", "claim_idx": 1, "claim": "Saint Paul adjoins Minneapolis.", "spans": ["6693c62c24:0:3"], "p": 0.97049}
+{"id": "4hop1__860115_798482_131926_89261", "claim_idx": 2, "claim": "The Mississippi River flows to the Mississippi River Delta at the Gulf of Mexico.", "spans": ["42c7643cef:1:1"], "p": 0.96372}
+{"id": "4hop1__88342_75218_128008_46748", "claim_idx": 0, "claim": "The New York Yankees have played in 40 World Series and won 27 in the American League.", "spans": ["32175aca8b:2:0"], "p": 0.98323}
+{"id": "4hop1__88342_75218_128008_46748", "claim_idx": 1, "claim": "The longest winning streak by an American League team is 22, held by the 2017 Cleveland Indians.", "spans": ["7941e67458:1:1"], "p": 0.95267}
+{"id": "4hop1__88342_75218_128008_86588", "claim_idx": 0, "claim": "The New York Yankees have played in 40 World Series, the most among the listed teams.", "spans": ["32175aca8b:1:0"], "p": 0.10365}
+{"id": "4hop1__88342_75218_128008_86588", "claim_idx": 1, "claim": "Major League Baseball's longest verifiable home run distance is about 575 feet, by Babe Ruth.", "spans": ["63a456aba3:0:3"], "p": 0.95071}
+{"id": "4hop1__89530_624859_355213_203322", "claim_idx": 0, "claim": "Hungry Eyes was performed by Eric Carmen.", "spans": ["89c873ccf3:1:0"], "p": 0.98939}
+{"id": "4hop1__89530_624859_355213_203322", "claim_idx": 1, "claim": "Eric Carmen is identified as a Cleveland, Ohio singer-songwriter.", "spans": ["dfe2fb03ee:0:0"], "p": 0.99072}
+{"id": "4hop1__9002_698949_157828_239539", "claim_idx": 0, "claim": "Tito was interred in a mausoleum in Belgrade.", "spans": ["f23e7ece79:8:0"], "p": 0.98919}
+{"id": "4hop1__9002_698949_157828_239539", "claim_idx": 1, "claim": "Belgrade is a 2013 Serbian documentary film about Belgrade, the capital of Serbia.", "spans": ["f53225881f:0:0"], "p": 0.95699}
+{"id": "4hop1__9002_698949_157828_239539", "claim_idx": 2, "claim": "Serbian is co-official in the territory of Kosovo.", "spans": ["bce3bb23c1:0:1"], "p": 0.97845}
+{"id": "4hop1__93963_170667_443779_52195", "claim_idx": 0, "claim": "East Timor declared independence on 28 November 1975.", "spans": ["6557aca8cd:0:0"], "p": 0.98616}
+{"id": "4hop1__93963_170667_443779_52195", "claim_idx": 1, "claim": "East Timor's president is Francisco Guterres.", "spans": ["6557aca8cd:0:0"], "p": 0.98617}
+{"id": "4hop1__93963_170667_443779_52195", "claim_idx": 2, "claim": "The Indonesia–Timor Leste Commission on Truth and Friendship was established jointly by Indonesia and East Timor.", "spans": ["889305a8a7:0:0"], "p": 0.9847}
+{"id": "4hop1__93963_170667_443779_52195", "claim_idx": 3, "claim": "Lion Air Flight 8987 crashed after landing at Juanda International Airport.", "spans": ["dcb5d5ba5f:0:0"], "p": 0.98486}
+{"id": "4hop1__93963_170667_443779_52195", "claim_idx": 4, "claim": "Juanda International Airport is in Indonesia.", "spans": ["b6e36660ed:0:0"], "p": 0.99153}
+{"id": "4hop2__103790_14670_8987_8974", "claim_idx": 0, "claim": "Yugoslavia was the only communist country allowed to have an embassy in Alfredo Stroessner's Paraguay.", "spans": ["f23e7ece79:0:1"], "p": 0.96409}
+{"id": "4hop2__161602_426860_88460_20999", "claim_idx": 0, "claim": "The Yaruba dynasty were rulers of Oman.", "spans": ["7837ca52e2:0:0"], "p": 0.99087}
+{"id": "4hop2__161602_426860_88460_20999", "claim_idx": 1, "claim": "They expelled the Portuguese from coastal strongholds in Muscat.", "spans": ["7837ca52e2:0:1"], "p": 0.97085}
+{"id": "4hop2__161602_474028_88460_21063", "claim_idx": 0, "claim": "The 2020 AFC U-23 Championship final tournament hosts were Thailand.", "spans": ["6014da415e:0:1"], "p": 0.96745}
+{"id": "4hop2__161602_474028_88460_21063", "claim_idx": 1, "claim": "A Don is a village in south-eastern Laos.", "spans": ["772ab9649f:0:0"], "p": 0.962}
+{"id": "4hop2__9988_261673_70784_61381", "claim_idx": 0, "claim": "Shamal winds blow over Iraq and the Persian Gulf states, including Kuwait.", "spans": ["bbd3b133e7:0:0"], "p": 0.97334}
+{"id": "4hop2__9988_261673_70784_61381", "claim_idx": 1, "claim": "Qaruh Island belongs to the state of Kuwait.", "spans": ["5e30635747:0:0"], "p": 0.98955}
+{"id": "4hop2__9988_685934_70784_61381", "claim_idx": 0, "claim": "Middle East prevailed after the disgrace of Near East.", "spans": ["593a0434fd:4:0"], "p": 0.98691}
+{"id": "4hop2__9988_685934_70784_61381", "claim_idx": 1, "claim": "The Islamic Republic is based on the 1979 Constitution.", "spans": ["889224e3fc:11:0"], "p": 0.96965}
+{"id": "4hop3__131775_29339_508306_70744", "claim_idx": 0, "claim": "Ted Wright Stadium is in Savannah, Georgia.", "spans": ["3b97b169f2:0:0"], "p": 0.98811}
+{"id": "4hop3__131775_29339_508306_70744", "claim_idx": 1, "claim": "John Edwards won the South Carolina primary.", "spans": ["d6708ad6af:6:0"], "p": 0.98752}
+{"id": "4hop3__131775_29339_508306_70744", "claim_idx": 2, "claim": "The comparison lists national championships as 5 for Clemson University and 10 for University of South Carolina.", "spans": ["378eb9cc4e:0:0"], "p": 0.1324}
+{"id": "4hop3__131820_29339_508306_70744", "claim_idx": 0, "claim": "Fort Hill is on the Clemson University campus in Clemson, South Carolina.", "spans": ["c7b337828b:0:0"], "p": 0.98612}
+{"id": "4hop3__131820_29339_508306_70744", "claim_idx": 1, "claim": "Clemson University has 5 national championships and the University of South Carolina has 10.", "spans": ["378eb9cc4e:0:0"], "p": 0.14014}
+{"id": "4hop3__312119_132409_371500_35031", "claim_idx": 0, "claim": "Getting Away with Murder is the first single from Papa Roach's third album.", "spans": ["c23d92a9ac:0:0"], "p": 0.95584}
+{"id": "4hop3__312119_132409_371500_35031", "claim_idx": 1, "claim": "Papa Roach is from Vacaville, California.", "spans": ["d7b005541f:0:0"], "p": 0.98886}
+{"id": "4hop3__312119_132409_371500_35031", "claim_idx": 2, "claim": "Veoh is based in San Diego, California.", "spans": ["f6abe464f6:0:0"], "p": 0.98404}
+{"id": "4hop3__312119_132409_371500_35031", "claim_idx": 3, "claim": "San Diego's urban area is the third-largest in California.", "spans": ["acb3429164:3:1"], "p": 0.98122}
+{"id": "4hop3__316459_41402_145282_13584", "claim_idx": 0, "claim": "Paco Godia was a racing driver from Barcelona, Spain.", "spans": ["993d867637:0:0"], "p": 0.98448}
+{"id": "4hop3__316459_41402_145282_13584", "claim_idx": 1, "claim": "Real Madrid is a Spanish professional football club based in Madrid.", "spans": ["eab4d1f245:0:0"], "p": 0.98439}
+{"id": "4hop3__316459_41402_146281_13584", "claim_idx": 0, "claim": "Aleran was Count of Barcelona from 848 to 852.", "spans": ["d157e22f3c:0:0"], "p": 0.98258}
+{"id": "4hop3__316459_41402_146281_13584", "claim_idx": 1, "claim": "Real Madrid and FC Barcelona are two of the most successful football clubs in the world.", "spans": ["20a8df9b76:2:1"], "p": 0.97568}
+{"id": "4hop3__316459_41402_146281_13584", "claim_idx": 2, "claim": "Real Madrid has won La Liga a record 33 times and Barcelona 24 times.", "spans": ["f141f03eec:0:1"], "p": 0.64711}
+{"id": "4hop3__316459_41402_146281_13584", "claim_idx": 3, "claim": "Barcelona is the only Spanish team that has won the Treble.", "spans": ["b82ca7cdf2:1:3"], "p": 0.98137}
+{"id": "4hop3__316459_41402_146281_13584", "claim_idx": 4, "claim": "The clubs represent rival regions Catalonia and Castile.", "spans": ["75ef55e357:18:1"], "p": 0.97839}
+{"id": "4hop3__322354_466199_695123_72134", "claim_idx": 0, "claim": "WIZE is a commercial radio station in Springfield, Ohio.", "spans": ["83d8f46ff9:0:0"], "p": 0.98878}
+{"id": "4hop3__322354_466199_695123_72134", "claim_idx": 1, "claim": "The Battle of Rich Mountain took place in Randolph County, Virginia (now West Virginia).", "spans": ["01e1e20543:0:0"], "p": 0.98002}
+{"id": "4hop3__373573_132409_223216_35031", "claim_idx": 0, "claim": "Pathology formed in San Diego, California.", "spans": ["86f3c5ff44:0:0"], "p": 0.98982}
+{"id": "4hop3__373573_132409_223216_35031", "claim_idx": 1, "claim": "San Diego's urban area is the third-largest urban area in the state.", "spans": ["acb3429164:3:1"], "p": 0.98549}
+{"id": "4hop3__373573_132409_223216_35031", "claim_idx": 2, "claim": "Still Swingin' is by Papa Roach.", "spans": ["a37e670289:0:0"], "p": 0.99121}
+{"id": "4hop3__373866_5189_276146_86687", "claim_idx": 0, "claim": "The USSR dominated the Warsaw Treaty armed forces.", "spans": ["9f3e517165:8:2"], "p": 0.98611}
+{"id": "4hop3__373866_5189_276146_86687", "claim_idx": 1, "claim": "Exercise Reforger was an annual exercise conducted by NATO.", "spans": ["a1bd0021aa:0:0"], "p": 0.98944}
+{"id": "4hop3__373866_5189_276146_86687", "claim_idx": 2, "claim": "Gorbachev repeated his remark in the context of NATO membership in May 1990.", "spans": ["255c274f2c:0:2"], "p": 0.97054}
+{"id": "4hop3__387712_132409_146285_35031", "claim_idx": 0, "claim": "Alexander Golitzen died in San Diego.", "spans": ["4e7caeffc4:0:0"], "p": 0.49588}
+{"id": "4hop3__387712_132409_146285_35031", "claim_idx": 1, "claim": "Jacoby Shaddix is a member of Papa Roach, which formed in Vacaville, California.", "spans": ["d7b005541f:0:0"], "p": 0.00729}
+{"id": "4hop3__387712_132409_146285_35031", "claim_idx": 2, "claim": "San Diego is the third-largest urban area in California.", "spans": ["acb3429164:3:1"], "p": 0.97873}
+{"id": "4hop3__387712_132409_223216_35031", "claim_idx": 0, "claim": "Jacoby Shaddix is the lead vocalist of Papa Roach.", "spans": ["d7b005541f:0:1"], "p": 0.77597}
+{"id": "4hop3__387712_132409_223216_35031", "claim_idx": 1, "claim": "Papa Roach is from Vacaville, California.", "spans": ["d7b005541f:0:0"], "p": 0.98886}
+{"id": "4hop3__387712_132409_223216_35031", "claim_idx": 2, "claim": "Pathology is from San Diego, California.", "spans": ["86f3c5ff44:0:0"], "p": 0.9906}
+{"id": "4hop3__387712_132409_223216_35031", "claim_idx": 3, "claim": "San Diego's urban area is the third-largest in California.", "spans": ["acb3429164:3:1"], "p": 0.98122}
+{"id": "4hop3__387712_132409_371500_35031", "claim_idx": 0, "claim": "Jacoby Shaddix's band Papa Roach formed in Vacaville, California.", "spans": ["d7b005541f:0:0"], "p": 0.04217}
+{"id": "4hop3__387712_132409_371500_35031", "claim_idx": 1, "claim": "Veoh is headquartered in San Diego, California.", "spans": ["f6abe464f6:0:0"], "p": 0.97665}
+{"id": "4hop3__387712_132409_371500_35031", "claim_idx": 2, "claim": "San Diego's urban area is the third-largest urban area in California.", "spans": ["acb3429164:3:1"], "p": 0.98071}
+{"id": "4hop3__39836_29339_508306_70744", "claim_idx": 0, "claim": "Fort Hill is on the Clemson University campus.", "spans": ["c7b337828b:0:0"], "p": 0.9897}
+{"id": "4hop3__39836_29339_508306_70744", "claim_idx": 1, "claim": "Edwards won the South Carolina primary.", "spans": ["d6708ad6af:3:2"], "p": 0.57895}
+{"id": "4hop3__39836_29339_508306_70744", "claim_idx": 2, "claim": "The University of South Carolina has 10 national championships and Clemson has 5.", "spans": ["378eb9cc4e:0:0"], "p": 0.03789}
+{"id": "4hop3__524186_219173_862998_72134", "claim_idx": 0, "claim": "The Poor Boob was written by Margaret Mayo.", "spans": ["4fcb1268a0:0:0"], "p": 0.98664}
+{"id": "4hop3__524186_219173_862998_72134", "claim_idx": 1, "claim": "Margaret Mayo was born in Brownsville, Illinois.", "spans": ["e80e80354b:0:0"], "p": 0.98799}
+{"id": "4hop3__524186_219173_862998_72134", "claim_idx": 2, "claim": "Hillcrest High School is located in Springfield, Missouri.", "spans": ["4bbfbaecad:0:0"], "p": 0.98559}
+{"id": "4hop3__524186_219173_862998_72134", "claim_idx": 3, "claim": "Springfield became the capital of Illinois in 1839.", "spans": ["2c5c670eea:0:11"], "p": 0.97088}
+{"id": "4hop3__577443_88460_30152_20999", "claim_idx": 0, "claim": "The Ajuran Empire used new coinage to proclaim economic independence in regard to the Portuguese.", "spans": ["a1785f35ee:7:2"], "p": 0.98604}
+{"id": "4hop3__577443_88460_30152_20999", "claim_idx": 1, "claim": "Tham Pha is in Laos.", "spans": ["3f4eb81ca9:0:0"], "p": 0.9901}
+{"id": "4hop3__577443_88460_30152_20999", "claim_idx": 2, "claim": "Thailand is bordered to the north by Laos.", "spans": ["a2b7c120c9:0:1"], "p": 0.79217}
+{"id": "4hop3__577443_88460_30152_20999", "claim_idx": 3, "claim": "The Yaruba dynasty expelled the Portuguese from coastal strongholds in Muscat.", "spans": ["7837ca52e2:0:1"], "p": 0.26543}
+{"id": "4hop3__577443_88460_30152_20999", "claim_idx": 4, "claim": "Yaruba forces expelled the Portuguese from East Africa north of Mozambique.", "spans": ["7837ca52e2:0:3"], "p": 0.70831}
+{"id": "4hop3__661103_698586_89595_54362", "claim_idx": 0, "claim": "Dunn Dunn is the second single from Shawty Lo's debut solo album.", "spans": ["cc894bb0c0:0:0"], "p": 0.98491}
+{"id": "4hop3__661103_698586_89595_54362", "claim_idx": 1, "claim": "Shawty Lo is an American hip hop recording artist from Atlanta, Georgia.", "spans": ["ccdde83215:0:0"], "p": 0.9165}
+{"id": "4hop3__661103_698586_89595_54362", "claim_idx": 2, "claim": "A Rose for Emily's family falls into hard times after the Civil War.", "spans": ["864a6f2241:0:3"], "p": 0.20354}
+{"id": "4hop3__794915_466199_695123_72134", "claim_idx": 0, "claim": "WIZE is a radio station in Springfield, Ohio.", "spans": ["83d8f46ff9:0:0"], "p": 0.99074}
+{"id": "4hop3__794915_466199_695123_72134", "claim_idx": 1, "claim": "Ward Township is in Randolph County, Indiana.", "spans": ["7647340126:0:0"], "p": 0.95292}
+{"id": "4hop3__794915_466199_695123_72134", "claim_idx": 2, "claim": "Indiana's capital is Indianapolis.", "spans": ["5d00be2150:0:2"], "p": 0.98123}
+{"id": "4hop3__800262_466199_695123_72134", "claim_idx": 0, "claim": "WIZE is a commercial radio station in Springfield, Ohio.", "spans": ["83d8f46ff9:0:0"], "p": 0.98878}
+{"id": "4hop3__800262_466199_695123_72134", "claim_idx": 1, "claim": "Green Township is in Randolph County, Indiana.", "spans": ["5be722996b:0:0"], "p": 0.94351}
+{"id": "4hop3__813358_24325_125104_10557", "claim_idx": 0, "claim": "Jean Mathonet died in Malmedy.", "spans": ["aaba40661e:0:0"], "p": 0.98973}
+{"id": "4hop3__813358_24325_125104_10557", "claim_idx": 1, "claim": "The Carnival of Malmedy, Cwarmê, is a pure walloon and Latin carnival.", "spans": ["e38ede065e:2:1"], "p": 0.86851}
+{"id": "4hop3__813358_24325_125104_10557", "claim_idx": 2, "claim": "Rotrude was the second daughter of Charlemagne.", "spans": ["aa253dbfd8:0:0"], "p": 0.98802}
+{"id": "4hop3__839787_88460_30152_20999", "claim_idx": 0, "claim": "The Ajuran Empire proclaimed economic independence in regard to the Portuguese.", "spans": ["a1785f35ee:7:2"], "p": 0.98813}
+{"id": "4hop3__839787_88460_30152_20999", "claim_idx": 1, "claim": "The Sepon mine is in Laos.", "spans": ["b21001bee8:0:0"], "p": 0.98676}
+{"id": "4hop3__839787_88460_30152_20999", "claim_idx": 2, "claim": "The Mekong is a trans-boundary river in Southeast Asia.", "spans": ["e036df776c:0:0"], "p": 0.98274}
+{"id": "4hop3__839787_88460_30152_20999", "claim_idx": 3, "claim": "The Yaruba dynasty expelled the Portuguese from coastal strongholds in Muscat.", "spans": ["7837ca52e2:0:1"], "p": 0.26543}
+{"id": "4hop3__839787_88460_30152_20999", "claim_idx": 4, "claim": "The Yaruba dynasty expelled the Portuguese from East Africa north of Mozambique.", "spans": ["7837ca52e2:0:3"], "p": 0.41183}
+{"id": "4hop3__857_846_326964_7713", "claim_idx": 0, "claim": "Yaxing Coach is based in Yangzhou, Jiangsu, China.", "spans": ["1970d9c033:0:0"], "p": 0.9839}
+{"id": "4hop3__857_846_326964_7713", "claim_idx": 1, "claim": "The edict was addressed to the Karmapa.", "spans": ["3fece4079a:18:0"], "p": 0.99164}
+{"id": "4hop3__857_846_326964_7713", "claim_idx": 2, "claim": "The Yongle Emperor came out of the palace in Nanjing to greet the Karmapa.", "spans": ["3fece4079a:7:2"], "p": 0.98404}
+{"id": "4hop3__857_846_326964_7713", "claim_idx": 3, "claim": "Nanjing had been the capital city of Yangzhou for about 400 years from late Han to early Tang.", "spans": ["16c8ceee4c:2:9"], "p": 0.97911}

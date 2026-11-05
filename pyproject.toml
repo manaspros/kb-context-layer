@@ -2,7 +2,7 @@
 name = "kb-context-layer"
 version = "0.1.0"
 requires-python = ">=3.11,<3.13"
-dependencies = ["numpy==2.4.6", "bm25s==0.3.15", "sentence-transformers==6.2.0"]
+dependencies = ["numpy==2.4.6", "bm25s==0.3.15", "sentence-transformers==6.2.0", "transformers==5.21.0"]
 
 [tool.uv]
 exclude-newer = "2026-10-28T00:00:00Z"

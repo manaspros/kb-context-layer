@@ -160,6 +160,33 @@ def unanswerable_table(kb: KB) -> dict:
     return out
 
 
+def verify_table(kb: KB, qs: dict[str, dict]) -> dict:
+    """ALCE-style claim-level citation recall / precision from the cached NLI scores (results/verify/<system>.jsonl).
+    A claim's full cited set must score >= THRESHOLD; see kb/verify.py for the precision rule."""
+    from kb.verify import THRESHOLD, VERIFY_SYSTEMS, claim_jobs, subsets
+    out = {}
+    for s in VERIFY_SYSTEMS:
+        path = RESULTS / "verify" / f"{s}.jsonl"
+        if not path.exists():
+            continue
+        sc = {(r["id"], r["claim_idx"], tuple(r["spans"])): r["p"] for r in read_jsonl(path)}
+        claims = supported = cites = relevant = no_span = 0
+        for rec in read_jsonl(RESULTS / "answers" / f"{s}.jsonl"):
+            for i, _, ids in claim_jobs(rec, kb):
+                ok = lambda sub: sc[(rec["id"], i, sub)] >= THRESHOLD  # KeyError = cache is stale: run `kb verify`
+                claims += 1
+                no_span += not ids
+                cites += len(ids)
+                if ids and ok(ids):
+                    supported += 1
+                    relevant += len(ids) if len(ids) == 1 else sum(
+                        ok((x,)) or not ok(tuple(y for y in ids if y != x)) for x in ids)
+        out[s] = {"claims": claims, "claims_without_valid_span": no_span, "citations": cites,
+                  "citation_recall": round(supported / claims, 4), "unsupported_claim_rate": round(1 - supported / claims, 4),
+                  "citation_precision": round(relevant / cites, 4) if cites else None}
+    return out
+
+
 def run() -> None:
     kb = KB()
     qs = {q["id"]: q for q in subset_questions()}
@@ -185,6 +212,7 @@ def run() -> None:
         summary["ablation_subset"] = {s: aggregate([r for i, r in per_q[s].items() if i in abl])
                                       for s in ("rrf", "kb_hop0", "kb_no_lookup", "kb_no_graph", "kb") if s in per_q}
     summary["unanswerable"] = unanswerable_table(kb)
+    summary["verify"] = verify_table(kb, qs)
     for s in ("kb", "kb_no_lookup"):
         if s in raw:
             summary["lookup"][s] = lookup_stats(raw[s], qs)
@@ -205,6 +233,9 @@ def run() -> None:
         for h, d in byhop.items():
             print(f"  hop={h:>3} n={d['n']:3d} abstain {d['abstain']:.3f}  gold_answer_anyway {d['gold_answer']:.3f}  "
                   f"other_answer {d['other']:.3f}  empty {d['empty']:.3f}  cites_gold_doc {d['cites_gold_doc']:.3f}")
+    for s, v in summary["verify"].items():
+        print(f"\nNLI citation check {s}: recall {v['citation_recall']:.3f}  precision {v['citation_precision']:.3f}  "
+              f"unsupported {v['unsupported_claim_rate']:.3f}  ({v['claims']} claims, {v['citations']} citations)")
     for s, a in summary.get("ablation_subset", {}).items():
         print(f"ablation slice n={a['n']}: {s:13} em {a['em']:.3f} f1 {a['f1']:.3f} all_gold {a['all_gold_docs']:.3f} "
               f"cited2 {a['cited2']:.3f} tokens/q {a['tokens']:.0f}")
