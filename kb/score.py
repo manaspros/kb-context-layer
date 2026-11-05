@@ -9,7 +9,7 @@ import numpy as np
 from kb.answer import KB, subset_questions
 from kb.common import RESULTS, read_jsonl
 
-SYSTEMS = ("closed", "bm25", "dense", "rrf", "kb")
+SYSTEMS = ("closed", "bm25", "dense", "rrf", "kb_hop0", "kb_no_lookup", "kb")
 HOPS = ("all", "2", "3", "4")
 BOOT_N, BOOT_SEED = 10_000, 0
 

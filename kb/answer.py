@@ -82,21 +82,36 @@ def subset_questions() -> list[dict]:
     return load_questions("subset_ids.txt", 400)
 
 
+def ablation_questions() -> list[dict]:
+    """Every 3rd question per hop (134 of 400, stratified, deterministic): the ablations only fit this
+    slice of the 12M-token budget; kb and rrf are re-aggregated on the same ids for the comparison."""
+    qs = subset_questions()
+    return [q for h in (2, 3, 4) for q in [x for x in qs if x["hop"] == h][::3]]
+
+
 def run() -> None:
-    """python -m kb answer [system ...]: closed bm25 dense rrf (default: the four baselines)."""
+    """python -m kb answer [system ...]: closed bm25 dense rrf kb_hop0 kb_no_lookup kb (default: the four baselines)."""
     systems = sys.argv[2:] or ["closed", *BASELINES]
-    kb, qs = KB(), subset_questions()
+    kb = KB()
     for name in systems:
+        qs = ablation_questions() if name in ("kb_hop0", "kb_no_lookup") else subset_questions()
         try:
-            if name == "closed":
+            if name.startswith("kb"):
+                from kb.assemble import Config, assemble_all
+                cfg = {"kb": Config(), "kb_hop0": Config(hops=0), "kb_no_lookup": Config(lookup=False)}[name]
+                ctx = assemble_all(kb, qs, cfg)  # {qid: {"para_ids", "trace", "usage"}}
+            elif name == "closed":
                 ctx = {q["id"]: {"para_ids": []} for q in qs}
             else:
                 ret = {r["id"]: r["retrieved_para_ids"] for r in read_jsonl(RESULTS / "retrieval" / f"{name}.jsonl")}
                 ctx = {q["id"]: {"para_ids": ret[q["id"]][:BUDGET]} for q in qs}
 
             def work(q: dict) -> dict:
-                out = answer_one(kb, q["question"], ctx[q["id"]]["para_ids"])
-                return {"id": q["id"], "hop": q["hop"], "system": name, "model": model_tag(), **out}
+                c = ctx[q["id"]]
+                out = answer_one(kb, q["question"], c["para_ids"])
+                out["usage"] = c.get("usage", []) + out["usage"]
+                return {"id": q["id"], "hop": q["hop"], "system": name, "model": model_tag(),
+                        **out, **({"trace": c["trace"]} if "trace" in c else {})}
 
             with ThreadPoolExecutor(WORKERS) as ex:
                 rows = list(ex.map(work, qs))

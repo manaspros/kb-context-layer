@@ -5,6 +5,7 @@ minute (reserved up front, trued-up on completion), a hard TOTAL_CAP on tokens s
 (everything stays cached) on any 429 that asks for a long wait or names a policy / org-level limit.
 """
 import hashlib
+import http.client
 import json
 import os
 import re
@@ -105,7 +106,7 @@ def chat(messages: list[dict]) -> dict:
                     continue
                 if e.code < 500 or attempt == 9:
                     raise RuntimeError(f"LLM HTTP {e.code}") from None
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+            except (urllib.error.URLError, http.client.HTTPException, OSError, json.JSONDecodeError):
                 entry[1] = 0
                 if attempt == 9:
                     raise RuntimeError("LLM network error") from None

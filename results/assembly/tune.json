@@ -1,0 +1,57 @@
+{
+  "tau": {
+    "0.0": {
+      "final_all_gold": 0.39,
+      "pool_all_gold": 0.41,
+      "items": 114,
+      "lookup_share": 0.5
+    },
+    "0.5": {
+      "final_all_gold": 0.39,
+      "pool_all_gold": 0.41,
+      "items": 114,
+      "lookup_share": 0.5
+    },
+    "0.6": {
+      "final_all_gold": 0.39,
+      "pool_all_gold": 0.41,
+      "items": 114,
+      "lookup_share": 0.482
+    },
+    "0.7": {
+      "final_all_gold": 0.395,
+      "pool_all_gold": 0.415,
+      "items": 114,
+      "lookup_share": 0.404
+    },
+    "no_lookup": {
+      "final_all_gold": 0.395,
+      "pool_all_gold": 0.43,
+      "items": 114,
+      "lookup_share": 0.0
+    }
+  },
+  "hops_cap": {
+    "hops=0,cap=2": {
+      "final_all_gold": 0.22,
+      "pool_all_gold": 0.22
+    },
+    "hops=0,cap=3": {
+      "final_all_gold": 0.22,
+      "pool_all_gold": 0.22
+    },
+    "hops=1,cap=2": {
+      "final_all_gold": 0.395,
+      "pool_all_gold": 0.415
+    },
+    "hops=1,cap=3": {
+      "final_all_gold": 0.39,
+      "pool_all_gold": 0.415
+    }
+  },
+  "chosen": {
+    "tau": 0.7,
+    "hops": 1,
+    "doc_cap": 2
+  }
+}
