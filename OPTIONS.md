@@ -134,3 +134,7 @@ Answers, 400 questions, same prompt and 10-paragraph budget, max_tokens 4000 (12
 - Closed-book: EM 0.247 / F1 0.345, 8.7% empty outputs. Contamination is real: a quarter of questions are answered with no retrieval. Keep as baseline.
 - BM25 0.125 / 0.182, dense 0.185 / 0.256, RRF 0.188 / 0.254; cited >= 2 gold docs 0.255 / 0.318 / 0.347. Keep.
 - All three RAG baselines score below closed-book: the model answers NOT ANSWERABLE on 52-65% of questions because a hop is missing from the context, where closed-book guesses from memory. Coverage, not generation, is the bottleneck.
+
+Graph (title/alias mentions: 24,647 edges over 21,100 paragraphs, 63.7% of paragraphs have >= 1 link; expansion = 7 RRF seeds + paragraphs of linked documents ranked by dense sim to the query, same 10-paragraph budget):
+- Seed count chosen on the 200-question tune split only: all-gold@10 for 3/5/7/9 seeds = 0.200/0.215/0.220/0.200 vs RRF 0.145, so 7. (The earlier pick of 7 was made on the eval set; the tune split confirms it.)
+- Eval at 7 seeds: all-gold@10 0.250 -> 0.302 (2-hop 0.440 -> 0.547, 3-hop 0.213 -> 0.240, 4-hop 0.020 -> 0.030); gold-doc recall 0.596 -> 0.625, but 3-hop recall is flat (0.618 -> 0.616). Ceiling if every doc one link from the top-10 were kept: all-gold 0.388. Modest: helps 2-hop, barely 3/4-hop. Keep as the seed stage; later hops need the LLM bridge step.

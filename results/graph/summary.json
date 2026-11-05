@@ -1,0 +1,97 @@
+{
+  "chosen_seeds_on_tune": 7,
+  "tune": {
+    "rrf": {
+      "allgold_2": 0.25,
+      "allgold_3": 0.1286,
+      "allgold_4": 0.0,
+      "allgold_all": 0.145,
+      "recall_2": 0.575,
+      "recall_3": 0.5714,
+      "recall_4": 0.41,
+      "recall_all": 0.5325
+    },
+    "graph_s3": {
+      "allgold_2": 0.3625,
+      "allgold_3": 0.1571,
+      "allgold_4": 0.0,
+      "allgold_all": 0.2,
+      "recall_2": 0.6375,
+      "recall_3": 0.519,
+      "recall_4": 0.365,
+      "recall_all": 0.5279
+    },
+    "graph_s5": {
+      "allgold_2": 0.375,
+      "allgold_3": 0.1714,
+      "allgold_4": 0.02,
+      "allgold_all": 0.215,
+      "recall_2": 0.6375,
+      "recall_3": 0.5429,
+      "recall_4": 0.41,
+      "recall_all": 0.5475
+    },
+    "graph_s7": {
+      "allgold_2": 0.4125,
+      "allgold_3": 0.1429,
+      "allgold_4": 0.02,
+      "allgold_all": 0.22,
+      "recall_2": 0.6562,
+      "recall_3": 0.5619,
+      "recall_4": 0.445,
+      "recall_all": 0.5704
+    },
+    "graph_s9": {
+      "allgold_2": 0.375,
+      "allgold_3": 0.1286,
+      "allgold_4": 0.02,
+      "allgold_all": 0.2,
+      "recall_2": 0.6438,
+      "recall_3": 0.5667,
+      "recall_4": 0.43,
+      "recall_all": 0.5633
+    },
+    "reachable_ceiling": {
+      "allgold_2": 0.475,
+      "allgold_3": 0.2429,
+      "allgold_4": 0.06,
+      "allgold_all": 0.29,
+      "recall_2": 0.6937,
+      "recall_3": 0.6286,
+      "recall_4": 0.5467,
+      "recall_all": 0.6342
+    }
+  },
+  "eval": {
+    "rrf": {
+      "allgold_2": 0.44,
+      "allgold_3": 0.2133,
+      "allgold_4": 0.02,
+      "allgold_all": 0.25,
+      "recall_2": 0.7033,
+      "recall_3": 0.6178,
+      "recall_4": 0.4033,
+      "recall_all": 0.5962
+    },
+    "graph_s7": {
+      "allgold_2": 0.5467,
+      "allgold_3": 0.24,
+      "allgold_4": 0.03,
+      "allgold_all": 0.3025,
+      "recall_2": 0.7667,
+      "recall_3": 0.6156,
+      "recall_4": 0.4283,
+      "recall_all": 0.6254
+    },
+    "reachable_ceiling": {
+      "allgold_2": 0.64,
+      "allgold_3": 0.32,
+      "allgold_4": 0.11,
+      "allgold_all": 0.3875,
+      "recall_2": 0.8133,
+      "recall_3": 0.6778,
+      "recall_4": 0.5242,
+      "recall_all": 0.6902
+    }
+  }
+}
