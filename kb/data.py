@@ -17,6 +17,10 @@ SEED = 1337
 PER_HOP = {2: 150, 3: 150, 4: 100}
 SUBSET = ROOT / "data" / "subset_ids.txt"
 SUBSET_SHA = ROOT / "data" / "subset_ids.sha256"
+TUNE_SEED = 7
+TUNE_PER_HOP = {2: 80, 3: 70, 4: 50}  # disjoint from the eval subset; every hyperparameter is chosen here
+TUNE = ROOT / "data" / "tune_ids.txt"
+TUNE_SHA = ROOT / "data" / "tune_ids.sha256"
 
 
 def sha256(path: Path) -> str:
@@ -69,21 +73,27 @@ def run() -> None:
         })
     write_jsonl(INDEX / "questions.jsonl", questions)
 
-    # Subset: seeded sample from sorted ids per hop stratum.
-    rng = random.Random(SEED)
-    chosen = []
-    for hop, n in PER_HOP.items():
-        ids = sorted(q["id"] for q in questions if q["hop"] == hop)
-        chosen += rng.sample(ids, n)
-    text = "\n".join(sorted(chosen)) + "\n"
-    if SUBSET.exists():
-        if SUBSET.read_text() != text:
-            sys.exit("FAIL: regenerated subset differs from committed data/subset_ids.txt")
-    else:
-        SUBSET.write_text(text)
-        SUBSET_SHA.write_text(sha256(SUBSET) + "\n")
-    if sha256(SUBSET) != SUBSET_SHA.read_text().strip():
-        sys.exit("FAIL: subset_ids.txt sha256 does not match data/subset_ids.sha256")
+    # Subset and tune split: seeded samples from sorted ids per hop stratum (tune excludes the subset).
+    def sample(seed: int, per_hop: dict[int, int], exclude: set[str], path: Path, sha: Path) -> list[str]:
+        rng = random.Random(seed)
+        chosen = []
+        for hop, n in per_hop.items():
+            ids = sorted(q["id"] for q in questions if q["hop"] == hop and q["id"] not in exclude)
+            chosen += rng.sample(ids, n)
+        text = "\n".join(sorted(chosen)) + "\n"
+        if path.exists():
+            if path.read_text() != text:
+                sys.exit(f"FAIL: regenerated ids differ from committed {path.name}")
+        else:
+            path.write_text(text)
+            sha.write_text(sha256(path) + "\n")
+        if sha256(path) != sha.read_text().strip():
+            sys.exit(f"FAIL: {path.name} sha256 does not match {sha.name}")
+        return chosen
+
+    chosen = sample(SEED, PER_HOP, set(), SUBSET, SUBSET_SHA)
+    tune = sample(TUNE_SEED, TUNE_PER_HOP, set(chosen), TUNE, TUNE_SHA)
+    assert not set(tune) & set(chosen)
 
     sub = set(chosen)
     docs_per_q = [len(q["gold_doc_ids"]) for q in questions]
@@ -93,3 +103,5 @@ def run() -> None:
     print(f"gold docs/question: mean={sum(docs_per_q)/len(docs_per_q):.2f} max={max(docs_per_q)}")
     print(f"subset={len(sub)} sha256={SUBSET_SHA.read_text().strip()} hops=",
           dict(sorted(Counter(int(i[0]) for i in sub).items())))
+    print(f"tune={len(tune)} sha256={TUNE_SHA.read_text().strip()} hops=",
+          dict(sorted(Counter(int(i[0]) for i in tune).items())), "overlap with subset=0")
